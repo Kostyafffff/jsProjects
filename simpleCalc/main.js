@@ -1,7 +1,6 @@
 const calculator = document.querySelector('.calculator');
+const display = calculator.querySelector('.calculator__display');
 const keys = calculator.querySelector('.calculator__keys');
-const display = document.querySelector(".calculator__display");
-
 const calculate = (n1, operator, n2) => {
     let result = "";
     switch (operator) {
@@ -77,3 +76,73 @@ const createResultString = (key, diplayedNum, state) => {
             diplayedNum;
     }
 };
+
+const updateCalculatorState = (key, calculator, calculatedValue, displayedNum) => {
+    const keyType = getKeyType(key);
+    const {
+        firstValue,
+        operator,
+        modValue,
+        previousKeyType,
+    } = calculator.dataset;
+
+    calculator.dataset.previousKeyType = keyType;
+
+    if (keyType === 'operator') {
+        calculator.dataset.operator = key.dataset.action;
+        calculator.dataset.firstValue = firstValue &&
+            operator &&
+            previousKeyType !== 'operator' &&
+            previousKeyType !== 'calculate' ?
+            calculatedValue :
+            displayedNum;
+    }
+
+    if (keyType === 'calculate') {
+        calculator.dataset.modValue = firstValue && previousKeyType === 'calculate' ?
+            modValue :
+            displayedNum;
+    }
+
+    if (keyType === 'clear' && key.textContent === 'AC') {
+        calculator.dataset.firstValue = '';
+        calculator.dataset.modValue = '';
+        calculator.dataset.operator = '';
+        calculator.dataset.previousKeyType = '';
+    }
+};
+
+const updateVisualState = (key, calculator) => {
+    const keyType = getKeyType(key);
+    Array.from(key.parentNode.children).forEach(k => k.classList.remove('is-depressed'));
+
+    if (keyType === 'operator') {
+        key.classList.add('is-depressed');
+    }
+
+    if (keyType === 'clear' && key.textContent !== 'AC') {
+        key.textContent = 'AC';
+    }
+
+    if (keyType !== 'clear') {
+        const clearButton = calculator.querySelector('[data-action = clear]');
+        clearButton.textContent = 'CE';
+    }
+};
+
+
+
+keys.addEventListener('click', eve => {
+
+    if (!eve.target.matches('button')) {
+        return
+        const key = eve.target;
+        const displayedNum = display.textContent;
+        const resultString = createResultString(key, displayedNum, calculator.dataset);
+
+        display.textContent = resultString;
+        updateCalculatorState(key, calculator, resultString, displayedNum);
+        updateVisualState(key, calculator);
+
+    }
+});
