@@ -51,6 +51,11 @@ textarea {
     resize: none;
 }
 
+#smartChB {
+    position: relative;
+    border-radius: 5px;
+}
+
 input[type="submit"] {
     width: 325px;
 

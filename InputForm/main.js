@@ -38,6 +38,12 @@ let textAreaElement = document.createElement('textarea');
 textAreaElement.setAttribute("name", "dmessage");
 createForm.appendChild(textAreaElement);
 
+let checkBox = document.createElement('input');
+checkBox.type = "checkbox";
+checkBox.validity = "value";
+checkBox.id = "smartChB";
+createForm.appendChild(checkBox);
+
 let messageBreak = document.createElement('br');
 createForm.appendChild(messageBreak);
 
@@ -47,3 +53,15 @@ submitBtnElement.setAttribute("type", "submit");
 submitBtnElement.setAttribute("name", "dsubmit");
 submitBtnElement.setAttribute("value", "Submit");
 createForm.appendChild(submitBtnElement);
+
+window.addEventListener("DOMContentLoaded", function () {
+
+    let myChekBox = document.getElementById("smartChB");
+
+    if (localStorage.getItem("isChecked") === "true") {
+        checkBox.checked = true;
+    }
+    myChekBox.addEventListener("click", function () {
+        localStorage.setItem("isChecked", true);
+    });
+});
