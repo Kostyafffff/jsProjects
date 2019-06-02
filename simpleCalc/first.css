@@ -1,3 +1,31 @@
-.calculator__keys {
-    display: grid;
+.btn {
+    width: 40px;
+    height: 40px;
+    background: #fc0;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+}
+
+.btn:hover {
+    background: #f70;
+}
+
+#calc-wrap {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background: #eee;
+}
+
+#calc {
+    width: 200px;
+    display: inline-block;
+}
+
+#inputVal {
+    width: 100%;
+    border: 0;
+    font-size: 16px;
+    color: black;
 }
