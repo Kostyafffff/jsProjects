@@ -32,7 +32,7 @@ window.addEventListener('load', function OnWindowLoaded() {
             textArea.innerHTML = eval(textArea.innerHTML);
         } else if (textArea.innerHTML === '0') {
             textArea.innerHTML = e.target.innerHTML;
-        } else {
+        } else {   
             textArea.innerHTML += e.target.innerHTML;
         }
     }
