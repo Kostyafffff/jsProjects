@@ -1,6 +1,7 @@
 window.addEventListener('load', function OnWindowLoaded() {
     var signs = [
         '1', '2', '3', '+',
+        '*',
         '4', '5', '6', '-',
         '7', '8', '9', '/',
         '0', '=', '.', 'c'
@@ -32,8 +33,32 @@ window.addEventListener('load', function OnWindowLoaded() {
             textArea.innerHTML = eval(textArea.innerHTML);
         } else if (textArea.innerHTML === '0') {
             textArea.innerHTML = e.target.innerHTML;
-        } else {   
+        } else {
             textArea.innerHTML += e.target.innerHTML;
+        }
+    }
+
+    function calc(number1, number2, operator) {
+        let result;
+        switch (operator) {
+            case '*':
+                result = number1 * number2;
+                break;
+            case '/':
+                if (number2 === 0) {
+                    console.log("Нельзя делить на ноль");
+                } else {
+                    result = number1 / number2;
+                }
+                break;
+            case '+':
+                result = number1 + number2;
+                break;
+            case '-':
+                result = number1 - number2;
+                break;
+            default:
+                break;
         }
     }
 });
