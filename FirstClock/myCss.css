@@ -1,0 +1,19 @@
+body {
+    background-color: seashell;
+}
+
+#clock {
+    color: seagreen;
+    font-size: 200px;
+    background-color: silver;
+    padding: 0.5em 0em;
+
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+span {
+    margin-left: 40%;
+}
