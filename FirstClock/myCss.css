@@ -6,9 +6,10 @@ body {
     color: seagreen;
     font-size: 200px;
     background-color: silver;
+    border-radius: 100px;
     padding: 0.5em 0em;
-
-    width: 80%;
+    border: 20px solid salmon;
+    width: 50%;
     margin: 0px auto;
     text-align: center;
     text-transform: uppercase;
