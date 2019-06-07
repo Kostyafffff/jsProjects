@@ -23,7 +23,7 @@ setInterval(function () {
 
 
 
-    let clockTime = hours + ":" + minutes + ":" + seconds + ":" + (millis / 100).toFixed(0);
+    let clockTime = hours + ":" + minutes + ":" + seconds + ":" + (millis / 100 % 10).toFixed(0);
 
     let clock = document.getElementById('clock');
     clock.innerText = clockTime;
