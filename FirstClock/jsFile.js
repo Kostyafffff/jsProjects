@@ -20,9 +20,11 @@ setInterval(function () {
         minutes = "0" + minutes;
     }
 
-    let clockTime = hours + ":" + minutes + ":" + seconds + ":" + millis;
+
+
+
+    let clockTime = hours + ":" + minutes + ":" + seconds + ":" + (millis / 100).toFixed(0);
 
     let clock = document.getElementById('clock');
     clock.innerText = clockTime;
-
-}, 250);
+}, 100);
