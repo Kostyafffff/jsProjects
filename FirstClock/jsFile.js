@@ -21,10 +21,10 @@ setInterval(function () {
     }
 
 
+    millis = millis.toString().slice(0, 1);
 
-
-    let clockTime = hours + ":" + minutes + ":" + seconds + ":" + (millis / 100 % 10).toFixed(0);
+    let clockTime = hours + ":" + minutes + ":" + seconds + ":" + millis;
 
     let clock = document.getElementById('clock');
     clock.innerText = clockTime;
-}, 100);
+}, 50);
