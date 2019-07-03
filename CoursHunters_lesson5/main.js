@@ -1,45 +1,21 @@
-/*
-1.Function declareation
-функцию можно вызвать до её определния, т.к. браузер берёт функции неважно где были созданы и они уже готовы к использованию 
-*/
-function sum(x = 0, y = 0, ...args) {
-    console.log(arguments);
-    return x + y;
+let tasks = [
+    "Пройти собес JS",
+    "Разобраться с React",
+    "Кайфовать люто"
+];
+
+let ul = document.querySelector(".list-group");
+
+function generateList(tasksArray) {
+    for (let i = 0; i < tasks.length; i++) {
+        ul.appendChild(listTemplate(tasksArray[i]));
+    }
 }
 
-sum(1);
-sum(2);
-sum(3);
+function listTemplate(task) {
+    let li = document.createElement("li");
+    li.textContent = tasks;
+    li.className = "list-group-item";
 
-//2. function expression
-/**
- * именем функции будет являться - переменная,
- * функции не "всплывают", можно создовать внутри блоков кодв
- */
-// num = function () {
-//     console.log('Function expression');
-// };
-// num();
-
-// //3.анонимная самовызывающая 
-// //анонимная т.к. нет имени
-// //самовызывающая т.к. она вызовется автоматически когда скрипт до неё дойтёт
-
-
-// (function () {
-
-//     console.log("Self invoked function");
-
-// })();
-
-
-// /*
-// arrow function
-// */
-// let arrow = () => {
-//     console.log('Arrow function');
-// };
-
-// arrow();
-
-// //return 
+    return li;
+}
