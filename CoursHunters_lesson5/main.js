@@ -15,7 +15,7 @@ function generateList(tasksArray) {
         ul.appendChild(listTemplate(tasksArray[i]));
     }
 
-    setDeleteEvent();
+    // setDeleteEvent();
 }
 
 function listTemplate(task) {
@@ -45,13 +45,18 @@ generateList(tasks);
 
 let btn = document.querySelector(".clear-btn");
 
-function setDeleteEvent() {
-    for (let i = 0; i < deleteButtons.length; i++) {
-        deleteButtons[i].addEventListener('click', function (e) {
-            console.log("click");
-        });
-    }
+function deleteListItem(target) {
+    let parent = e.target.closest('li');
+    let index = tasks.indexOf(parent.textContent);
+    tasks.splice(index, 1);
+    parent.remove();
 }
+
+ul.addEventListener('click', function (e) {
+    if (e.target.classList.contains('delete-item')) {
+        deleteListItem(e.target);
+    }
+});
 
 function onClick(e) {
     console.log('click');

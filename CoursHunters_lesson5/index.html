@@ -8,13 +8,32 @@
 
 <body>
     <section class="tasks-wrap mt-5">
-        <h4 class="text-center">Task list</h4>
         <div class="container">
-            <ul class="list-group mb-3">
-                <li class="list-group-item">Cras justo odio</li>
-            </ul>
-            <button class="btn btn-primary clear-btn">Clear list</button>
-        </div>
+            <div class="card mb-3">
+                <div class="card-header">
+                    Add to do
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="todoText">Text</label>
+                            <input type="text" class="form-control" id="todoText">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-header">
+                    Task list
+                </div>
+                <div class="card-body">
+                    <ul class="list-group">
+
+                    </ul>
+                </div>
+                <button class="btn btn-primary clear-btn">Clear list</button>
+            </div>
     </section>
     <script src="https://kit.fontawesome.com/989bbd6376.js"></script>
     <script src="main.js"></script>
