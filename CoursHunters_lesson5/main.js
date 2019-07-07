@@ -1,8 +1,4 @@
-let tasks = [
-    "Пройти собес JS",
-    "Разобраться с React",
-    "Кайфовать люто"
-];
+let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
 let ul = document.querySelector(".list-group");
 let deleteButtons = document.getElementsByClassName("delete-item");
@@ -26,6 +22,7 @@ function listTemplate(task) {
     iDelete.className = "fas fa-trash-alt delete-item ml-auto";
 
     li.appendChild(iDelete);
+
     return li;
 }
 
@@ -37,6 +34,8 @@ function clearList() {
 function addList(list) {
     tasks.unshift(list);
     ul.insertAdjacentElement('afterbegin', listTemplate(list));
+    // add to local storage
+    localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 generateList(tasks);
 
@@ -47,6 +46,9 @@ function deleteListItem(target) {
     let index = tasks.indexOf(parent.textContent);
     tasks.splice(index, 1);
     parent.remove();
+
+    //update local storage
+    localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
 ul.addEventListener('click', function (e) {
@@ -73,8 +75,3 @@ inputText.addEventListener('keyup', function (e) {
         inputText.classList.remove('is-invalid');
     }
 });
-
-function onClick(e) {
-    console.log('click');
-}
-btn.addEventListener("click", onClick);
