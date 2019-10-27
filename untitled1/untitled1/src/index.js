@@ -9,13 +9,13 @@ import ToDoList from './components/todo-list'
 const App = () => {
     const toDoData = [
         {
-            label : 'Drink Cofee', important : false
+            label : 'Drink Cofee', important : false, id : 1
         },
         {
-            label : 'Make Awsome App', important : true
+            label : 'Make Awsome App', important : true, id : 2
         },
         {
-            label : 'Have a lunch', important : false
+            label : 'Have a lunch', important : false, id : 3
         }
     ];
     return (
