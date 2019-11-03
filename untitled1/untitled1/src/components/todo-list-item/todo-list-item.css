@@ -1,0 +1,12 @@
+.done {
+    text-decoration: line-through;
+}
+
+.btn-outline-danger, .btn-outline-success{
+    width: 3rem;
+    height: 3rem;
+}
+.fa-exclamation, .fa-trash-o {
+    left: -2rem;
+    position: relative;
+}
