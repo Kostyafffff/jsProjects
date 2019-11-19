@@ -3,8 +3,7 @@ import React from "react";
 const SearchPannel = () => {
     return (
 
-        <input
-            placeholder = "search" />
+        <input placeholder = "search" />
     );
 };
 
