@@ -22,8 +22,28 @@ export default class App extends Component {
     state = {
         toDoData: [
             this.createTodoItem('Drink Cofee'),
-            this.createTodoItem('Make Awsome App'),
+            this.createTodoItem('Make Awesome App'),
             this.createTodoItem('Have a lunch'),
+        ]
+    };
+
+    toggleProperty(arr, id, propName){
+
+        const index = arr.findIndex((element) => element.id === id);
+
+        const oldItem = arr[index];
+
+        //новый объект с свойсвтом, которое изменило своё значение
+
+        const newItem = {
+            ...oldItem,
+            [propName]: !oldItem[propName]
+        };
+
+        return [
+            ...arr.slice(0, index),
+            newItem,
+            ...arr.slice(index + 1)
         ]
     };
 
@@ -62,54 +82,38 @@ export default class App extends Component {
     };
 
     onToggleImportant = (id) => {
-
-        this.setState(({toDoData}) => {
-            const index = toDoData.findIndex((element) => element.id === id);
+        
+        this.setState(( {toDoData} ) => {
+            return {
+                toDoData: this.toggleProperty(toDoData, id, 'important')
+            }
         });
-
-        console.log('toggle Important', id);
     };
 
     onToggleDone = (id) => {
-        console.log('toggle done', id);
-        this.setState(({toDoData}) => {
-            const index = toDoData.findIndex((element) => element.id === id);
-
-            const oldItem = toDoData[index];
-
-            //новый объект с свойсвтом, которое изменило своё значение
-
-            const newItem = {
-                ...oldItem,
-                done: !oldItem.done
-            };
-
-            const newArray = [
-                ...toDoData.slice(0, index),
-                newItem,
-                ...toDoData.slice(index + 1)
-            ];
-
+        this.setState(( {toDoData} ) => {
             return {
-                toDoData: newArray
+                toDoData: this.toggleProperty(toDoData, id, 'done')
             }
         });
     };
 
     render() {
 
-        const doneCount = this.state.toDoData.filter(
-            ( element) => element.done).length;
+        const { toDoData } = this.state;
 
-        const toDoCount = this.state.toDoData.length - doneCount;
+        const doneCount = toDoData
+            .filter( (element) => element.done).length;
+
+        const toDoCount = toDoData.length - doneCount;
 
         return (
             <div>
                 <ItemStatusFilter/>
                 <SearchPannel/>
-                <AppHeader toDo={ toDoCount } done={doneCount}/>
+                <AppHeader toDo={toDoCount} done={doneCount}/>
                 <ToDoList
-                    todos={this.state.toDoData}
+                    todos={toDoData}
                     onDeleted={this.deleteItem}
                     onToggleImportant={this.onToggleImportant}
                     onToggleDone={this.onToggleDone}
