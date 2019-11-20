@@ -1,4 +1,13 @@
 .item-add-form{
     margin-top: 10px;
     margin-left: 10px;
+    width: 20%;
+}
+
+.item-add-form input{
+    margin: 10px;
+}
+
+.item-add-form button{
+    width: 100px;
 }

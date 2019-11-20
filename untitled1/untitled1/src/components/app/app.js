@@ -24,33 +24,48 @@ export default class App extends Component {
             this.createTodoItem('Drink Cofee'),
             this.createTodoItem('Make Awesome App'),
             this.createTodoItem('Have a lunch'),
-        ]
+        ],
+        term: ''
+    };
+
+    onSearchChange = (term) => {
+        this.setState({ term });
     };
 
     toggleProperty(arr, id, propName){
 
-        const index = arr.findIndex((element) => element.id === id);
+        // const index = arr.findIndex((element) => element.id === id);
+        //
+        // const oldItem = arr[index];
+        //
+        // //новый объект с свойсвтом, которое изменило своё значение
+        //
+        // const newItem = {
+        //     ...oldItem,
+        //     [propName]: !oldItem[propName]
+        // };
 
-        const oldItem = arr[index];
+        // return {
+        //     ...arr.slice(0, index),
+        //     newItem,
+        //     ...arr.slice(index + 1)
+        // }
 
-        //новый объект с свойсвтом, которое изменило своё значение
+        return arr.map(it => {
 
-        const newItem = {
-            ...oldItem,
-            [propName]: !oldItem[propName]
-        };
-
-        return [
-            ...arr.slice(0, index),
-            newItem,
-            ...arr.slice(index + 1)
-        ]
+            if (it.id === id) {
+                return {
+                    ...it,
+                    [propName]: !it[propName],
+                };
+            }
+            return { ...it };
+        });
     };
 
     deleteItem = (id) => {
         this.setState(({toDoData}) => {
 
-            // в этом блочке мы не изменяем state
             const index = toDoData.findIndex((element) => element.id === id);
 
             const newList = [
@@ -82,13 +97,22 @@ export default class App extends Component {
     };
 
     onToggleImportant = (id) => {
-        
+
         this.setState(( {toDoData} ) => {
             return {
                 toDoData: this.toggleProperty(toDoData, id, 'important')
             }
         });
     };
+
+    search(items, term){
+       return items.filter( (item) => {
+           if(term.length === 0){
+               return items;
+           }
+            return item.label.indexOf(term) > -1;
+        });
+    }
 
     onToggleDone = (id) => {
         this.setState(( {toDoData} ) => {
@@ -100,7 +124,9 @@ export default class App extends Component {
 
     render() {
 
-        const { toDoData } = this.state;
+        const { toDoData, term } = this.state;
+
+        const visibleItems = this.search(toDoData, term);
 
         const doneCount = toDoData
             .filter( (element) => element.done).length;
@@ -110,10 +136,12 @@ export default class App extends Component {
         return (
             <div>
                 <ItemStatusFilter/>
-                <SearchPannel/>
+                <SearchPannel
+                    onSearchChange = {this.onSearchChange}
+                />
                 <AppHeader toDo={toDoCount} done={doneCount}/>
                 <ToDoList
-                    todos={toDoData}
+                    todos={visibleItems}
                     onDeleted={this.deleteItem}
                     onToggleImportant={this.onToggleImportant}
                     onToggleDone={this.onToggleDone}
