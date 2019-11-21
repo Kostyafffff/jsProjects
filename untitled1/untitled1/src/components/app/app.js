@@ -157,17 +157,14 @@ export default class App extends Component {
         return (
             <div>
                 <AppHeader toDo={toDoCount} done={doneCount}/>
+                <SearchPannel
+                    onSearchChange={this.onSearchChange}
+                />
                 <ItemStatusFilter
                     filter={filter}
                     onFilterChange={this.onFilterChange}
                 />
                 <ItemAddForm onAddItem={this.onAddItem}/>
-
-
-
-                <SearchPannel
-                    onSearchChange={this.onSearchChange}
-                />
                 <ToDoList
                     todos={visibleItems}
                     onDeleted={this.deleteItem}

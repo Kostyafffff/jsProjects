@@ -5,9 +5,11 @@
 }
 
 .item-add-form input{
-    margin: 10px;
+    margin-left: 39rem;
+    width: 200px
 }
 
 .item-add-form button{
     width: 100px;
+    margin-left: 10px;
 }

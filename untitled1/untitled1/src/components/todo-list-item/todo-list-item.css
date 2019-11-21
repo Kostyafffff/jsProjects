@@ -2,16 +2,23 @@
     text-decoration: line-through;
 }
 
-.btn-outline-danger, .btn-outline-success{
+.btn-outline-danger, .btn-outline-success {
     width: 3rem;
     height: 3rem;
+    margin: 3px;
 }
-.fa-exclamation, .fa-trash-o {
-    left: -2rem;
-    position: relative;
+
+.todo-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .todo-list-item.important .todo-list-item-label {
     font-weight: bold;
     color: steelblue;
+}
+
+.btn-outline-success{
+
 }

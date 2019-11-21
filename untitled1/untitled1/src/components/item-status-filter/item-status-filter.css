@@ -1,0 +1,8 @@
+.btn-group{
+  min-width: 12%;
+  margin-left: 40%;
+}
+
+.btn-group > button {
+   border-radius: 120px;
+}

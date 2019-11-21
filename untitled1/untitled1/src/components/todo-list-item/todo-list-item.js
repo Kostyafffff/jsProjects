@@ -35,16 +35,20 @@ export default class ToDoListItem extends Component {
                     onClick={onToggleDone}>
                 {label}
                 </span>
-                <button type="button"
-                        className="btn btn-outline-success btn-sm"
-                        onClick={onToggleImportant}
-                />
-                <i className="fa fa-exclamation"/>
+                <div className="button-wrapper">
+                    <button type="button"
+                            className="btn btn-outline-success btn-sm"
+                            onClick={onToggleImportant}
+                    >
+                    <i className="fa fa-exclamation"/>
+                </button>
                 <button type="button"
                         className="btn btn-outline-danger btn-sm"
                         onClick={onDeleted}
-                />
-                <i className="fa fa-trash-o"/>
+                >
+                    <i className="fa fa-trash-o"/>
+                </button>
+                </div>
         </span>
         )
     }
