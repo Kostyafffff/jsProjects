@@ -5,14 +5,12 @@ import './item-add-form.css';
 export default class ItemAddForm extends Component {
 
     state = {
-      label:''
+        label: ''
     };
 
     onLabelChange = (elem) => {
-        console.log(elem.target.value);
-
         this.setState({
-            label : elem.target.value
+            label: elem.target.value
         })
     };
 
@@ -30,14 +28,14 @@ export default class ItemAddForm extends Component {
                   onSubmit={this.onSubmit}
             >
 
-                <input type = "text"
+                <input type="text"
                        className="form-control"
                        onChange={this.onLabelChange}
                        placeholder="Needs to be Done"
                        value={this.state.label}
                 />
                 <button className="add-item-element btn btn-outline-secondary"
-                        onClick={()=> this.props.onAddItem}
+                        onClick={() => this.props.onAddItem}
                 >Add element
                 </button>
             </form>
