@@ -15,12 +15,14 @@ export default class SearchPanel extends Component {
 
     render() {
         return (
+            <div className="form-control-wrapper">
             <input type="text"
                    className="form-control search input"
                    placeholder="search"
                    value={this.state.term}
                    onChange={this.onSearchChange}
             />
+            </div>
         )
     }
 }

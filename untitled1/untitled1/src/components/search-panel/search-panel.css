@@ -1,6 +1,5 @@
-.form-control{
-    width: 20%;
-    margin-left: 37%;
-    margin-top: 20px;
-    margin-bottom: 10px;
+.form-control-wrapper .form-control{
+    display: flex;
+    width: 10%;
+    right: 50%;
 }
