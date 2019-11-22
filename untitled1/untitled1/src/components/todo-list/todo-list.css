@@ -1,5 +1,27 @@
-.todo-list .list-group-item {
+/* .todo-list .list-group-item {
     padding: .25rem .75rem;
-    margin-left: 30%;
+    margin-left: 40%;
     margin-right: 30%;
+}
+
+.list-group{
+    margin-top: 13px;
+}
+
+.list-group-item{
+    margin-top: 10px;
+    width: 25rem;
+}
+
+ */
+.list-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-group > li {
+    margin-top: 10px;
+    width: 34rem;
+    height: 4rem;
 }

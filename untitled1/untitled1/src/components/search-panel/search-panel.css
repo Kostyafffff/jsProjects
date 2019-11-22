@@ -1,5 +1,10 @@
-.form-control-wrapper .form-control{
+.form-control-wrapper{
     display: flex;
-    width: 10%;
-    right: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-search-element{
+    width: 34.1rem;
+    padding-bottom: 13px;
 }

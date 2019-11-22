@@ -11,13 +11,11 @@ export default class App extends Component {
 
     maxId = 100;
 
-    createTodoItem = (label) => {
-        return {
-            label,
-            important: false,
-            id: this.maxId++
-        }
-    };
+    createTodoItem = (label) => ({
+        label,
+        important: false,
+        id: this.maxId++
+    });
 
     state = {
         toDoData: [
@@ -71,16 +69,14 @@ export default class App extends Component {
     deleteItem = (id) => {
         this.setState(({toDoData}) => {
 
-            const index = toDoData.findIndex((element) => element.id === id);
+            // const index = toDoData.findIndex((element) => element.id === id);
+            //
+            // const newList = [
+            //     ...toDoData.slice(0, index),
+            //     ...toDoData.slice(index + 1)
+            // ];
 
-            const newList = [
-                ...toDoData.slice(0, index),
-                ...toDoData.slice(index + 1)
-            ];
-
-            return {
-                toDoData: newList
-            };
+            return { toDoData: toDoData.filter((element) => element.id !== id) };
         });
     };
 
@@ -90,13 +86,13 @@ export default class App extends Component {
 
         this.setState(({toDoData}) => {
 
-            const newList = [
-                newItem,
-                ...toDoData
-            ];
+            // const newList = ;
 
             return {
-                toDoData: newList
+                toDoData: [
+                    newItem,
+                    ...toDoData
+                ]
             }
         });
     };
@@ -112,13 +108,13 @@ export default class App extends Component {
 
     filter(items, filter) {
         switch (filter) {
-            case 'all':
-                return items;
-
             case 'active':
                 return items.filter((item) => !item.done);
+
             case 'done':
                 return items.filter((item) => item.done);
+
+            case 'all':
             default:
                 return items;
         }
@@ -171,7 +167,6 @@ export default class App extends Component {
                     onToggleImportant={this.onToggleImportant}
                     onToggleDone={this.onToggleDone}
                 />
-
             </div>
         )
     }

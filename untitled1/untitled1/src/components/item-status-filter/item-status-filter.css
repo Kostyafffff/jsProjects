@@ -1,8 +1,14 @@
 .btn-group{
-  min-width: 12%;
-  margin-left: 40%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
-.btn-group > button {
-   border-radius: 120px;
+.btn-group{
+    margin-right: 8rem;
+}
+
+.btn-group .btn-group-wrapper > button{
+    width: 6rem;
+    margin-left: 8rem;
 }

@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: -7px;
 }
 
 .todo-list-item.important .todo-list-item-label {
