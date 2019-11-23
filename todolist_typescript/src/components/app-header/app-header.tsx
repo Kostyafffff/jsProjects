@@ -1,11 +1,11 @@
-import * as React from "react";
+import * as React from 'react';
 
 interface IProps {
     toDo: string;
     done: string;
 }
 
-const AppHeader: React.FC<IProps> = ({ toDo, done }): JSX.Element =>{
+const AppHeader: React.FC<IProps> = ({ toDo, done }): JSX.Element => {
     return (
         <div className="app-header d-flex">
             <h1>My ToDo List</h1>
@@ -14,4 +14,5 @@ const AppHeader: React.FC<IProps> = ({ toDo, done }): JSX.Element =>{
     )
 };
 
+// tslint:disable-next-line:no-default-export
 export default AppHeader;

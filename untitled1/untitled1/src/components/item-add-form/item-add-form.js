@@ -15,7 +15,6 @@ export default class ItemAddForm extends Component {
     };
 
     onSubmit = (event) => {
-        console.log('submitting');
         event.preventDefault();
         this.props.onAddItem(this.state.label);
         this.setState({
