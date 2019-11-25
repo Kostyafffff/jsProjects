@@ -1,11 +1,15 @@
-import React, { ChangeEvent, Component } from 'react';
+import React, { ChangeEvent, PureComponent } from 'react';
 
-interface IState {
-    label: string
+interface IStateItemAddForm {
+    label: string;
 }
 
-export class ItemAddForm extends Component<{}, IState>{
-    state : IState = {
+interface IPropsItemAddForm {
+    onAddItem(label: string): void;
+}
+
+export class ItemAddForm extends PureComponent<IPropsItemAddForm, IStateItemAddForm>{
+    state : IStateItemAddForm = {
         label : ''
     };
 
@@ -16,14 +20,11 @@ export class ItemAddForm extends Component<{}, IState>{
 
     onSubmit = (event : React.FormEvent<HTMLFormElement>): void => {
         event.preventDefault();
-      //  this.props.onAddItem(this.state.label);
+        this.props.onAddItem(this.state.label);
+        this.setState({
+           label: ''
+        })
     };
-
-    // onLabelChange = (elem) => {
-    //     this.setState({
-    //         label: elem.target.value
-    //     })
-    // };
 
     render(): JSX.Element {
         return(
@@ -40,7 +41,6 @@ export class ItemAddForm extends Component<{}, IState>{
                         value={this.state.label}
                     />
                     <button className="add-item-element btn btn-success"
-                        // onClick={() => this.props.onAddItem}
                     >Add
                     </button>
                 </div>
