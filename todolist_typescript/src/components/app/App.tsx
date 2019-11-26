@@ -3,6 +3,8 @@ import { Component } from 'react';
 import AppHeader from '../app-header/app-header'
 import { ItemAddForm } from '../item-add-form/item-add-form';
 import { ItemStatusFilter } from '../item-status-filter/item-status-filter';
+import { SearchPanel } from '../search-panel/search-panel';
+import ToDoList from '../todo-list/todo-list';
 import { IState, IToDoItem } from './app-types';
 
 export class App extends Component<Readonly<{}>, IState> {
@@ -28,7 +30,7 @@ export class App extends Component<Readonly<{}>, IState> {
 
     onAddItem = (text: string): void => {
 
-        const newItem: object = this.createTodoItem(text);
+        const newItem = this.createTodoItem(text);
 
         this.setState(({ toDoData }) => {
             return {
@@ -58,6 +60,17 @@ export class App extends Component<Readonly<{}>, IState> {
             default:
                 return items;
         }
+    }
+
+    search(items: IToDoItem[], term : string) : IToDoItem[] {
+       return items.filter((item : IToDoItem) => {
+           if (term.length === 0) {
+               return items;
+           }
+
+           return item.label.indexOf(term.toLowerCase()) > -1;
+          }
+       )
     }
 
     deleteItem = ( id : number ) : void => {
@@ -92,17 +105,29 @@ export class App extends Component<Readonly<{}>, IState> {
     render(): JSX.Element {
         const { toDoData, filter, term } = this.state;
 
+        const visibleItems : IToDoItem[] = this.filter( this.search(toDoData, term), filter);
+
+        const doneCount: number = toDoData.filter(element => element.done).length;
+
+        const toDoCount : number = toDoData.length - doneCount;
+
         return(
             <div>
-                <AppHeader
-                    done="done"
-                    toDo="toDo"
+                <AppHeader toDo={toDoCount} done={doneCount}/>
+                <SearchPanel
+                    onSearchChange={this.onSearchChange}
                 />
                 <ItemStatusFilter
-                    filter={ filter }
+                    filter={filter}
                     onFilterChange={this.onFilterChange}
                 />
                 <ItemAddForm onAddItem={this.onAddItem}/>
+                <ToDoList
+                    todos={visibleItems}
+                    onDeleted={this.deleteItem}
+                    onToggleImportant={this.onToggleImportant}
+                    onToggleDone={this.onToggleDone}
+                />
             </div>
         )
     }

@@ -1,14 +1,13 @@
-import React, {Component} from "react";
-import "./todo-list-item.css";
+import React, { Component } from 'react';
+import { IState } from './types-todo-list-item';
 
-
-export default class ToDoListItem extends Component {
-    state = {
+export class TodoListItem extends Component<Readonly<{}>>{
+    state : IState = {
         done: false,
         important: false
     };
 
-    render() {
+    render(): JSX.Element {
         const {
             label,
             onDeleted,
@@ -18,20 +17,23 @@ export default class ToDoListItem extends Component {
             done
         } = this.props;
 
-        let classNames = 'todo-list-item';
+        let classNames : string = 'todo-list-item';
 
         if (done) {
             classNames += ' done';
+        }
+        if (important) {
+            classNames += ' important';
         }
 
         if (important) {
             classNames += ' important';
         }
-
-        return (
+        
+        return(
             <span className={classNames}>
                 <span
-                    className='todo-list-item-label'
+                    className="todo-list-item-label"
                     onClick={onToggleDone}>
                 {label}
                 </span>
@@ -49,8 +51,6 @@ export default class ToDoListItem extends Component {
                     <i className="fa fa-trash-o"/>
                 </button>
                 </div>
-        </span>
-        )
+        </span>);
     }
 }
-

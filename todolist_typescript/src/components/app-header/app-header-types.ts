@@ -1,4 +1,4 @@
 export interface IProps {
-    toDo?: string;
-    done?: string;
+    toDo?: string | number;
+    done?: string | number;
 }

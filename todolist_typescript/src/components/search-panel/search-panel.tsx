@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { Component } from 'react';
 import { IPropsSearchPanel } from './types-search-panel';
 export class SearchPanel extends Component<IPropsSearchPanel> {
@@ -7,7 +7,7 @@ export class SearchPanel extends Component<IPropsSearchPanel> {
         term: ''
     };
 
-    onSearchChange = (event: MouseEvent): void => {
+    onSearchChange = (event: React.ChangeEvent<HTMLInputElement>): void => {
         const term: string = event.target.value;
         this.setState(term);
         this.props.onSearchChange(term);
@@ -17,10 +17,13 @@ export class SearchPanel extends Component<IPropsSearchPanel> {
         return (
             <div className="form-control-wrapper">
                 <div className="flex-search-element">
-                    <input type="text" className="form-control search input"
-                           placeholder="search"
-                           value={this.state.term}
-                           onChange={this.onSearchChange}/>
+                    <input
+                        type="text"
+                        className="form-control search input"
+                        placeholder="search"
+                        value={this.state.term}
+                        onChange={this.onSearchChange}
+                    />
                 </div>
             </div>
         )
