@@ -1,9 +1,5 @@
 import * as React from 'react';
-
-interface IProps {
-    toDo?: string;
-    done?: string;
-}
+import { IProps } from './app-header-types';
 
 const AppHeader: React.FC<IProps> = ({ toDo, done }): JSX.Element => {
     return (

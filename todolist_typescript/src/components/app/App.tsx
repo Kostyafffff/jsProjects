@@ -3,23 +3,7 @@ import { Component } from 'react';
 import AppHeader from '../app-header/app-header'
 import { ItemAddForm } from '../item-add-form/item-add-form';
 import { ItemStatusFilter } from '../item-status-filter/item-status-filter';
-
-interface IState {
-    //toDoData: IToDoItem,
-    toDoData: object[]
-    term: string,
-    filter: string
-}
-
-interface IToDoItem {
-    label : string,
-    important: boolean,
-    id : number
-}
-
-interface IElement {
-    id: number
-}
+import { IState, IToDoItem } from './app-types';
 
 export class App extends Component<Readonly<{}>, IState> {
 
@@ -28,6 +12,7 @@ export class App extends Component<Readonly<{}>, IState> {
     createTodoItem = (label: string): IToDoItem => ({
         label,
         important: false,
+        done: false,
         id: this.maxId++
     });
 
@@ -38,7 +23,7 @@ export class App extends Component<Readonly<{}>, IState> {
             this.createTodoItem('Have a lunch'),
         ],
         term: '',
-        filter: 'active'
+        filter: 'active',
     };
 
     onAddItem = (text: string): void => {
@@ -47,16 +32,45 @@ export class App extends Component<Readonly<{}>, IState> {
 
         this.setState(({ toDoData }) => {
             return {
-                toDoData: [newItem, toDoData]
+                toDoData: [newItem, ...toDoData]
             }
         });
     };
 
-    togleProperty(arr: IElement[], id: number, propName: string): object {
-        
+    onToggleImportant = (id : number) : void => {
+
+        this.setState( ({ toDoData }) => {
+            return {
+                toDoData: this.togleProperty( toDoData, id, 'important')
+            }
+        })
+    };
+
+    filter(items : IToDoItem[], filter: string) : IToDoItem[] {
+        switch (filter) {
+            case 'active':
+                return items.filter((item : IToDoItem) => !item.done);
+
+            case 'done':
+                return items.filter((item : IToDoItem) => item.done);
+
+            case 'all':
+            default:
+                return items;
+        }
+    }
+
+    deleteItem = ( id : number ) : void => {
+        this.setState(( { toDoData } ) => {
+            return { toDoData: toDoData.filter(( element :  IToDoItem ) => element.id !== id) };
+        });
+    };
+
+    togleProperty(arr: IToDoItem[], id: number, propName: string): IToDoItem[] {
+
         return arr.map(element => {
-            
-            if ( element.id === id ) {
+
+            if (element.id === id) {
                 return {
                     ...element,
                     [propName]: !element[propName],
@@ -66,7 +80,7 @@ export class App extends Component<Readonly<{}>, IState> {
             return { ...element };
         });
     }
-    
+
     onSearchChange = (term: string): void => {
         this.setState({ term });
     };
@@ -76,16 +90,17 @@ export class App extends Component<Readonly<{}>, IState> {
     };
 
     render(): JSX.Element {
-        const { toDoData, term, filter } = this.state;
-        return (
+        const { toDoData, filter, term } = this.state;
+
+        return(
             <div>
                 <AppHeader
                     done="done"
                     toDo="toDo"
                 />
                 <ItemStatusFilter
-                    filter={filter}
-                onFilterChange={this.onFilterChange}
+                    filter={ filter }
+                    onFilterChange={this.onFilterChange}
                 />
                 <ItemAddForm onAddItem={this.onAddItem}/>
             </div>

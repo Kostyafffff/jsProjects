@@ -1,13 +1,8 @@
 import { Component } from 'react';
-import * as React from 'react';
+import React from 'react';
+import { IPropsItemStatusFilter, IButtons } from './types-status-filter';
 
-interface IButtons {
-    name: string,
-    label: string
-}
-
-export class ItemStatusFilter extends Component<Readonly<{}>, IButtons>{
-
+export class ItemStatusFilter extends Component<IPropsItemStatusFilter> {
     buttons: IButtons[] = [
         {
             name: 'all', label: 'All',
@@ -47,4 +42,4 @@ export class ItemStatusFilter extends Component<Readonly<{}>, IButtons>{
             </div>
         );
     }
-};
+}

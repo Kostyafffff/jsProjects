@@ -1,13 +1,5 @@
 import React, { ChangeEvent, PureComponent } from 'react';
-
-interface IStateItemAddForm {
-    label: string;
-}
-
-interface IPropsItemAddForm {
-    onAddItem(label: string): void;
-}
-
+import { IPropsItemAddForm, IStateItemAddForm } from './types-item-add-form';
 export class ItemAddForm extends PureComponent<IPropsItemAddForm, IStateItemAddForm>{
     state : IStateItemAddForm = {
         label : ''
