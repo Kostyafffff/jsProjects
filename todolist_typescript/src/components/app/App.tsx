@@ -6,7 +6,6 @@ import { ItemStatusFilter } from '../item-status-filter/item-status-filter';
 import { SearchPanel } from '../search-panel/search-panel';
 import { ToDoList } from '../todo-list/todo-list';
 import { IState, IToDoItem } from './app-types';
-
 export class App extends Component<Readonly<{}>, IState> {
 
     maxId: number = 100;

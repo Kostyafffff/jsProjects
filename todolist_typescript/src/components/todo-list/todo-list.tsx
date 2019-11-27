@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { TodoListItem } from '../todo-list-item/todo-list-item';
 import { TodoListProps } from './types-todo-list';
+import './todo-list.css';
 
 export const ToDoList: React.FC<TodoListProps> = ({ todos, onDeleted, onToggleImportant, onToggleDone }): JSX.Element => {
 

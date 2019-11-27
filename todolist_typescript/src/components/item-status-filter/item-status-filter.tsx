@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import React from 'react';
 import { IPropsItemStatusFilter, IButtons } from './types-status-filter';
-
+import './item-status-filter.css';
 export class ItemStatusFilter extends Component<IPropsItemStatusFilter> {
     buttons: IButtons[] = [
         {

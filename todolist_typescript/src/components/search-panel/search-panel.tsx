@@ -1,6 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import { IPropsSearchPanel } from './types-search-panel';
+import './search-panel.css'
 export class SearchPanel extends Component<IPropsSearchPanel> {
 
     state = {

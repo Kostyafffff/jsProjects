@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
 import { IState, TodoListItemProps } from './types-todo-list-item';
-
+import './todo-list-item.css';
 export class TodoListItem extends Component<TodoListItemProps, IState>{
 
     state : IState = {

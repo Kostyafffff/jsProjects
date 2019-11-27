@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { IProps } from './types-app-header';
+import './app-header.css'
 
 export const AppHeader: React.FC<IProps> = ({ toDo, done }): JSX.Element => {
     return (
