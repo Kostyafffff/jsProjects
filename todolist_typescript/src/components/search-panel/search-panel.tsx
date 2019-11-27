@@ -10,8 +10,8 @@ export class SearchPanel extends Component<IPropsSearchPanel> {
 
     onSearchChange = (event: React.ChangeEvent<HTMLInputElement>): void => {
         const term: string = event.target.value;
-        this.setState(term);
-        this.props.onSearchChange(term);
+        this.setState({ term } );
+        this.props.onSearchChange( term );
     };
 
     render(): JSX.Element {

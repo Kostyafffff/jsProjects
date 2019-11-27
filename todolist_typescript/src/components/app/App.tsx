@@ -67,7 +67,7 @@ export class App extends Component<Readonly<{}>, IState> {
                return items;
            }
 
-           return item.label.indexOf(term.toLowerCase()) > -1;
+           return item.label.toLowerCase().indexOf(term.toLowerCase()) > -1;
           }
        )
     }
