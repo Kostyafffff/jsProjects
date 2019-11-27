@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { IState } from './types-todo-list-item';
+import classNames from 'classnames';
+import { IState, TodoListItemProps } from './types-todo-list-item';
 
-export class TodoListItem extends Component<Readonly<{}>>{
+export class TodoListItem extends Component<TodoListItemProps, IState>{
     state : IState = {
         done: false,
         important: false
@@ -17,21 +18,13 @@ export class TodoListItem extends Component<Readonly<{}>>{
             done
         } = this.props;
 
-        let classNames : string = 'todo-list-item';
+        const className: string = classNames('todo-list-item', {
+            'done': done,
+            'important': important,
+        });
 
-        if (done) {
-            classNames += ' done';
-        }
-        if (important) {
-            classNames += ' important';
-        }
-
-        if (important) {
-            classNames += ' important';
-        }
-        
         return(
-            <span className={classNames}>
+            <span className={className}>
                 <span
                     className="todo-list-item-label"
                     onClick={onToggleDone}>

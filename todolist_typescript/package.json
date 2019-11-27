@@ -14,11 +14,13 @@
     "eject": "react-scripts-ts eject"
   },
   "devDependencies": {
+    "@types/classnames": "^2.2.9",
     "@types/jest": "^24.0.23",
     "@types/node": "^12.12.11",
     "@types/react": "^16.9.11",
     "@types/react-dom": "^16.9.4",
-    "typescript": "^3.7.2",
-    "tslint-eslint-rules": "^5.4.0"
+    "classnames": "^2.2.6",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.7.2"
   }
 }

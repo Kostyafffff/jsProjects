@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { Component } from 'react';
-import AppHeader from '../app-header/app-header'
+import { AppHeader } from '../app-header/app-header'
 import { ItemAddForm } from '../item-add-form/item-add-form';
 import { ItemStatusFilter } from '../item-status-filter/item-status-filter';
 import { SearchPanel } from '../search-panel/search-panel';
-import ToDoList from '../todo-list/todo-list';
+import { ToDoList } from '../todo-list/todo-list';
 import { IState, IToDoItem } from './app-types';
 
 export class App extends Component<Readonly<{}>, IState> {
@@ -39,7 +39,7 @@ export class App extends Component<Readonly<{}>, IState> {
         });
     };
 
-    onToggleImportant = (id : number) : void => {
+    onToggleImportant = (id: number): void => {
 
         this.setState( ({ toDoData }) => {
             return {
@@ -51,10 +51,10 @@ export class App extends Component<Readonly<{}>, IState> {
     filter(items : IToDoItem[], filter: string) : IToDoItem[] {
         switch (filter) {
             case 'active':
-                return items.filter((item : IToDoItem) => !item.done);
+                return items.filter((item: IToDoItem) => !item.done);
 
             case 'done':
-                return items.filter((item : IToDoItem) => item.done);
+                return items.filter((item: IToDoItem) => item.done);
 
             case 'all':
             default:
@@ -62,8 +62,8 @@ export class App extends Component<Readonly<{}>, IState> {
         }
     }
 
-    search(items: IToDoItem[], term : string) : IToDoItem[] {
-       return items.filter((item : IToDoItem) => {
+    search(items: IToDoItem[], term: string): IToDoItem[] {
+       return items.filter((item: IToDoItem) => {
            if (term.length === 0) {
                return items;
            }
@@ -75,7 +75,7 @@ export class App extends Component<Readonly<{}>, IState> {
 
     deleteItem = ( id : number ) : void => {
         this.setState(( { toDoData } ) => {
-            return { toDoData: toDoData.filter(( element :  IToDoItem ) => element.id !== id) };
+            return { toDoData: toDoData.filter(( element:  IToDoItem ) => element.id !== id) };
         });
     };
 
@@ -105,16 +105,17 @@ export class App extends Component<Readonly<{}>, IState> {
     render(): JSX.Element {
         const { toDoData, filter, term } = this.state;
 
-        const visibleItems : IToDoItem[] = this.filter( this.search(toDoData, term), filter);
+        const visibleItems: IToDoItem[] = this.filter( this.search(toDoData, term), filter);
 
-        const doneCount: number = toDoData.filter(element => element.done).length;
+        const doneCount = toDoData.filter(element => element.done).length;
 
-        const toDoCount : number = toDoData.length - doneCount;
+        const toDoCount: number = toDoData.length - doneCount;
 
         return(
             <div>
                 <AppHeader toDo={toDoCount} done={doneCount}/>
                 <SearchPanel
+                    term={term}
                     onSearchChange={this.onSearchChange}
                 />
                 <ItemStatusFilter

@@ -1,21 +1,12 @@
 export interface IState {
-    //toDoData: IToDoItem,
     toDoData: IToDoItem[]
     term: string,
     filter: string
 }
 
-// export interface IToDoData {
-//     createToDoItem();
-// }
-
 export interface IToDoItem {
-    label : string,
+    label: string,
     important: boolean,
     done: boolean,
-    id : number
-}
-
-export interface IElement {
     id: number
 }

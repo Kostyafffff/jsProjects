@@ -1,7 +1,8 @@
+import * as React from 'react';
 import { IToDoItem } from '../app/app-types';
 import { TodoListItem } from '../todo-list-item/todo-list-item';
 
-const ToDoList = ({todos, onDeleted, onToggleImportant, onToggleDone}) => {
+export const ToDoList = ({ todos, onDeleted, onToggleImportant, onToggleDone }) => {
 
     const elements = todos.map(( item : IToDoItem ) => {
         const { id, ...itemProps } = item;
@@ -9,9 +10,10 @@ const ToDoList = ({todos, onDeleted, onToggleImportant, onToggleDone}) => {
         return (
             <li key={id} className="list-group-item">
                 <TodoListItem {...itemProps}
-                              onDeleted={ () => onDeleted(id)}
-                              onToggleImportant = { () => onToggleImportant(id)}
-                              onToggleDone = { () => onToggleDone(id)}
+
+                              onDeleted={(): void => onDeleted()}
+                              onToggleImportant = {(): void => onToggleImportant() }
+                              onToggleDone = {(): void => onToggleDone() }
                 />
             </li>
         );
@@ -23,6 +25,3 @@ const ToDoList = ({todos, onDeleted, onToggleImportant, onToggleDone}) => {
         </ul>
     );
 };
-
-// tslint:disable-next-line:no-default-export
-export default ToDoList;

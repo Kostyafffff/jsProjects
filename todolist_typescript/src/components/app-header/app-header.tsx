@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { IProps } from './app-header-types';
+import { IProps } from './types-app-header';
 
-const AppHeader: React.FC<IProps> = ({ toDo, done }): JSX.Element => {
+export const AppHeader: React.FC<IProps> = ({ toDo, done }): JSX.Element => {
     return (
         <div className="app-header d-flex">
             <h1>My ToDo List</h1>
@@ -9,6 +9,3 @@ const AppHeader: React.FC<IProps> = ({ toDo, done }): JSX.Element => {
         </div>
     )
 };
-
-// tslint:disable-next-line:no-default-export
-export default AppHeader;

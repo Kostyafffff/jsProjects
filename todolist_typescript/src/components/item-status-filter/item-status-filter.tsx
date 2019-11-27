@@ -28,7 +28,7 @@ export class ItemStatusFilter extends Component<IPropsItemStatusFilter> {
                 <button type="button"
                         className={`btn ${clazz}`}
                         key={name}
-                        onClick={ () : void => onFilterChange(name)}>
+                        onClick={ (): void => onFilterChange(name)}>
                     {label}
                 </button>
             )
