@@ -1,19 +1,19 @@
 import * as React from 'react';
-import { IToDoItem } from '../app/app-types';
 import { TodoListItem } from '../todo-list-item/todo-list-item';
+import { TodoListProps } from './types-todo-list';
 
-export const ToDoList = ({ todos, onDeleted, onToggleImportant, onToggleDone }) => {
+export const ToDoList: React.FC<TodoListProps> = ({ todos, onDeleted, onToggleImportant, onToggleDone }): JSX.Element => {
 
-    const elements = todos.map(( item : IToDoItem ) => {
+    const elements = todos.map(item => {
         const { id, ...itemProps } = item;
 
         return (
             <li key={id} className="list-group-item">
-                <TodoListItem {...itemProps}
-
-                              onDeleted={(): void => onDeleted()}
-                              onToggleImportant = {(): void => onToggleImportant() }
-                              onToggleDone = {(): void => onToggleDone() }
+                <TodoListItem
+                    {...itemProps}
+                    onDeleted={(): void => onDeleted(id)}
+                    onToggleImportant={(): void => onToggleImportant(id)}
+                    onToggleDone={(): void => onToggleDone(id)}
                 />
             </li>
         );

@@ -4,10 +4,10 @@ export interface IState {
 }
 
 export interface TodoListItemProps {
-    label: string,
-    onDeleted(): void,
-    onToggleImportant(): void,
-    onToggleDone(): void,
-    done: false,
-    important: false
+    label: string;
+    onDeleted(): void;
+    onToggleImportant(): void;
+    onToggleDone(): void;
+    done: boolean;
+    important: boolean;
 }

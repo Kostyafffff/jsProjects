@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { IState, TodoListItemProps } from './types-todo-list-item';
 
 export class TodoListItem extends Component<TodoListItemProps, IState>{
+
     state : IState = {
         done: false,
         important: false

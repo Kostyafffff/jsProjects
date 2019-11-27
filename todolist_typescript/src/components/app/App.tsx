@@ -43,7 +43,7 @@ export class App extends Component<Readonly<{}>, IState> {
 
         this.setState( ({ toDoData }) => {
             return {
-                toDoData: this.togleProperty( toDoData, id, 'important')
+                toDoData: this.toggleProperty( toDoData, id, 'important')
             }
         })
     };
@@ -79,7 +79,7 @@ export class App extends Component<Readonly<{}>, IState> {
         });
     };
 
-    togleProperty(arr: IToDoItem[], id: number, propName: string): IToDoItem[] {
+    toggleProperty(arr: IToDoItem[], id: number, propName: string): IToDoItem[] {
 
         return arr.map(element => {
 
@@ -93,6 +93,14 @@ export class App extends Component<Readonly<{}>, IState> {
             return { ...element };
         });
     }
+
+    onToggleDone = (id: number): void => {
+        this.setState(({ toDoData }) => {
+            return {
+                toDoData: this.toggleProperty(toDoData, id, 'done')
+            }
+        })
+    };
 
     onSearchChange = (term: string): void => {
         this.setState({ term });
