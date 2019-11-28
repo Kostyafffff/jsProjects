@@ -2,19 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5457f21c-b01c-4064-9139-02e30bbbbc8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/setup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/functions.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/todolist_typescript.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/todolist_typescript.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/haste-map-70bc55a0fc372d5303d2c73dc288c42e-d70975ac858a6fef5e1fc9b89802c3f8-b7ab762088a761b33034e0fe6977a1f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/haste-map-70bc55a0fc372d5303d2c73dc288c42e-d70975ac858a6fef5e1fc9b89802c3f8-ba256f662c83a6a600c0c382defabe41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/haste-map-70bc55a0fc372d5303d2c73dc288c42e-d70975ac858a6fef5e1fc9b89802c3f8-bc7c624b5cc05c1d6a78c2469e0c3e96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/2f/setup_2fb5aecd8a7bca281d05d759c136b91e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/2f/setup_2fb5aecd8a7bca281d05d759c136b91e.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/31/functions_315dd3eb3b2ebd2d17ec6171200d17ea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/31/functions_315dd3eb3b2ebd2d17ec6171200d17ea.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/5f/setup_5f59108540a123c760538adb6c2ba87d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/5f/setup_5f59108540a123c760538adb6c2ba87d.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/80/setup_80845c0f9c7d42da019daf92fc209358" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/8f/todolistitem_8f0ecc0acaaccd558f2dec5ac223b0d0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/ac/functionstest_acd224cebcdc1ba2a918b41491861cad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/ac/functionstest_acd224cebcdc1ba2a918b41491861cad.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/b8/setup_b8f52c2e8916a5972e47586a8c531681" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/cf/functionstest_cfe4de48c8456228f3edcdb6cc1480d8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/cf/functionstest_cfe4de48c8456228f3edcdb6cc1480d8.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/d5/functions_d5b56091ba798f83dd3862d26947fb84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/d5/functions_d5b56091ba798f83dd3862d26947fb84.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/d8/setup_d860bcbd3a06676c2e6386868869dc37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/da/setup_dacf224a5549620fe58569d7f44f8246" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/da/setup_dacf224a5549620fe58569d7f44f8246.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/e7/functionstest_e776cacf3e407078cb95fd6eeba4fadb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/e7/functionstest_e776cacf3e407078cb95fd6eeba4fadb.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/eb/todolistitem_eb2015bb05a07e8084ec390371c9ea35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/eb/todolistitem_eb2015bb05a07e8084ec390371c9ea35.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/perf-cache-70bc55a0fc372d5303d2c73dc288c42e-d41d8cd98f00b204e9800998ecf8427e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/0b/36d75a2dff2557f5e042fc60763307db109234/12b2b36b1de4d52ab57ed544d335e278658815b3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/0b/36d75a2dff2557f5e042fc60763307db109234/3ebb15a76e227e9d28490af6fdcbb22df13f91d2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/0b/36d75a2dff2557f5e042fc60763307db109234/70b1e48f7181a9d9ad08dd1d41dc7e13373e0b89.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/0b/36d75a2dff2557f5e042fc60763307db109234/8a03e6b5935636b80713dd52638a026b4505f4ae.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/61/50327d720a46131a582281f7692a1098312772/3140088b2fdf5c108338adbd6f90e740994e94bb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/61/50327d720a46131a582281f7692a1098312772/70b1e48f7181a9d9ad08dd1d41dc7e13373e0b89.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cssTransform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/fileTransform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/setup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list-item/types-todo-list-item.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-item/types-todo-list-item.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/functions.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled1/untitled1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/untitled1/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,55 +57,52 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="todolist_typescript" />
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.54074955">
+    <splitter split-orientation="horizontal" split-proportion="0.2786787">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="547">
-                  <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+                <state>
+                  <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
                   <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                    <marker date="1574934746577" expanded="true" signature="361:401" ph="..." />
+                    <element signature="e#0#31#0" expanded="true" />
+                    <marker date="1574954427893" expanded="true" signature="360:400" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/setupTests.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+                  <folding>
+                    <element signature="e#0#35#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/setup.js">
+            <entry file="file://$PROJECT_DIR$/src/functions.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+                <state relative-caret-position="50">
+                  <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/node_modules/enzyme-adapter-react-16/build/index.js">
+            <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/types-todo-list-item.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/functions.test.tsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-367">
-                  <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/package.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="125">
-                  <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+                <state relative-caret-position="275">
+                  <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -83,15 +111,65 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-425">
-                  <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+                <state relative-caret-position="50">
+                  <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
                   <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                    <marker date="1574934746577" expanded="true" signature="361:401" ph="..." />
+                    <marker date="1574954427893" expanded="true" signature="360:400" ph="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jest.config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="50">
+                  <caret line="2" column="57" lean-forward="true" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/functions.test.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="500">
+                  <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+                  <folding>
+                    <element signature="e#59#90#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+                  <folding>
+                    <element signature="n#!!block;n#scripts#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.babelrc">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tsconfig.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -122,7 +200,6 @@
       <find>item</find>
       <find>onClick</find>
       <find>onToggleImportant</find>
-      <find>onDeleted</find>
       <find>list-group-item</find>
       <find>item-add-form-wrapper</find>
       <find>onSearchChange</find>
@@ -130,6 +207,10 @@
       <find>types</find>
       <find>__tests__</find>
       <find>roots</find>
+      <find>testMatch</find>
+      <find>onDeleted</find>
+      <find>setupF</find>
+      <find>babe</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,7 +236,6 @@
         <option value="$PROJECT_DIR$/src/components/todo-list-item/types-todo-lit-item.ts" />
         <option value="$PROJECT_DIR$/tslint.json" />
         <option value="$PROJECT_DIR$/src/components/app/app-types.ts" />
-        <option value="$PROJECT_DIR$/src/components/todo-list-item/types-todo-list-item.ts" />
         <option value="$PROJECT_DIR$/src/components/todo-list/types-todo-list.ts" />
         <option value="$PROJECT_DIR$/src/components/app-header/app-header.tsx" />
         <option value="$PROJECT_DIR$/src/components/item-add-form/item-add-form.tsx" />
@@ -170,20 +250,31 @@
         <option value="$PROJECT_DIR$/src/components/app/App.tsx" />
         <option value="$PROJECT_DIR$/src/index.tsx" />
         <option value="$PROJECT_DIR$/src/components/test/functionsTests.ts" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/src/functions.ts" />
         <option value="$PROJECT_DIR$/src/components/test/functions.test.ts" />
         <option value="$PROJECT_DIR$/src/jest.config.js" />
         <option value="$PROJECT_DIR$/config/cssTransform.js" />
         <option value="$PROJECT_DIR$/config/fileTransform.js" />
-        <option value="$PROJECT_DIR$/jest.config.js" />
-        <option value="$PROJECT_DIR$/config/setup.js" />
         <option value="$PROJECT_DIR$/test/functions.test.ts" />
-        <option value="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/components/todo-list-item/types-todo-list-item.ts" />
         <option value="$PROJECT_DIR$/test/functions.test.tsx" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/config/setup.js" />
+        <option value="$PROJECT_DIR$/src/__tests__/functions.test.tsx" />
+        <option value="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/jest.config.js" />
+        <option value="$PROJECT_DIR$/tests/functions.test.tsx" />
+        <option value="$PROJECT_DIR$/src/functions.test.tsx" />
       </list>
     </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1928" />
@@ -207,11 +298,6 @@
             <path>
               <item name="todolist_typescript" type="b2602c69:ProjectViewProjectNode" />
               <item name="todolist_typescript" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todolist_typescript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todolist_typescript" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -219,18 +305,6 @@
               <item name="todolist_typescript" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todolist_typescript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todolist_typescript" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="todo-list-item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todolist_typescript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todolist_typescript" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,36 +316,44 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/@jest" />
+    <property name="javascript.karma.karma_node_package_dir" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/__tests__" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts-ts" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="C:/Program Files (x86)/Yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="ts.external.directory.path" value="C:\Users\user\WebstormProjects\jsProjects\todolist_typescript\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\WebstormProjects\jsProjects\todolist_typescript\tests" />
+      <recent name="C:\Users\user\WebstormProjects\jsProjects\todolist_typescript\src" />
       <recent name="C:\Users\user\WebstormProjects\jsProjects\todolist_typescript\test" />
       <recent name="C:\Users\user\WebstormProjects\jsProjects\todolist_typescript\test\xz" />
       <recent name="C:\Users\user\WebstormProjects\jsProjects\todolist_typescript" />
-      <recent name="C:\Users\user\WebstormProjects\jsProjects\todolist_typescript\src\components\app-header" />
-      <recent name="C:\Users\user\WebstormProjects\todolist_typescript\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\WebstormProjects\jsProjects\todolist_typescript\src\components\__tests__" />
+      <recent name="C:\Users\user\WebstormProjects\jsProjects\todolist_typescript" />
       <recent name="C:\Users\user\WebstormProjects\jsProjects\todolist_typescript\src\components\todo-list-item" />
       <recent name="C:\Users\user\WebstormProjects\jsProjects\todolist_typescript\src\components\todo-list" />
       <recent name="C:\Users\user\WebstormProjects\jsProjects\todolist_typescript\src\components\search-panel" />
-      <recent name="C:\Users\user\WebstormProjects\jsProjects\todolist_typescript\src\components\item-status-filter" />
-      <recent name="C:\Users\user\WebstormProjects\jsProjects\todolist_typescript\src\components\item-add-form" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -286,12 +368,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.mult works.should mount component">
     <configuration default="true" type="JavaScriptTestRunnerJest">
       <node-interpreter value="project" />
       <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="" />
-      <jest-options value="--env=jsdom" />
       <envs />
       <scope-kind value="ALL" />
       <method v="2" />
@@ -299,20 +381,64 @@
     <configuration name="mult works" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts-ts" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
-      <jest-options value="--env=jsdom" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/test/functions.test.tsx" />
+      <test-file value="$PROJECT_DIR$/src/functions.test.tsx" />
       <test-names>
         <test-name value="mult works" />
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="mult works.should mount component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/functions.test.tsx" />
+      <test-names>
+        <test-name value="mult works" />
+        <test-name value="should mount component" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="mult works.should multiply 2 parameters (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/functions.test.tsx" />
+      <test-names>
+        <test-name value="mult works" />
+        <test-name value="should multiply 2 parameters" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="mult works.should multiply 2 parameters" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/functions.test.tsx" />
+      <test-names>
+        <test-name value="mult works" />
+        <test-name value="should multiply 2 parameters" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.mult works.should mount component" />
+        <item itemvalue="Jest.mult works.should multiply 2 parameters (1)" />
         <item itemvalue="Jest.mult works" />
+        <item itemvalue="Jest.mult works.should multiply 2 parameters" />
       </list>
     </recent_temporary>
   </component>
@@ -341,52 +467,52 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="mult_works - 2019.11.28 at 11h 21m 37s.xml">
-      <configuration name="mult works" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="mult_works - 2019.11.28 at 11h 22m 51s.xml">
-      <configuration name="mult works" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="mult_works - 2019.11.28 at 11h 25m 07s.xml">
-      <configuration name="mult works" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="mult_works - 2019.11.28 at 11h 25m 43s.xml">
-      <configuration name="mult works" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="mult_works_(1) - 2019.11.28 at 11h 52m 28s.xml">
+    <history-entry file="mult_works_(1) - 2019.11.28 at 17h 08m 51s.xml">
       <configuration name="mult works (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="mult_works_(1) - 2019.11.28 at 11h 52m 30s.xml">
-      <configuration name="mult works (1)" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="mult_works_(1) - 2019.11.28 at 11h 52m 44s.xml">
-      <configuration name="mult works (1)" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="mult_works - 2019.11.28 at 11h 53m 00s.xml">
+    <history-entry file="mult_works - 2019.11.28 at 17h 20m 35s.xml">
       <configuration name="mult works" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="mult_works - 2019.11.28 at 11h 54m 54s.xml">
+    <history-entry file="mult_works - 2019.11.28 at 17h 22m 51s.xml">
       <configuration name="mult works" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="mult_works - 2019.11.28 at 11h 55m 13s.xml">
+    <history-entry file="mult_works - 2019.11.28 at 17h 25m 01s.xml">
       <configuration name="mult works" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="mult_works - 2019.11.28 at 17h 25m 36s.xml">
+      <configuration name="mult works" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="mult_works_should_multiply_2_parameters - 2019.11.28 at 17h 25m 55s.xml">
+      <configuration name="mult works.should multiply 2 parameters" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="mult_works_should_multiply_2_parameters - 2019.11.28 at 17h 26m 21s.xml">
+      <configuration name="mult works.should multiply 2 parameters" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="mult_works - 2019.11.28 at 17h 26m 34s.xml">
+      <configuration name="mult works" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="mult_works_should_multiply_2_parameters_(1) - 2019.11.28 at 17h 27m 53s.xml">
+      <configuration name="mult works.should multiply 2 parameters (1)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="mult_works_should_mount_component - 2019.11.28 at 17h 40m 43s.xml">
+      <configuration name="mult works.should mount component" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123245000" />
+    <option name="totallyTimeSpent" value="138444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11433087" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49840257" visible="true" weight="0.1227608" />
+      <window_info id="Structure" order="1" sideWeight="0.50159746" side_tool="true" weight="0.15173867" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.50159746" side_tool="true" weight="0.15173867" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.35667396" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2426869" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30227518" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -394,7 +520,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32827735" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.2751896" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30119178" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2708559" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -430,9 +556,64 @@
       </list>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/functions.test.tsx</url>
+          <line>35</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JavaScriptTestRunnerJest">
+        <watch expression="wrapper" language="TypeScript JSX" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="todolist_typescript" type="b2602c69:ProjectViewProjectNode" />
+        <item name="todolist_typescript" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>wrapper</expression-string>
+        <language-id>TypeScript JSX</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>wrapper</expression-string>
+        <language-id>TypeScript JSX</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mount</expression-string>
+        <language-id>TypeScript JSX</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sinon`</expression-string>
+        <language-id>TypeScript JSX</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sinon</expression-string>
+        <language-id>TypeScript JSX</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.test.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/logo.svg" />
     <entry file="file://$PROJECT_DIR$/src/components/app/app.js" />
     <entry file="file://$PROJECT_DIR$/src/components/app-header/app-header.css" />
     <entry file="file://$PROJECT_DIR$/src/App.css" />
@@ -469,13 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/types-todo-list-item.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/todo-list/todo-list.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -504,13 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -646,20 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/functions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/xz/test.test.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -677,13 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jest.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/enzyme-adapter-react-16/build/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -691,35 +837,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/setup.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/sinon/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <marker date="1574934746577" expanded="true" signature="361:401" ph="..." />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="1677" column="38" selection-start-line="1677" selection-start-column="27" selection-end-line="1677" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/functions.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-367">
-          <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        <state relative-caret-position="445">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="43" />
+          <folding>
+            <element signature="e#65#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/enzyme/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="719" column="16" selection-start-line="719" selection-start-column="16" selection-end-line="719" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!block;n#scripts#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jest.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="57" lean-forward="true" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <marker date="1574954427893" expanded="true" signature="360:400" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/types-todo-list-item.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/setupTests.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <folding>
+            <element signature="e#59#90#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-transform-regenerator",
+    "babel-plugin-dynamic-import-node",
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+  ],
+  "presets": [
+    "@babel/preset-react",
+    "@babel/preset-typescript",
+    [
+      "@babel/preset-env",
+      {
+        "debug": false,
+        "targets": {
+          "browsers": [
+            "last 3 versions"
+          ]
+        }
+      }
+    ]
+  ]
+}

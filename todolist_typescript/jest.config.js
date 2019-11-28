@@ -1,45 +1,19 @@
 module.exports = {
-    preset: "ts-jest/presets/js-with-babel",
-    setupTestFrameworkScriptFile: "<rootDir>/config/setup.js",
-    // testMatch: [
-    //     "<rootDir>/test/**/?(*.)(spec|test).[jt]s?(x)"
-    // ],
-    "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.tsx?$",
-    // testRegex: "<rootDir>/test/**/?(*.)(spec|test).{js,jsx,mjs,ts,tsx}",
-    testEnvironment: "jsdom",
-    testURL: "http://localhost",
-    transform: {
-        "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest",
-        "^.+\\.(js|jsx|mjs)$": "<rootDir>/node_modules/babel-jest",
-        "^.+\\.css$": "<rootDir>/config/cssTransform.js",
-        "^(?!.*\\.(js|jsx|ts|tsx|mjs|css|json)$)": "<rootDir>/config/fileTransform.js"
-    },
-    transformIgnorePatterns: [
-        "/node_modules/"
+    preset: 'ts-jest',
+    "setupFilesAfterEnv": [ "<rootDir>/src/setupTests.ts"],
+    "roots": [
+        "<rootDir>/src"
     ],
-    moduleDirectories: [
-        "node_modules",
-        "src",
-        "test",
-    ],
-    moduleNameMapper: {
-        "test/(.*)": "<rootDir>/test/$1",
+    "transform": {
+        "^.+\\.tsx?$": "ts-jest"
     },
-    moduleFileExtensions: [
-        "web.js",
-        "mjs",
-        "js",
-        "json",
-        "web.jsx",
-        "jsx",
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": [
         "ts",
         "tsx",
+        "js",
+        "jsx",
+        "json",
         "node"
     ],
-    globals: {
-        "ts-jest": {
-            "diagnostics": true
-        }
-    },
-    cacheDirectory: "./.jest-cache",
 };
