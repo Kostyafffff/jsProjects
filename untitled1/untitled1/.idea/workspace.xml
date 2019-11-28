@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8ba11c-7497-49a1-aa16-319f66c14803" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/src/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/config/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/config/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/config/setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/src/functions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/test/functions.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.idea/todolist_typescript.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/.idea/todolist_typescript.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todolist_typescript/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/components/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/components/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list-item/todo-list-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list-item/todo-list-item.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/jest.config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -380,6 +389,12 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../todolist_typescript/src/components/app-header/app-header.js" />
+        <option value="$PROJECT_DIR$/../../todolist_typescript/src/components/app-header/types-app-header.js" />
+      </list>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json">

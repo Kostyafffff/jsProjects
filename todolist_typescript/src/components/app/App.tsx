@@ -19,9 +19,9 @@ export class App extends Component<Readonly<{}>, IState> {
 
     state: IState = {
         toDoData: [
-            this.createTodoItem('Drink Cofee'),
-            this.createTodoItem('Make Awesome App'),
-            this.createTodoItem('Have a lunch'),
+            this.createTodoItem('Setup React project ToDo List'),
+            this.createTodoItem('Rewrite ToDo list with typescript'),
+            this.createTodoItem('Create tests with Jest and Nzim'),
         ],
         term: '',
         filter: 'active',

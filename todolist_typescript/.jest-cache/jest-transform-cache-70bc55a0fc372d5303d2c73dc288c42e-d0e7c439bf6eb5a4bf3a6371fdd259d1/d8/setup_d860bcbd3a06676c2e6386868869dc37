@@ -1,0 +1,5 @@
+65f86466777eb84406d5bdc22fb3a9eb
+import { configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+
+configure({ adapter: new Adapter() });
