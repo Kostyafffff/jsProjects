@@ -2,50 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8ba11c-7497-49a1-aa16-319f66c14803" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list-item/todo-list-item.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/haste-map-70bc55a0fc372d5303d2c73dc288c42e-d70975ac858a6fef5e1fc9b89802c3f8-b7ab762088a761b33034e0fe6977a1f3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/haste-map-70bc55a0fc372d5303d2c73dc288c42e-d70975ac858a6fef5e1fc9b89802c3f8-ba256f662c83a6a600c0c382defabe41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/haste-map-70bc55a0fc372d5303d2c73dc288c42e-d70975ac858a6fef5e1fc9b89802c3f8-bc7c624b5cc05c1d6a78c2469e0c3e96" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/2f/setup_2fb5aecd8a7bca281d05d759c136b91e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/2f/setup_2fb5aecd8a7bca281d05d759c136b91e.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/31/functions_315dd3eb3b2ebd2d17ec6171200d17ea" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/31/functions_315dd3eb3b2ebd2d17ec6171200d17ea.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/5f/setup_5f59108540a123c760538adb6c2ba87d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/5f/setup_5f59108540a123c760538adb6c2ba87d.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/80/setup_80845c0f9c7d42da019daf92fc209358" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/setupTests.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/8f/todolistitem_8f0ecc0acaaccd558f2dec5ac223b0d0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/ac/functionstest_acd224cebcdc1ba2a918b41491861cad" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/ac/functionstest_acd224cebcdc1ba2a918b41491861cad.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/b8/setup_b8f52c2e8916a5972e47586a8c531681" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/cf/functionstest_cfe4de48c8456228f3edcdb6cc1480d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/cf/functionstest_cfe4de48c8456228f3edcdb6cc1480d8.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/d5/functions_d5b56091ba798f83dd3862d26947fb84" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/d5/functions_d5b56091ba798f83dd3862d26947fb84.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/d8/setup_d860bcbd3a06676c2e6386868869dc37" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/da/setup_dacf224a5549620fe58569d7f44f8246" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/da/setup_dacf224a5549620fe58569d7f44f8246.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/e7/functionstest_e776cacf3e407078cb95fd6eeba4fadb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/e7/functionstest_e776cacf3e407078cb95fd6eeba4fadb.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/eb/todolistitem_eb2015bb05a07e8084ec390371c9ea35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/jest-transform-cache-70bc55a0fc372d5303d2c73dc288c42e-d0e7c439bf6eb5a4bf3a6371fdd259d1/eb/todolistitem_eb2015bb05a07e8084ec390371c9ea35.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/perf-cache-70bc55a0fc372d5303d2c73dc288c42e-d41d8cd98f00b204e9800998ecf8427e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/ts-jest/0b/36d75a2dff2557f5e042fc60763307db109234/12b2b36b1de4d52ab57ed544d335e278658815b3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/ts-jest/0b/36d75a2dff2557f5e042fc60763307db109234/3ebb15a76e227e9d28490af6fdcbb22df13f91d2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/ts-jest/0b/36d75a2dff2557f5e042fc60763307db109234/70b1e48f7181a9d9ad08dd1d41dc7e13373e0b89.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/ts-jest/0b/36d75a2dff2557f5e042fc60763307db109234/8a03e6b5935636b80713dd52638a026b4505f4ae.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/ts-jest/61/50327d720a46131a582281f7692a1098312772/3140088b2fdf5c108338adbd6f90e740994e94bb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.jest-cache/ts-jest/61/50327d720a46131a582281f7692a1098312772/70b1e48f7181a9d9ad08dd1d41dc7e13373e0b89.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/config/cssTransform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/config/fileTransform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/config/setup.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todolist_typescript/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todolist_typescript/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list-item/todo-list-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list-item/todo-list-item.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list-item/types-todo-list-item.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list-item/types-todo-list-item.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/test/functions.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/functions.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list/todo-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list/todo-list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/functions.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/functions.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -80,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
+            <state relative-caret-position="-225">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
@@ -110,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
@@ -372,13 +338,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169911000" />
+    <option name="totallyTimeSpent" value="171723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12908325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21285564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -561,13 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/app-header/app-header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -580,16 +539,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/app/app.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/item-add-form/item-add-form.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -630,6 +579,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

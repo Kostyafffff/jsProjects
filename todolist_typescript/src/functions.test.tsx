@@ -19,7 +19,7 @@ describe('mult works', () => {
         expect(actual).toEqual(expected);
     });
 
-    it('should mount component', () => {
+    it('should TodoListItemProps mount component', () => {
         //Given
         const props: TodoListItemProps = {
             done: true,
@@ -35,6 +35,5 @@ describe('mult works', () => {
 
         //Then
         expect(wrapper.isEmptyRender()).toBeFalsy();
-
     });
 });

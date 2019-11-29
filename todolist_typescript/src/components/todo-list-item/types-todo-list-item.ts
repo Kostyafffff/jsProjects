@@ -1,8 +1,3 @@
-export interface IState {
-    done: boolean,
-    important: boolean
-}
-
 export interface TodoListItemProps {
     label: string;
     done: boolean;
