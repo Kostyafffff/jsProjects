@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8ba11c-7497-49a1-aa16-319f66c14803" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list-item/todo-list-item.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todolist_typescript/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todolist_typescript/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list-item/todo-list-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list-item/todo-list-item.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list-item/types-todo-list-item.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list-item/types-todo-list-item.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list/todo-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list/todo-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/functions.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/functions.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -342,7 +335,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21285564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

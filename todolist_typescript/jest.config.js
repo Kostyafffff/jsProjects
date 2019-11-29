@@ -19,4 +19,5 @@ module.exports = {
         "json",
         "node"
     ],
+    moduleResolution: "node"
 };

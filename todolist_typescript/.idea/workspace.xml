@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5457f21c-b01c-4064-9139-02e30bbbbc8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list-item/types-todo-list-item.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-item/types-todo-list-item.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list/todo-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functions.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled1/untitled1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/untitled1/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,7 +21,7 @@
     <favorites_list name="todolist_typescript" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44823065">
+    <splitter split-orientation="horizontal" split-proportion="0.41964868">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -51,8 +45,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/yarn.lock">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="319">
-                  <caret line="10698" column="34" selection-start-line="10698" selection-start-column="29" selection-end-line="10698" selection-end-column="34" />
+                <state relative-caret-position="265">
+                  <caret line="5387" selection-start-line="5387" selection-end-line="5387" />
                 </state>
               </provider>
             </entry>
@@ -74,8 +68,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="440">
-                  <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+                <state relative-caret-position="350">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
                 </state>
               </provider>
             </entry>
@@ -83,8 +77,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/jest.config.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+                <state relative-caret-position="525">
+                  <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
@@ -117,11 +111,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/app/App.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="350">
-                  <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#0#31#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="41">
+                  <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/item-add-form/item-add-form.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="15" selection-start-line="15" selection-end-line="15" />
                 </state>
               </provider>
             </entry>
@@ -233,8 +233,8 @@
       <find>sinon</find>
       <find>enzyme</find>
       <find>moduleRe</find>
-      <find>tslib</find>
       <find>moduleRes</find>
+      <find>tslib</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -289,11 +289,11 @@
         <option value="$PROJECT_DIR$/src/components/todo-list-item/types-todo-list-item.ts" />
         <option value="$PROJECT_DIR$/src/setupTests.ts" />
         <option value="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.test.tsx" />
-        <option value="$PROJECT_DIR$/jest.config.js" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/jest.config.js" />
       </list>
     </option>
   </component>
@@ -549,14 +549,11 @@
       <workItem from="1574768046991" duration="314000" />
       <workItem from="1574768402212" duration="15973000" />
       <workItem from="1574839857180" duration="7180000" />
-      <workItem from="1575035297841" duration="3997000" />
+      <workItem from="1575035297841" duration="7331000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="src_components_todo-list-item_todo-list-item_tsx - 2019.11.29 at 13h 31m 56s.xml">
-      <configuration name="src/components/todo-list-item/todo-list-item.tsx" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="src_components_todo-list-item_todo-list-item_tsx - 2019.11.29 at 13h 33m 59s.xml">
       <configuration name="src/components/todo-list-item/todo-list-item.tsx" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
@@ -584,30 +581,32 @@
     <history-entry file="mult_works_should_TodoListItemProps_mount_component - 2019.11.29 at 16h 30m 25s.xml">
       <configuration name="mult works.should TodoListItemProps mount component" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="mult_works_should_TodoListItemProps_mount_component - 2019.11.29 at 17h 34m 03s.xml">
+      <configuration name="mult works.should TodoListItemProps mount component" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162212000" />
+    <option name="totallyTimeSpent" value="165546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7889785" visible="true" weight="0.19599578" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7889785" visible="true" weight="0.19020021" />
       <window_info id="Structure" order="1" sideWeight="0.21102151" side_tool="true" weight="0.17281349" />
       <window_info id="npm" order="2" sideWeight="0.21102151" side_tool="true" weight="0.17281349" />
       <window_info id="Favorites" order="3" sideWeight="0.50163937" side_tool="true" weight="0.15700738" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.35667396" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.47020584" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.33586133" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.22318527" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32827735" />
-      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.18201517" />
+      <window_info active="true" anchor="bottom" id="TypeScript" order="9" visible="true" weight="0.18201517" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.3391116" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30877572" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.28169015" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -751,13 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-221">
           <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/item-add-form/item-add-form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -930,13 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jest.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-440">
@@ -954,13 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="10698" column="34" selection-start-line="10698" selection-start-column="29" selection-end-line="10698" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tsconfig.prod.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -971,20 +949,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/item-add-form/item-add-form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="5387" selection-start-line="5387" selection-end-line="5387" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jest.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/app/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="41">
+          <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        <state relative-caret-position="350">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
