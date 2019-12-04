@@ -3,7 +3,7 @@ import { IPropsItemAddForm, IStateItemAddForm } from './types-item-add-form';
 import './item-add-form.css'
 export class ItemAddForm extends PureComponent<IPropsItemAddForm, IStateItemAddForm>{
     state : IStateItemAddForm = {
-        label : ''
+        label: ''
     };
 
     onLabelChange = (elem: ChangeEvent<HTMLInputElement>): void => {
@@ -11,12 +11,10 @@ export class ItemAddForm extends PureComponent<IPropsItemAddForm, IStateItemAddF
         this.setState({ label });
     };
 
-    onSubmit = (event : React.FormEvent<HTMLFormElement>): void => {
+    onSubmit = (event: React.FormEvent<HTMLFormElement>): void => {
         event.preventDefault();
         this.props.onAddItem(this.state.label);
-        this.setState({
-           label: ''
-        })
+        this.setState({ label: '' });
     };
 
     render(): JSX.Element {
@@ -34,7 +32,8 @@ export class ItemAddForm extends PureComponent<IPropsItemAddForm, IStateItemAddF
                         value={this.state.label}
                     />
                     <button className="add-item-element btn btn-success"
-                    >Add
+                    >
+                        Add
                     </button>
                 </div>
             </form>

@@ -86,7 +86,7 @@ export class App extends Component<Readonly<{}>, IState> {
                 return {
                     ...element,
                     [propName]: !element[propName],
-                }
+                };
             }
 
             return { ...element };

@@ -5,6 +5,7 @@ export interface IState {
 }
 
 export interface IToDoItem {
+    [key: string]: number | string | boolean;
     label: string,
     important: boolean,
     done: boolean,

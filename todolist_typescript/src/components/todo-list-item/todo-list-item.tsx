@@ -1,5 +1,4 @@
-//import { JSX } from '@babel/types';
-import React from 'react';
+import * as React from 'react';
 import classNames from 'classnames';
 import { TodoListItemProps } from './types-todo-list-item';
 import './todo-list-item.css';

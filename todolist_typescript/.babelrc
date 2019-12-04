@@ -4,7 +4,7 @@
     "@babel/plugin-transform-regenerator",
     "babel-plugin-dynamic-import-node",
     ["@babel/plugin-proposal-decorators", { "legacy": true }],
-    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }]
   ],
   "presets": [
     "@babel/preset-react",

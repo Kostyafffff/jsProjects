@@ -1,0 +1,18 @@
+image: node:10.15.1
+options:
+  size: 2x
+pipelines:
+  default:
+  - step:
+      name: Build
+      caches:
+      - yarncustom
+      - jest-cache
+      script:
+      - yarn
+      - yarn tslint
+      - yarn test
+definitions:
+  caches:
+    yarncustom: /usr/local/share/.cache/yarn/v4
+    jest-cache: .jest-cache

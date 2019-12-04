@@ -2,10 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8ba11c-7497-49a1-aa16-319f66c14803" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/.huskyrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/.storybook/addons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/.storybook/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/.storybook/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/.storybook/styles.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/.storybook/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/.yarnrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/bitbucket-pipelines.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/config/jest/setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/config/polyfills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/scripts/dts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/scripts/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/test/components/item-add-form/item-add-form.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/test/components/todo-list-item/todo-list-item.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/test/components/todo-list/todo-list.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist_typescript/test/functions.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todolist_typescript/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/images.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/jest.config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todolist_typescript/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/components/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/components/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/components/app/app-types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/components/app/app-types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/components/item-add-form/item-add-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/components/item-add-form/item-add-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list-item/todo-list-item.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list-item/todo-list-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list-item/todo-list-item.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list/todo-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/components/todo-list/todo-list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/functions.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/tsconfig.prod.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/tsconfig.test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../todolist_typescript/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todolist_typescript/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/app-header/app-header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="175">
               <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -33,16 +77,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/app-header/app-header.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="287">
               <caret line="12" column="1" selection-start-line="12" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225">
+            <state relative-caret-position="-250">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
@@ -63,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/todo-list/todo-list.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="287">
               <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
             </state>
           </provider>
@@ -72,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="287">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
@@ -87,7 +131,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/item-status-filter/item-status-filter.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
@@ -327,16 +371,18 @@
       <workItem from="1574436553855" duration="26990000" />
       <workItem from="1574671081268" duration="33979000" />
       <workItem from="1574768390555" duration="13999000" />
+      <workItem from="1575451729108" duration="609000" />
+      <workItem from="1575452913996" duration="2079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171723000" />
+    <option name="totallyTimeSpent" value="175658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21285564" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21311475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -350,7 +396,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17334779" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4071511" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -519,18 +565,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/app.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/app-header/app-header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="175">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app/app.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/item-add-form/item-add-form.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -539,38 +585,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/item-status-filter/item-status-filter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/search-panel/search-panel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/app-header/app-header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="287">
           <caret line="12" column="1" selection-start-line="12" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/todo-list/todo-list.css">
+    <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="-250">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -584,10 +609,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
+    <entry file="file://$PROJECT_DIR$/src/components/todo-list/todo-list.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="287">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/search-panel/search-panel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/item-status-filter/item-status-filter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
