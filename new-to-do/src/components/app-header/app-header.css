@@ -1,0 +1,28 @@
+.todo-list .list-group-item {
+    padding: .25rem .75rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.list-group{
+    margin-top: 13px;
+}
+
+.list-group-item{
+    margin-top: 10px;
+    width: 25rem;
+}
+
+.app-header{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: #ffc382;
+}
+
+h2 {
+    margin-top: 3rem;
+    margin-left: -14rem;
+}
