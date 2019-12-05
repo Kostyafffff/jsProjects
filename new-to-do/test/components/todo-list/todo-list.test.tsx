@@ -4,7 +4,7 @@ import sinon from 'sinon';
 import { TodoListProps } from '../../../src/components/todo-list/types-todo-list';
 import {ToDoList} from "../../../src/components/todo-list/todo-list";
 
-describe('src/components/todo-list-item/todo-list-item.tsx', () => {
+describe('src/components/todo-list/todo-list.tsx', () => {
 
     //Given
     const toDoListProps: TodoListProps = {
@@ -30,6 +30,25 @@ describe('src/components/todo-list-item/todo-list-item.tsx', () => {
 
         //Then
         expect(wrapper.isEmptyRender()).toBeFalsy();
+    });
+
+
+    it.each`
+        expectedClass          | expectedLength
+        ${'.list-group-item'} | ${1}
+        ${'.list-group.todo-list'} | ${1}
+        `('should render $expectedClass when done = $done important = $important', ( { expectedClass }) => {
+
+        //Given
+        const currentProps: TodoListProps = {
+            ...toDoListProps
+        };
+
+        //When
+        const wrapper = mount(<ToDoList {...currentProps} />);
+
+        //Then
+        expect(wrapper.find(expectedClass)).toHaveLength(1);
     });
 
 });

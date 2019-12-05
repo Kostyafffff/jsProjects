@@ -16,6 +16,10 @@ describe('src/components/todo-list-item/todo-list-item.tsx', () => {
         onToggleImportant: sinon.stub(),
     };
 
+    beforeEach(() => {
+        sinon.resetHistory();
+    });
+
     it('should TodoListItemProps mount component', () => {
         //When
         const wrapper = mount(<TodoListItem {...props} />);
@@ -43,7 +47,6 @@ describe('src/components/todo-list-item/todo-list-item.tsx', () => {
             important,
         };
 
-        //уточнить корректность
         //When
         const wrapper = mount(<TodoListItem {...currentProps} />);
 
