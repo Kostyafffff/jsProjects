@@ -52,19 +52,26 @@ describe('src/components/todo-list-item/todo-list-item.tsx', () => {
     });
 
     it.each`
-          expectedClass                     |
-          ${'.btn.btn-outline-success'}     |
-          ${'.btn.btn-outline-danger'}      |
-          `('buttons should have expected class ', ({ expectedClass }) => {
-            const currentProps: TodoListItemProps = {
+    expectedClass                 | expectedLength
+    ${'.btn.btn-outline-success'} |     1
+    ${'.btn.btn-outline-danger'}  |     1
+    ${'.fa.fa-exclamation'}       |     1
+    ${'.fa.fa-trash-o'}           |     1
+    ${'.todo-list-item-label'}    |     1
+    `('elements of list should have expected class $expectedClass ', ( {expectedClass, expectedLength} ) => {
+        //Given
+
+        const currentProps: TodoListItemProps = {
             ...props
-          };
+        };
 
         const wrapper = mount(<TodoListItem {...currentProps} />);
 
-        //Then
-        expect(wrapper.find(expectedClass)).toHaveLength(1);
+        //When
+        const element = wrapper.find(expectedClass);
 
+        //Then
+        expect(element).toHaveLength(expectedLength);
     });
 
 
