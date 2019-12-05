@@ -14,6 +14,10 @@ describe('src/components/todo-list-item/todo-list-item.tsx', () => {
         onToggleDone: sinon.stub(),
     };
 
+    beforeEach(() => {
+        sinon.resetHistory();
+    });
+
     it('should be defined', () => {
         //Then
         expect(ToDoList).toBeDefined();
@@ -27,4 +31,5 @@ describe('src/components/todo-list-item/todo-list-item.tsx', () => {
         //Then
         expect(wrapper.isEmptyRender()).toBeFalsy();
     });
+
 });

@@ -55,6 +55,4 @@ describe('src/components/item-add-form/item-add-form.tsx', () => {
         //Then
         expect(wrapper.state().label).toEqual('myValue');
     });
-
-    it('should')
 });
