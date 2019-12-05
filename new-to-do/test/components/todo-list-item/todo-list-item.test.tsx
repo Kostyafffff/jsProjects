@@ -51,30 +51,6 @@ describe('src/components/todo-list-item/todo-list-item.tsx', () => {
         expect(wrapper.find(expectedClass)).toHaveLength(1);
     });
 
-    it.each`
-    expectedClass                 | expectedLength
-    ${'.btn.btn-outline-success'} |     1
-    ${'.btn.btn-outline-danger'}  |     1
-    ${'.fa.fa-exclamation'}       |     1
-    ${'.fa.fa-trash-o'}           |     1
-    ${'.todo-list-item-label'}    |     1
-    `('elements of list should have expected class $expectedClass ', ( {expectedClass, expectedLength} ) => {
-        //Given
-
-        const currentProps: TodoListItemProps = {
-            ...props
-        };
-
-        const wrapper = mount(<TodoListItem {...currentProps} />);
-
-        //When
-        const element = wrapper.find(expectedClass);
-
-        //Then
-        expect(element).toHaveLength(expectedLength);
-    });
-
-
     it('should have classNames with params', () => {
         //When
         const wrapper = shallow(<TodoListItem {...props}/>);
@@ -123,5 +99,30 @@ describe('src/components/todo-list-item/todo-list-item.tsx', () => {
         const label = wrapper.find('.btn.btn-outline-danger.btn-sm');
 
         expect(label.prop('onClick')).toEqual(props.onDeleted);
+    });
+
+    it.each`
+    expectedClass                 | expectedLength     
+    ${'.btn.btn-outline-success'} |     ${1}                        
+    ${'.btn.btn-outline-danger'}  |     ${1}                               
+    ${'.fa.fa-exclamation'}       |     ${1}           
+    ${'.fa.fa-trash-o'}           |     ${1}            
+    ${'.todo-list-item-label'}    |     ${1}            
+    ${'.button-wrapper'}          |     ${1}            
+    ${'.button-wrapper > button'} |     ${2}            
+    `('elements of list should have expected class $expectedClass with $expectedLength', ( {expectedClass, expectedLength} ) => {
+
+        //Given
+        const currentProps: TodoListItemProps = {
+            ...props
+        };
+
+        const wrapper = mount(<TodoListItem {...currentProps} />);
+
+        //When
+        const element = wrapper.find(expectedClass);
+
+        //Then
+        expect(element).toHaveLength(expectedLength);
     });
 });
