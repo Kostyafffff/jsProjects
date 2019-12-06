@@ -21,7 +21,7 @@ export class App extends Component<Readonly<{}>, IState> {
         toDoData: [
             this.createTodoItem('Setup React project ToDo List'),
             this.createTodoItem('Rewrite ToDo list with typescript'),
-            this.createTodoItem('Create tests with Jest and Nzim'),
+            this.createTodoItem('Create tests with Jest and Enzyme'),
         ],
         term: '',
         filter: 'active',

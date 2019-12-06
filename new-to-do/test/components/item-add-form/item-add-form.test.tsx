@@ -41,6 +41,7 @@ describe('src/components/item-add-form/item-add-form.tsx', () => {
     });
 
     it('onLabelChange', () => {
+
         //Given
         const wrapper = mount<ItemAddForm>(<ItemAddForm {...props}/>);
         wrapper.setState({ label: '' });

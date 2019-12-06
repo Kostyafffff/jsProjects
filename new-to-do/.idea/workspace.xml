@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20cb7b6a-42c0-4728-a0a1-8f7c0c56294a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/components/search-panel/search-panel.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/components/app-header/app-header.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jest-cache/haste-map-aab304a2244054adbc96de0292ffaf6a-01b453e27df68d811ad16bfb5c582e07-d126cf97a655e3dad4bddafcefe64212" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/haste-map-aab304a2244054adbc96de0292ffaf6a-01b453e27df68d811ad16bfb5c582e07-d126cf97a655e3dad4bddafcefe64212" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jest-cache/perf-cache-aab304a2244054adbc96de0292ffaf6a-d41d8cd98f00b204e9800998ecf8427e" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/perf-cache-aab304a2244054adbc96de0292ffaf6a-d41d8cd98f00b204e9800998ecf8427e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/components/todo-list/todo-list.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/todo-list/todo-list.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/components/item-add-form/item-add-form.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/item-add-form/item-add-form.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/components/search-panel/search-panel.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/search-panel/search-panel.test.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,20 +25,26 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/components/search-panel/search-panel.tsx">
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/test/components/item-add-form/item-add-form.test.tsx">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="50">
-                    <caret line="2" column="26" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="26" />
+                  <state relative-caret-position="-75">
+                    <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+                    <folding>
+                      <element signature="e#0#31#0" expanded="true" />
+                    </folding>
                   </state>
                 </provider>
               </entry>
             </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/components/search-panel/types-search-panel.ts">
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/test/components/todo-list-item/todo-list-item.test.tsx">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state>
-                    <caret column="17" selection-start-column="17" selection-end-column="17" />
+                  <state relative-caret-position="-277">
+                    <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+                    <folding>
+                      <element signature="e#0#26#0" expanded="true" />
+                    </folding>
                   </state>
                 </provider>
               </entry>
@@ -50,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/todo-list/types-todo-list.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="200">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -66,10 +75,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/todo-list/todo-list.tsx">
+        <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+            <state relative-caret-position="-1">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -78,10 +87,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/components/item-add-form/item-add-form.test.tsx">
+        <entry file="file://$PROJECT_DIR$/test/components/search-panel/search-panel.test.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+            <state relative-caret-position="325">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -90,10 +99,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/components/search-panel/search-panel.test.tsx">
+        <entry file="file://$PROJECT_DIR$/test/components/app-header/app-header.test.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="600">
+              <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -102,20 +111,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/app/App.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2677">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/search-panel/search-panel.css">
+        <entry file="file://$PROJECT_DIR$/config/jest/cssTransform.js">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jest.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-25">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/components/todo-list/todo-list.test.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -130,6 +148,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>setupTestFrameworkScriptFile</find>
+      <find>searchPanel</find>
+      <find>wrapper</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,14 +163,16 @@
         <option value="$PROJECT_DIR$/src/components/todo-list/todo-list.tsx" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/test/components/item-add-form/item-add-form.test.tsx" />
         <option value="$PROJECT_DIR$/config/jest/setup.js" />
         <option value="$PROJECT_DIR$/jest.config.js" />
         <option value="$PROJECT_DIR$/test/components/todo-list-item/todo-list-item.test.tsx" />
         <option value="$PROJECT_DIR$/test/components/todo-list/todo-list.test.tsx" />
         <option value="$PROJECT_DIR$/test/components/search-panel/search-panel.test.ts" />
         <option value="$PROJECT_DIR$/src/components/search-panel/search-panel.tsx" />
+        <option value="$PROJECT_DIR$/test/components/item-add-form/item-add-form.test.tsx" />
+        <option value="$PROJECT_DIR$/src/components/app/App.tsx" />
         <option value="$PROJECT_DIR$/test/components/search-panel/search-panel.test.tsx" />
+        <option value="$PROJECT_DIR$/test/components/app-header/app-header.test.tsx" />
       </list>
     </option>
   </component>
@@ -158,8 +180,8 @@
     <scope name="proj" pattern="file[new-to-do]:src//*||file[new-to-do]:test//*" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1910" />
-    <option name="y" value="79" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -210,6 +232,13 @@
               <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="app-header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="search-panel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -222,6 +251,13 @@
             <path>
               <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
               <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="todo-list-item" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -229,6 +265,13 @@
               <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="app-header" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
@@ -236,6 +279,13 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="item-add-form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="search-panel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
@@ -261,7 +311,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebStromWorkingProjects/ui-core" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -290,7 +340,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.src/components/item-add-form/item-add-form.tsx (1)">
+  <component name="RunManager" selected="Jest.src/components/app-header/app-header">
     <configuration default="true" type="JavaScriptTestRunnerJest">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -298,6 +348,33 @@
       <working-dir value="" />
       <envs />
       <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="src/components/app-header/app-header" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/test/components/app-header/app-header.test.tsx" />
+      <test-names>
+        <test-name value="src/components/app-header/app-header" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="src/components/app-header/app-header.should TodoListItemProps mount component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/components/app-header/app-header.test.tsx" />
+      <test-names>
+        <test-name value="src/components/app-header/app-header" />
+        <test-name value="should TodoListItemProps mount component" />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="src/components/item-add-form/item-add-form.tsx (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -326,61 +403,34 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="src/components/todo-list-item/todo-list-item.tsx.should be defined (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="src/components/item-add-form/item-add-form.tsx.onSearchChange test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/test/components/todo-list/todo-list.test.tsx" />
+      <test-file value="$PROJECT_DIR$/test/components/search-panel/search-panel.test.tsx" />
       <test-names>
-        <test-name value="src/components/todo-list-item/todo-list-item.tsx" />
-        <test-name value="should be defined" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="src/components/todo-list/todo-list.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/test/components/todo-list/todo-list.test.tsx" />
-      <test-names>
-        <test-name value="src/components/todo-list/todo-list.tsx" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="src/components/todo-list/todo-list.tsx.should TodoListItemProps mount component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/test/components/todo-list/todo-list.test.tsx" />
-      <test-names>
-        <test-name value="src/components/todo-list/todo-list.tsx" />
-        <test-name value="should TodoListItemProps mount component" />
+        <test-name value="src/components/item-add-form/item-add-form.tsx" />
+        <test-name value="onSearchChange test" />
       </test-names>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.src/components/todo-list-item/todo-list-item.tsx.should be defined (1)" />
-      <item itemvalue="Jest.src/components/todo-list/todo-list.tsx" />
-      <item itemvalue="Jest.src/components/todo-list/todo-list.tsx.should TodoListItemProps mount component" />
       <item itemvalue="Jest.src/components/item-add-form/item-add-form.tsx" />
       <item itemvalue="Jest.src/components/item-add-form/item-add-form.tsx (1)" />
+      <item itemvalue="Jest.src/components/item-add-form/item-add-form.tsx.onSearchChange test" />
+      <item itemvalue="Jest.src/components/app-header/app-header.should TodoListItemProps mount component" />
+      <item itemvalue="Jest.src/components/app-header/app-header" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.src/components/item-add-form/item-add-form.tsx (1)" />
+        <item itemvalue="Jest.src/components/app-header/app-header" />
+        <item itemvalue="Jest.src/components/app-header/app-header.should TodoListItemProps mount component" />
         <item itemvalue="Jest.src/components/item-add-form/item-add-form.tsx" />
-        <item itemvalue="Jest.src/components/todo-list/todo-list.tsx.should TodoListItemProps mount component" />
-        <item itemvalue="Jest.src/components/todo-list/todo-list.tsx" />
-        <item itemvalue="Jest.src/components/todo-list-item/todo-list-item.tsx.should be defined (1)" />
+        <item itemvalue="Jest.src/components/item-add-form/item-add-form.tsx (1)" />
+        <item itemvalue="Jest.src/components/item-add-form/item-add-form.tsx.onSearchChange test" />
       </list>
     </recent_temporary>
   </component>
@@ -400,39 +450,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="src_components_todo-list_todo-list_tsx - 2019.12.05 at 17h 57m 30s.xml">
-      <configuration name="src/components/todo-list/todo-list.tsx" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="src_components_app-header_app-header - 2019.12.06 at 14h 41m 45s.xml">
+      <configuration name="src/components/app-header/app-header" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="src_components_todo-list_todo-list_tsx_should_TodoListItemProps_mount_component - 2019.12.05 at 18h 01m 04s.xml">
-      <configuration name="src/components/todo-list/todo-list.tsx.should TodoListItemProps mount component" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="src_components_app-header_app-header - 2019.12.06 at 14h 43m 50s.xml">
+      <configuration name="src/components/app-header/app-header" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="src_components_todo-list_todo-list_tsx - 2019.12.05 at 18h 01m 17s.xml">
-      <configuration name="src/components/todo-list/todo-list.tsx" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="src_components_app-header_app-header - 2019.12.06 at 15h 01m 40s.xml">
+      <configuration name="src/components/app-header/app-header" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="src_components_todo-list_todo-list_tsx_should_TodoListItemProps_mount_component - 2019.12.06 at 09h 39m 49s.xml">
-      <configuration name="src/components/todo-list/todo-list.tsx.should TodoListItemProps mount component" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="src_components_app-header_app-header - 2019.12.06 at 15h 37m 46s.xml">
+      <configuration name="src/components/app-header/app-header" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="src_components_todo-list_todo-list_tsx_should_TodoListItemProps_mount_component - 2019.12.06 at 09h 41m 14s.xml">
-      <configuration name="src/components/todo-list/todo-list.tsx.should TodoListItemProps mount component" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="src_components_app-header_app-header - 2019.12.06 at 15h 38m 06s.xml">
+      <configuration name="src/components/app-header/app-header" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="src_components_todo-list_todo-list_tsx - 2019.12.06 at 09h 41m 48s.xml">
-      <configuration name="src/components/todo-list/todo-list.tsx" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="src_components_app-header_app-header - 2019.12.06 at 15h 58m 04s.xml">
+      <configuration name="src/components/app-header/app-header" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="src_components_todo-list_todo-list_tsx_should_TodoListItemProps_mount_component - 2019.12.06 at 09h 44m 19s.xml">
-      <configuration name="src/components/todo-list/todo-list.tsx.should TodoListItemProps mount component" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="src_components_app-header_app-header - 2019.12.06 at 15h 59m 43s.xml">
+      <configuration name="src/components/app-header/app-header" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="src_components_todo-list_todo-list_tsx_should_TodoListItemProps_mount_component - 2019.12.06 at 09h 51m 33s.xml">
-      <configuration name="src/components/todo-list/todo-list.tsx.should TodoListItemProps mount component" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="src_components_app-header_app-header - 2019.12.06 at 16h 00m 12s.xml">
+      <configuration name="src/components/app-header/app-header" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="src_components_item-add-form_item-add-form_tsx - 2019.12.06 at 09h 52m 27s.xml">
-      <configuration name="src/components/item-add-form/item-add-form.tsx" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="src_components_app-header_app-header - 2019.12.06 at 16h 00m 43s.xml">
+      <configuration name="src/components/app-header/app-header" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="src_components_item-add-form_item-add-form_tsx_(1) - 2019.12.06 at 09h 59m 10s.xml">
-      <configuration name="src/components/item-add-form/item-add-form.tsx (1)" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="src_components_app-header_app-header - 2019.12.06 at 16h 06m 39s.xml">
+      <configuration name="src/components/app-header/app-header" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20448000" />
+    <option name="totallyTimeSpent" value="39779000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,22 +495,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913943" visible="true" weight="0.21152829" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913943" visible="true" weight="0.19460604" />
       <window_info id="Structure" order="1" sideWeight="0.5008606" side_tool="true" weight="0.24960339" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35063437" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42329872" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2814302" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36793542" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298731" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3298731" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.28373703" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2249135" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -476,6 +525,16 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>wrapper.state('term')</expression-string>
+        <language-id>TypeScript JSX</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>wrapper.state()</expression-string>
+        <language-id>TypeScript JSX</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>wrapper</expression-string>
         <language-id>TypeScript JSX</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -483,21 +542,8 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/index.tsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app-header/app-header.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app-header/types-app-header.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
@@ -506,16 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="55" selection-start-column="55" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app-header/app-header.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -530,9 +566,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/jest/cssTransform.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/jest/fileTransform.js">
@@ -567,13 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jest.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/jest-jasmine2/build/jasmine/Env.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -593,16 +619,6 @@
         <state relative-caret-position="-350" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/todo-list/todo-list.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -613,52 +629,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app/app-types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/todo-list/types-todo-list.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/components/todo-list/todo-list.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/components/todo-list-item/todo-list-item.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-950">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/components/item-add-form/item-add-form.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/search-panel/search-panel.css">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-app-env.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/setupTests.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/search-panel/types-search-panel.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -667,27 +658,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app/App.tsx">
+    <entry file="file://$PROJECT_DIR$/src/components/app-header/app-header.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/search-panel/search-panel.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2677">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="248">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app-header/types-app-header.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app-header/app-header.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/search-panel/search-panel.tsx">
+    <entry file="file://$PROJECT_DIR$/test/components/item-add-form/item-add-form.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="-75">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/components/todo-list-item/todo-list-item.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-277">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/components/todo-list/todo-list.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jest.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/jest/cssTransform.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/todo-list/types-todo-list.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/app-types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/components/search-panel/search-panel.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="325">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/components/app-header/app-header.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
