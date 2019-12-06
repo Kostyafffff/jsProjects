@@ -32,13 +32,11 @@ describe('src/components/todo-list/todo-list.tsx', () => {
         expect(wrapper.isEmptyRender()).toBeFalsy();
     });
 
-
     it.each`
-        expectedClass          | expectedLength
-        ${'.list-group-item'} | ${1}
+        expectedClass              | expectedLength
+        ${'.list-group-item'}      | ${1}
         ${'.list-group.todo-list'} | ${1}
-        `('should render $expectedClass when done = $done important = $important', ( { expectedClass }) => {
-
+        `('should render $expectedClass', ( { expectedClass } ) => {
         //Given
         const currentProps: TodoListProps = {
             ...toDoListProps
@@ -50,5 +48,4 @@ describe('src/components/todo-list/todo-list.tsx', () => {
         //Then
         expect(wrapper.find(expectedClass)).toHaveLength(1);
     });
-
 });
