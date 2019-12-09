@@ -1,8 +1,8 @@
 import { mount } from 'enzyme';
 import sinon from 'sinon';
-import { AppHeader } from 'components/app-header/app-header';
+import { AppHeader } from '../../../src/components/app-header/app-header';
 import * as React from 'react';
-import { IProps } from 'components/app-header/types-app-header';
+import { IProps } from '../../../src/components/app-header/types-app-header';
 
 describe('src/components/app-header/app-header', () => {
 
@@ -21,18 +21,19 @@ describe('src/components/app-header/app-header', () => {
     });
 
     it('should TodoListItemProps mount component', () => {
+
         //Given
         const wrapper = mount(<AppHeader {...props} />);
 
-        //Then
         expect(wrapper.isEmptyRender()).toBeFalsy();
     });
 
     it.each`
         expectedClass           | expectedLength
-        ${'.app-header.d-flex'} | ${1}
+        ${'.app-header'}        | ${1}
         ${'.app-header > h1'}   | ${1}
         ${'.app-header > h2'}   | ${1}
+     
         `('should render in AppHeader $expectedClass', ({expectedClass, expectedLength}) => {
 
         //Given
@@ -45,8 +46,6 @@ describe('src/components/app-header/app-header', () => {
 
         //Then
         expect(wrapper.find(expectedClass)).toHaveLength(expectedLength);
-
-        //протестить текст в h1, h2
     });
 
     it.each`
@@ -56,14 +55,13 @@ describe('src/components/app-header/app-header', () => {
         ${-1}         | ${-2}      |   ${-1}       |   ${-2}  
         ${1123}       | ${0}       |   ${1123}     |   ${0}            
         ${0}          | ${0}       |   ${0}        |   ${0} 
-        ${0}          | ${1123}    |   ${0}        |   ${1123} 
     `('Should change props of AppHeader', ({ toDoActual, doneActual, toDoExpected, doneExpected }) => {
 
-         //Given
+        //Given
         const currentProps: IProps = {
-           toDo: toDoActual,
-           done: doneActual
-       };
+            toDo: toDoActual,
+            done: doneActual
+        };
 
         //When
         const wrapper = mount(< AppHeader {...currentProps} />);

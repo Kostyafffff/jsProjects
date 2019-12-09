@@ -78,20 +78,20 @@ export class App extends Component<Readonly<{}>, IState> {
         });
     };
 
-    toggleProperty(arr: IToDoItem[], id: number, propName: string): IToDoItem[] {
+    toggleProperty = (
+        arr: IToDoItem[],
+        id: number,
+        propName: string,
+    ): IToDoItem[] => arr.map(element => {
+        if (element.id === id) {
+            return {
+                ...element,
+                [propName]: !element[propName],
+            };
+        }
 
-        return arr.map(element => {
-
-            if (element.id === id) {
-                return {
-                    ...element,
-                    [propName]: !element[propName],
-                };
-            }
-
-            return { ...element };
-        });
-    }
+        return { ...element };
+    });
 
     onToggleDone = (id: number): void => {
         this.setState(({ toDoData }) => {
@@ -101,13 +101,9 @@ export class App extends Component<Readonly<{}>, IState> {
         })
     };
 
-    onSearchChange = (term: string): void => {
-        this.setState({ term });
-    };
+    onSearchChange = (term: string): void => this.setState({ term });
 
-    onFilterChange = (filter: string): void => {
-        this.setState({ filter })
-    };
+    onFilterChange = (filter: string): void => this.setState({ filter });
 
     render(): JSX.Element {
         const { toDoData, filter, term } = this.state;

@@ -15,8 +15,10 @@ describe('src/components/item-add-form/item-add-form.tsx', () => {
     });
 
     it('should TodoListItemProps mount component', () => {
+        //When
         const wrapper = mount(<ItemAddForm {...props} />);
 
+        //Then
         expect(wrapper.isEmptyRender()).toBeFalsy();
     });
 
@@ -41,7 +43,6 @@ describe('src/components/item-add-form/item-add-form.tsx', () => {
     });
 
     it('onLabelChange', () => {
-
         //Given
         const wrapper = mount<ItemAddForm>(<ItemAddForm {...props}/>);
         wrapper.setState({ label: '' });
@@ -56,4 +57,8 @@ describe('src/components/item-add-form/item-add-form.tsx', () => {
         //Then
         expect(wrapper.state().label).toEqual('myValue');
     });
+
+    //селекторы
+    //текст
+    // пропсы
 });

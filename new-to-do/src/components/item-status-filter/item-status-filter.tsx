@@ -4,20 +4,20 @@ import { IPropsItemStatusFilter, IButtons } from './types-status-filter';
 import './item-status-filter.css';
 export class ItemStatusFilter extends Component<IPropsItemStatusFilter> {
     buttons: IButtons[] = [
-        {
-            name: 'all', label: 'All',
-        },
-        {
-            name: 'active', label: 'Active'
-        },
-        {
-            name: 'done', label: 'Done'
-        }
+        { name: 'all', label: 'All' },
+        { name: 'active', label: 'Active' },
+        { name: 'done', label: 'Done' },
     ];
+
+    onButtonClick = ({ currentTarget: { accessKey } }: React.MouseEvent<HTMLButtonElement, MouseEvent>): void => {
+        const { onFilterChange } = this.props;
+
+        onFilterChange(accessKey);
+    };
 
     render(): JSX.Element {
 
-        const { filter, onFilterChange } = this.props;
+        const { filter } = this.props;
 
         const buttons = this.buttons.map(({ name, label }) => {
             const isActive = filter === name;
@@ -25,11 +25,14 @@ export class ItemStatusFilter extends Component<IPropsItemStatusFilter> {
             const clazz = isActive ? 'btn-info' : 'btn-outline-secondary';
 
             return (
-                <button type="button"
-                        className={`btn ${clazz}`}
-                        key={name}
-                        onClick={ (): void => onFilterChange(name)}>
-                    {label}
+                <button
+                    type="button"
+                    className={`btn ${clazz}`}
+                    key={name}
+                    accessKey={name}
+                    onClick={this.onButtonClick}
+                >
+                    { label }
                 </button>
             )
         });
@@ -37,7 +40,7 @@ export class ItemStatusFilter extends Component<IPropsItemStatusFilter> {
         return (
             <div className="btn-group">
                 <div className="btn-group-wrapper">
-                    {buttons}
+                    { buttons }
                 </div>
             </div>
         );
