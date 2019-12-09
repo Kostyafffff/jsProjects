@@ -1,4 +1,4 @@
-import { mount } from 'enzyme';
+import {mount, shallow} from 'enzyme';
 import { SearchPanel } from 'components/search-panel/search-panel';
 import sinon from 'sinon';
 import { IPropsSearchPanel } from '../../../src/components/search-panel/types-search-panel';
@@ -56,5 +56,15 @@ describe('src/components/item-add-form/item-add-form.tsx', () => {
 
         //Then
         expect(wrapper.find(expectedClass)).toHaveLength(expectedLength);
+    });
+
+    it('check placeholder text in search form', () => {
+
+        //When
+        const content = shallow(<SearchPanel { ...props } />).find('.form-control.search.input');
+
+        //Then
+        expect(content).toHaveLength(1);
+        expect(content.props().placeholder).toEqual('search');
     });
 });

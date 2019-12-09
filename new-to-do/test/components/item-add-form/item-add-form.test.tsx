@@ -1,9 +1,8 @@
-import { mount } from 'enzyme';
+import {mount, shallow} from 'enzyme';
 import React, { ChangeEvent } from 'react';
 import { ItemAddForm } from 'components/item-add-form/item-add-form';
 import { IPropsItemAddForm } from 'components/item-add-form/types-item-add-form';
 import sinon from 'sinon';
-
 describe('src/components/item-add-form/item-add-form.tsx', () => {
     const onAddItemStub = sinon.stub();
     const props: IPropsItemAddForm = {
@@ -42,7 +41,7 @@ describe('src/components/item-add-form/item-add-form.tsx', () => {
         expect(wrapper.state('label')).toEqual('');
     });
 
-    it('onLabelChange', () => {
+    it('onLabelChange check', () => {
         //Given
         const wrapper = mount<ItemAddForm>(<ItemAddForm {...props}/>);
         wrapper.setState({ label: '' });
@@ -58,7 +57,44 @@ describe('src/components/item-add-form/item-add-form.tsx', () => {
         expect(wrapper.state().label).toEqual('myValue');
     });
 
-    //селекторы
-    //текст
-    // пропсы
+    // селекторы
+    it.each`
+        expectedClass                                               | expectedLength
+        ${'.item-add-form'}                                         | ${1}
+        ${'.item-add-form-wrapper'}                                 | ${1}
+        ${'.item-add-form-wrapper > input'}                         | ${1}
+        ${'.item-add-form-wrapper > button'}                        | ${1}
+        `('should render in AppHeader $expectedClass', ({expectedClass, expectedLength}) => {
+
+        const currentProps = {
+            ...props ,
+            filter: 'active',
+        };
+
+        //When
+        const wrapper = mount(<ItemAddForm {...currentProps} />);
+
+        //Then
+        expect(wrapper.find(expectedClass)).toHaveLength(expectedLength);
+    });
+
+    it('check placeholder text in add form', () => {
+        //When
+        const content = shallow(<ItemAddForm { ...props } />).find('.item-add-form-wrapper > input');
+
+        //Then
+        expect(content).toHaveLength(1);
+        expect(content.props().placeholder).toEqual('Needs to be Done');
+    });
+
+    it('check text in add form', () => {
+        //When
+        const content = shallow(<ItemAddForm { ...props } />).find('.item-add-form-wrapper > input');
+
+        //Then
+        expect(content).toHaveLength(1);
+        expect(content.props().value).toEqual('');
+
+
+    });
 });
