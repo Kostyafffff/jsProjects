@@ -87,14 +87,13 @@ describe('src/components/item-add-form/item-add-form.tsx', () => {
         expect(content.props().placeholder).toEqual('Needs to be Done');
     });
 
-    it('check text in add form', () => {
+    it('check add button text', () => {
         //When
-        const content = shallow(<ItemAddForm { ...props } />).find('.item-add-form-wrapper > input');
+        const content = mount(<ItemAddForm { ...props } />).find('.add-item-element');
 
         //Then
         expect(content).toHaveLength(1);
-        expect(content.props().value).toEqual('');
-
-
+        expect(content.text()).toStrictEqual('Add');
     });
+
 });
