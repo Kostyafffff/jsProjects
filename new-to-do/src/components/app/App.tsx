@@ -50,6 +50,7 @@ export class App extends Component<{}, IState> {
                 return items.filter((item: IToDoItem) => item.done);
 
             case 'all':
+
             default:
                 return items;
         }

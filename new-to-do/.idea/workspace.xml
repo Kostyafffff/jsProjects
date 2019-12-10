@@ -24,8 +24,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/components/app/App.tsx">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="410">
-                    <caret line="77" column="25" lean-forward="true" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+                  <state relative-caret-position="348">
+                    <caret line="52" selection-start-line="52" selection-end-line="52" />
                     <folding>
                       <element signature="e#0#31#0" expanded="true" />
                     </folding>
@@ -99,10 +99,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/components/app-test/app.test.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="194" column="23" lean-forward="true" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
+            <state relative-caret-position="77">
+              <caret line="271" column="18" lean-forward="true" selection-start-line="271" selection-start-column="18" selection-end-line="271" selection-end-column="18" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#326#342#0" />
+                <element signature="e#733#790#0" />
+                <element signature="e#602#754#0" />
+                <element signature="e#1069#1283#0" />
+                <element signature="e#1490#1506#0" />
+                <element signature="e#1977#2383#0" />
+                <element signature="e#2566#2582#0" />
+                <element signature="e#2397#2413#0" />
+                <element signature="e#2797#2813#0" />
+                <element signature="e#3044#3288#0" />
+                <element signature="e#3314#3330#0" />
+                <element signature="e#5214#5416#0" />
+                <element signature="e#5240#6025#0" />
+                <element signature="e#6188#6345#0" />
+                <element signature="e#6359#6520#0" />
+                <element signature="e#6520#6702#0" />
+                <element signature="e#6763#6920#0" />
+                <element signature="e#6934#7095#0" />
               </folding>
             </state>
           </provider>
@@ -319,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.src/components/App/App.onToggleImportant check">
+  <component name="RunManager" selected="Jest.src/components/App/App.search check">
     <configuration default="true" type="JavaScriptTestRunnerJest">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -342,7 +360,7 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="src/components/App/App.filter check" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="src/components/App/App.filter empty" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -352,11 +370,11 @@
       <test-file value="$PROJECT_DIR$/test/components/app-test/app.test.tsx" />
       <test-names>
         <test-name value="src/components/App/App" />
-        <test-name value="filter check" />
+        <test-name value="filter empty" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="src/components/App/App.onFilter change" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="src/components/App/App.onAddItem check" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -366,11 +384,11 @@
       <test-file value="$PROJECT_DIR$/test/components/app-test/app.test.tsx" />
       <test-names>
         <test-name value="src/components/App/App" />
-        <test-name value="onFilter change" />
+        <test-name value="onAddItem check" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="src/components/App/App.onSearchChange check" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="src/components/App/App.onToggleDone check" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -380,11 +398,11 @@
       <test-file value="$PROJECT_DIR$/test/components/app-test/app.test.tsx" />
       <test-names>
         <test-name value="src/components/App/App" />
-        <test-name value="onSearchChange check" />
+        <test-name value="onToggleDone check" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="src/components/App/App.onToggleImportant check" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="src/components/App/App.search check" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -394,24 +412,24 @@
       <test-file value="$PROJECT_DIR$/test/components/app-test/app.test.tsx" />
       <test-names>
         <test-name value="src/components/App/App" />
-        <test-name value="onToggleImportant check" />
+        <test-name value="search check" />
       </test-names>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.src/components/App/App.onSearchChange check" />
-      <item itemvalue="Jest.src/components/App/App.onFilter change" />
-      <item itemvalue="Jest.src/components/App/App.filter check" />
       <item itemvalue="Jest.src/components/App/App" />
-      <item itemvalue="Jest.src/components/App/App.onToggleImportant check" />
+      <item itemvalue="Jest.src/components/App/App.filter empty" />
+      <item itemvalue="Jest.src/components/App/App.onAddItem check" />
+      <item itemvalue="Jest.src/components/App/App.onToggleDone check" />
+      <item itemvalue="Jest.src/components/App/App.search check" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.src/components/App/App.onToggleImportant check" />
+        <item itemvalue="Jest.src/components/App/App.search check" />
         <item itemvalue="Jest.src/components/App/App" />
-        <item itemvalue="Jest.src/components/App/App.filter check" />
-        <item itemvalue="Jest.src/components/App/App.onFilter change" />
-        <item itemvalue="Jest.src/components/App/App.onSearchChange check" />
+        <item itemvalue="Jest.src/components/App/App.onToggleDone check" />
+        <item itemvalue="Jest.src/components/App/App.onAddItem check" />
+        <item itemvalue="Jest.src/components/App/App.filter empty" />
       </list>
     </recent_temporary>
   </component>
@@ -431,39 +449,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="src_components_App_App_deleteItem_check - 2019.12.10 at 15h 39m 14s.xml">
-      <configuration name="src/components/App/App.deleteItem check" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="src_components_App_App_filter_empty - 2019.12.10 at 17h 21m 16s.xml">
+      <configuration name="src/components/App/App.filter empty" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="src_components_App_App_onSearchChange_check - 2019.12.10 at 16h 07m 24s.xml">
-      <configuration name="src/components/App/App.onSearchChange check" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="src_components_App_App_onFilter_change - 2019.12.10 at 16h 12m 04s.xml">
-      <configuration name="src/components/App/App.onFilter change" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="src_components_App_App_filter_check - 2019.12.10 at 16h 21m 54s.xml">
-      <configuration name="src/components/App/App.filter check" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="src_components_App_App_filter_check - 2019.12.10 at 16h 23m 32s.xml">
-      <configuration name="src/components/App/App.filter check" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="src_components_App_App_filter_check - 2019.12.10 at 16h 25m 10s.xml">
-      <configuration name="src/components/App/App.filter check" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="src_components_App_App_filter_check - 2019.12.10 at 16h 27m 54s.xml">
-      <configuration name="src/components/App/App.filter check" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="src_components_App_App_filter_check - 2019.12.10 at 16h 40m 47s.xml">
-      <configuration name="src/components/App/App.filter check" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="src_components_App_App - 2019.12.10 at 16h 42m 28s.xml">
+    <history-entry file="src_components_App_App - 2019.12.10 at 17h 27m 58s.xml">
       <configuration name="src/components/App/App" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="src_components_App_App_onToggleImportant_check - 2019.12.10 at 16h 55m 31s.xml">
-      <configuration name="src/components/App/App.onToggleImportant check" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="src_components_App_App_onAddItem_check - 2019.12.10 at 17h 28m 27s.xml">
+      <configuration name="src/components/App/App.onAddItem check" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="src_components_App_App_onToggleDone_check - 2019.12.10 at 17h 29m 32s.xml">
+      <configuration name="src/components/App/App.onToggleDone check" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="src_components_App_App - 2019.12.10 at 17h 29m 52s.xml">
+      <configuration name="src/components/App/App" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="src_components_App_App - 2019.12.10 at 17h 31m 29s.xml">
+      <configuration name="src/components/App/App" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="src_components_App_App - 2019.12.10 at 17h 32m 40s.xml">
+      <configuration name="src/components/App/App" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="src_components_App_App_search_check - 2019.12.10 at 17h 49m 44s.xml">
+      <configuration name="src/components/App/App.search check" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="src_components_App_App_search_check - 2019.12.10 at 17h 50m 38s.xml">
+      <configuration name="src/components/App/App.search check" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="src_components_App_App_search_check - 2019.12.10 at 17h 52m 00s.xml">
+      <configuration name="src/components/App/App.search check" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58777000" />
+    <option name="totallyTimeSpent" value="61047000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,7 +501,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3702422" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37946942" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3587082" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -520,18 +538,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/app/App.tsx</url>
-          <line>48</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/new_to_do$src_components_todo_list_item_todo_list_item_tsx.info" NAME="src/components/todo-list-item/todo-list-item.tsx Coverage Results" MODIFIED="1575551517458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -824,8 +830,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/app/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="77" column="25" lean-forward="true" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+        <state relative-caret-position="348">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -834,10 +840,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/components/app-test/app.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="194" column="23" lean-forward="true" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
+        <state relative-caret-position="77">
+          <caret line="271" column="18" lean-forward="true" selection-start-line="271" selection-start-column="18" selection-end-line="271" selection-end-column="18" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#326#342#0" />
+            <element signature="e#733#790#0" />
+            <element signature="e#602#754#0" />
+            <element signature="e#1069#1283#0" />
+            <element signature="e#1490#1506#0" />
+            <element signature="e#1977#2383#0" />
+            <element signature="e#2566#2582#0" />
+            <element signature="e#2397#2413#0" />
+            <element signature="e#2797#2813#0" />
+            <element signature="e#3044#3288#0" />
+            <element signature="e#3314#3330#0" />
+            <element signature="e#5214#5416#0" />
+            <element signature="e#5240#6025#0" />
+            <element signature="e#6188#6345#0" />
+            <element signature="e#6359#6520#0" />
+            <element signature="e#6520#6702#0" />
+            <element signature="e#6763#6920#0" />
+            <element signature="e#6934#7095#0" />
           </folding>
         </state>
       </provider>

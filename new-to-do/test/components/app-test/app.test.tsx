@@ -53,7 +53,7 @@ describe('src/components/App/App', () => {
             label: text,
             important: false,
             done: false,
-            id: 104,
+            id: 103,
         };
 
         //When
@@ -211,7 +211,7 @@ describe('src/components/App/App', () => {
         expect(actual).toEqual([expected]);
     });
 
-    it('filter empty', () => {
+    it('filter empty', () =>{
         //Given
         const instance = mount<App>(<App />).instance();
 
@@ -222,9 +222,71 @@ describe('src/components/App/App', () => {
         expect(actual).toEqual([]);
     });
 
+    it('filter done', () => {
+        //Given
+        const instance = mount<App>(<App />).instance();
+        const items = [
+            {
+                label: 'Setup React project ToDo List',
+                important: false,
+                done: true,
+                id: 100
+            },
+            {
+                label: 'Rewrite ToDo list with typescript',
+                important: false,
+                done: true,
+                id: 101
+            }
+        ];
 
+        //When
+        const actual = instance.filter(items, 'done');
 
-    //filter
-    //search
-    //toggleProperty
+        //Then
+        expect([...actual]).toEqual([...items]);
+    });
+
+    it('search check', () =>{
+        //Given
+        const instance = mount<App>(<App />).instance();
+        const items = [
+            {
+                label: 'Setup React project ToDo List',
+                important: false,
+                done: true,
+                id: 100
+            },
+            {
+                label: 'Rewrite ToDo list with typescript',
+                important: false,
+                done: true,
+                id: 101
+            },
+            {
+                label: 'Create tests with Jest and Enzyme',
+                important: false,
+                done: false,
+                id: 102
+            }];
+            //When
+            const expected = [
+                {
+                    label: 'Setup React project ToDo List',
+                    important: false,
+                    done: true,
+                    id: 100
+                },
+                {
+                    label: 'Rewrite ToDo list with typescript',
+                    important: false,
+                    done: true,
+                    id: 101
+                },
+            ];
+
+        const actual = instance.search(items, 'todo');
+        expect(actual.length).toEqual(2);
+        expect([...actual]).toEqual([...expected]);
+    })
 });
