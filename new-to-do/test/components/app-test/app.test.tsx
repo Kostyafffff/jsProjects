@@ -2,7 +2,6 @@ import { mount } from 'enzyme';
 import * as React from 'react';
 import sinon from 'sinon';
 import { App } from "../../../src/components/app/App";
-import {filter} from "minimatch";
 
 const state = {
   toDoData: [
@@ -121,11 +120,43 @@ describe('src/components/App/App', () => {
     it('onSearchChange check', () => {
         //Given
         const instance = mount<App>(<App />).instance();
+        const expected = 'while';
+
+        //When
+        instance.onSearchChange(expected);
+
+        //Then
+        expect(expected).toEqual(instance.state.term);
+    });
+
+    it('onFilter change', () => {
+        //Given
+        const instance = mount<App>(<App />).instance();
+        const expected = 'while';
+
+        //When
+        instance.onFilterChange(expected);
+
+        //Then
+        expect(expected).toEqual(instance.state.filter);
+    });
+
+    it('filter check', () => {
+        //Given
+        const instance = mount<App>(<App />).instance();
+
+
+        //When
+        instance.onToggleDone(100);
+        instance.onToggleDone(101);
+        instance.onToggleDone(102);
+
+
+        //Then
+        console.log(1);
     })
 
     //filter
     //search
     //toggleProperty
-    //onSearhChange
-    //onFilterChange
 });
