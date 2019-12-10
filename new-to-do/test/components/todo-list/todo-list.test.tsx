@@ -37,6 +37,7 @@ describe('src/components/todo-list/todo-list.tsx', () => {
         ${'.list-group-item'}      | ${1}
         ${'.list-group.todo-list'} | ${1}
         `('should render $expectedClass', ( { expectedClass } ) => {
+
         //Given
         const currentProps: TodoListProps = {
             ...toDoListProps

@@ -46,7 +46,6 @@ describe('src/components/app-header/app-header', () => {
         //Then
         expect(wrapper.find(expectedClass)).toHaveLength(expectedLength);
 
-        //протестить текст в h1, h2
     });
 
     it.each`
