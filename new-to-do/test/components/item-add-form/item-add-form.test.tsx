@@ -88,12 +88,13 @@ describe('src/components/item-add-form/item-add-form.tsx', () => {
     });
 
     it('check add button text', () => {
+        //Given
+        const content = mount<ItemAddForm>(<ItemAddForm { ...props } />);
         //When
-        const content = mount(<ItemAddForm { ...props } />).find('.add-item-element');
 
+        const button = content.find('.add-item-element');
         //Then
-        expect(content).toHaveLength(1);
-        expect(content.text()).toStrictEqual('Add');
+        expect(button.text()).toEqual('Add');
     });
 
 });
