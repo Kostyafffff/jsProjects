@@ -28,7 +28,6 @@ export class App extends Component<{}, IState> {
     };
 
     onAddItem = (text: string): void => {
-
         const newItem = this.createTodoItem(text);
 
         this.setState(({ toDoData }) => {
@@ -38,14 +37,9 @@ export class App extends Component<{}, IState> {
         });
     };
 
-    onToggleImportant = (id: number): void => {
-
-        this.setState( ({ toDoData }) => {
-            return {
-                toDoData: this.toggleProperty( toDoData, id, 'important')
-            }
-        })
-    };
+    onToggleImportant = (id: number): void => this.setState( ({ toDoData }) => ({
+        toDoData: this.toggleProperty(toDoData, id, 'important'),
+    }));
 
     filter(items : IToDoItem[], filter: string) : IToDoItem[] {
         switch (filter) {

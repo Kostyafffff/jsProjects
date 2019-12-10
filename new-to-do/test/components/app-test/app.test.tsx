@@ -1,7 +1,7 @@
 import { mount } from 'enzyme';
 import * as React from 'react';
 import sinon from 'sinon';
-import { App } from "../../../src/components/app/App";
+import { App } from 'components/app/App';
 
 const state = {
   toDoData: [
@@ -14,13 +14,11 @@ const state = {
 };
 
 describe('src/components/App/App', () => {
-
     beforeEach(() => {
         sinon.resetHistory();
     });
 
     it('App component should be rendered', () => {
-
         const wrapper = mount(<App {...state}/>);
 
         expect(wrapper.isEmptyRender()).toBeFalsy();
@@ -49,14 +47,15 @@ describe('src/components/App/App', () => {
     //onAddItem
     it('onAddItem check', () =>{
         //Given
-        const text: string = 'wake up in hell';
+        const text = 'wake up in hell';
         const instance = mount<App>(<App />).instance();
         const expected = {
             label: text,
             important: false,
             done: false,
-            id: instance.maxId,
+            id: 104,
         };
+
         //When
         instance.onAddItem(text);
 
@@ -64,27 +63,32 @@ describe('src/components/App/App', () => {
     });
 
     it('onToggleImportant check',() => {
-
         //Given
-        const instance = mount<App>(<App />).instance();
-        const expected = {
+        const wrapper = mount<App>(<App />);
+        const instance = wrapper.instance();
+        const toDoData = [{
             label: 'hello',
             important: false,
             done: false,
-            id: 103,
+            id: 99,
+        }];
+        const expected = {
+            label: 'hello',
+            important: true,
+            done: false,
+            id: 99,
         };
+        wrapper.setState({ toDoData });
 
         //When
-        instance.onAddItem(expected.label);
-        instance.onToggleImportant(103);
+        instance.onToggleImportant(99);
 
         //Then
-        expect(instance.state.toDoData[0].important).toBeTruthy();
+        expect(instance.state.toDoData[0]).toEqual(expected);
     });
 
-
+    //same as onToggleImportant
     it('onToggleDone check',() => {
-
         //Given
         const instance = mount<App>(<App />).instance();
         const expected = {
@@ -102,6 +106,40 @@ describe('src/components/App/App', () => {
         expect(instance.state.toDoData[0].done).toBeTruthy();
     });
 
+    it('should have default state', () => {
+        //Given
+        const expected = {
+            toDoData: [
+                {
+                    label: 'Setup React project ToDo List',
+                    important: false,
+                    done: false,
+                    id: 100
+                },
+                {
+                    label: 'Rewrite ToDo list with typescript',
+                    important: false,
+                    done: false,
+                    id: 101
+                },
+                {
+                    label: 'Create tests with Jest and Enzyme',
+                    important: false,
+                    done: false,
+                    id: 102
+                },
+            ],
+            term: '',
+            filter: 'active',
+        };
+
+        //When
+        const wrapper = mount<App>(<App />);
+
+        //Then
+        expect(wrapper.state()).toEqual(expected);
+    });
+
     it('deleteItem check', () => {
         //Given
         const instance = mount<App>(<App />).instance();
@@ -113,7 +151,7 @@ describe('src/components/App/App', () => {
         instance.deleteItem(102);
 
         //Then
-        expect(expected).toEqual(instance.state.toDoData.length);
+        expect(instance.state.toDoData.length).toEqual(expected);
     });
 
 
@@ -126,7 +164,7 @@ describe('src/components/App/App', () => {
         instance.onSearchChange(expected);
 
         //Then
-        expect(expected).toEqual(instance.state.term);
+        expect(instance.state.term).toEqual(expected);
     });
 
     it('onFilter change', () => {
@@ -138,23 +176,53 @@ describe('src/components/App/App', () => {
         instance.onFilterChange(expected);
 
         //Then
-        expect(expected).toEqual(instance.state.filter);
+        expect(instance.state.filter).toEqual(expected);
     });
 
-    it('filter check', () => {
+    it('filter active', () => {
+        //Given
+        const expected = {
+            label: 'Create tests with Jest and Enzyme',
+            important: false,
+            done: false,
+            id: 102
+        };
+        const items = [
+            {
+                label: 'Setup React project ToDo List',
+                important: false,
+                done: true,
+                id: 100
+            },
+            {
+                label: 'Rewrite ToDo list with typescript',
+                important: false,
+                done: true,
+                id: 101
+            },
+            expected,
+        ];
+        const instance = mount<App>(<App />).instance();
+
+        //When
+        const actual = instance.filter(items, 'active');
+
+        //Then
+        expect(actual).toEqual([expected]);
+    });
+
+    it('filter empty', () => {
         //Given
         const instance = mount<App>(<App />).instance();
 
-
         //When
-        instance.onToggleDone(100);
-        instance.onToggleDone(101);
-        instance.onToggleDone(102);
-
+        const actual = instance.filter([], 'active');
 
         //Then
-        console.log(1);
-    })
+        expect(actual).toEqual([]);
+    });
+
+
 
     //filter
     //search

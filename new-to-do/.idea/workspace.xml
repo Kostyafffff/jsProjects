@@ -4,6 +4,7 @@
     <list default="true" id="20cb7b6a-42c0-4728-a0a1-8f7c0c56294a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.jest-cache/haste-map-aab304a2244054adbc96de0292ffaf6a-01b453e27df68d811ad16bfb5c582e07-d126cf97a655e3dad4bddafcefe64212" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/haste-map-aab304a2244054adbc96de0292ffaf6a-01b453e27df68d811ad16bfb5c582e07-d126cf97a655e3dad4bddafcefe64212" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jest-cache/perf-cache-aab304a2244054adbc96de0292ffaf6a-d41d8cd98f00b204e9800998ecf8427e" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/perf-cache-aab304a2244054adbc96de0292ffaf6a-d41d8cd98f00b204e9800998ecf8427e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/components/app-test/app.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/app-test/app.test.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,8 +24,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/components/app/App.tsx">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="448">
-                    <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+                  <state relative-caret-position="410">
+                    <caret line="77" column="25" lean-forward="true" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
                     <folding>
                       <element signature="e#0#31#0" expanded="true" />
                     </folding>
@@ -35,8 +36,8 @@
             <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/src/components/app/app-types.ts">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="25">
-                    <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+                  <state relative-caret-position="150">
+                    <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
                   </state>
                 </provider>
               </entry>
@@ -98,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/components/app-test/app.test.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+            <state relative-caret-position="285">
+              <caret line="194" column="23" lean-forward="true" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -135,6 +136,8 @@
       <find>wrapper</find>
       <find>onLabelChange</find>
       <find>createTodoItem</find>
+      <find>items</find>
+      <find>toggleProperty</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\user\WebstormProjects\jsProjects\new-to-do\test</dir>
@@ -316,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.src/components/App/App">
+  <component name="RunManager" selected="Jest.src/components/App/App.onToggleImportant check">
     <configuration default="true" type="JavaScriptTestRunnerJest">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -336,20 +339,6 @@
       <test-file value="$PROJECT_DIR$/test/components/app-test/app.test.tsx" />
       <test-names>
         <test-name value="src/components/App/App" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="src/components/App/App.deleteItem check" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/test/components/app-test/app.test.tsx" />
-      <test-names>
-        <test-name value="src/components/App/App" />
-        <test-name value="deleteItem check" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -395,20 +384,34 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="src/components/App/App.onToggleImportant check" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/components/app-test/app.test.tsx" />
+      <test-names>
+        <test-name value="src/components/App/App" />
+        <test-name value="onToggleImportant check" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Jest.src/components/App/App.deleteItem check" />
       <item itemvalue="Jest.src/components/App/App.onSearchChange check" />
       <item itemvalue="Jest.src/components/App/App.onFilter change" />
       <item itemvalue="Jest.src/components/App/App.filter check" />
       <item itemvalue="Jest.src/components/App/App" />
+      <item itemvalue="Jest.src/components/App/App.onToggleImportant check" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.src/components/App/App.onToggleImportant check" />
         <item itemvalue="Jest.src/components/App/App" />
         <item itemvalue="Jest.src/components/App/App.filter check" />
         <item itemvalue="Jest.src/components/App/App.onFilter change" />
         <item itemvalue="Jest.src/components/App/App.onSearchChange check" />
-        <item itemvalue="Jest.src/components/App/App.deleteItem check" />
       </list>
     </recent_temporary>
   </component>
@@ -428,15 +431,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="src_components_App_App_onToggleDone_check - 2019.12.10 at 15h 31m 18s.xml">
-      <configuration name="src/components/App/App.onToggleDone check" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="src_components_App_App_deleteItem_check - 2019.12.10 at 15h 38m 47s.xml">
-      <configuration name="src/components/App/App.deleteItem check" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="src_components_App_App_deleteItem_check - 2019.12.10 at 15h 39m 02s.xml">
-      <configuration name="src/components/App/App.deleteItem check" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="src_components_App_App_deleteItem_check - 2019.12.10 at 15h 39m 14s.xml">
       <configuration name="src/components/App/App.deleteItem check" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
@@ -458,9 +452,18 @@
     <history-entry file="src_components_App_App_filter_check - 2019.12.10 at 16h 27m 54s.xml">
       <configuration name="src/components/App/App.filter check" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="src_components_App_App_filter_check - 2019.12.10 at 16h 40m 47s.xml">
+      <configuration name="src/components/App/App.filter check" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="src_components_App_App - 2019.12.10 at 16h 42m 28s.xml">
+      <configuration name="src/components/App/App" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="src_components_App_App_onToggleImportant_check - 2019.12.10 at 16h 55m 31s.xml">
+      <configuration name="src/components/App/App.onToggleImportant check" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56708000" />
+    <option name="totallyTimeSpent" value="58777000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -473,14 +476,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913943" visible="true" weight="0.18508725" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913943" visible="true" weight="0.16446325" />
       <window_info id="Structure" order="1" sideWeight="0.5008606" side_tool="true" weight="0.24960339" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3702422" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.32295272" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3702422" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3587082" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
@@ -521,10 +525,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/test/components/app-test/app.test.tsx</url>
-          <line>156</line>
+          <url>file://$PROJECT_DIR$/src/components/app/App.tsx</url>
+          <line>48</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="36" />
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -813,15 +817,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/app/app-types.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="150">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/app/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        <state relative-caret-position="410">
+          <caret line="77" column="25" lean-forward="true" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -830,8 +834,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/components/app-test/app.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+        <state relative-caret-position="285">
+          <caret line="194" column="23" lean-forward="true" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
