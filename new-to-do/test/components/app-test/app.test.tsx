@@ -3,6 +3,22 @@ import * as React from 'react';
 import sinon from 'sinon';
 import { App } from 'components/app/App';
 
+// jest.mock(
+//     'components/app-header/app-header',
+//     () => (props: object): JSX.Element => (<div mock-id="app-header" {...props} />),
+// );
+jest.mock('components/app-header/app-header', () => ({
+    AppHeader: (props: object): JSX.Element => (<div mock-id="app-header" {...props} />),
+}));
+
+jest.mock('components/search-panel/search-panel', () => ({
+    SearchPanel: (props: object): JSX.Element => (<div mock-id="search-panel" {...props} />),
+}));
+
+jest.mock('components/item-status-filter/item-status-filter', () => ({
+    ItemStatusFilter: (props: object): JSX.Element => (<div mock-id="item-status-filter" {...props} />),
+}));
+
 const state = {
   toDoData: [
       sinon.stub(),
@@ -154,7 +170,6 @@ describe('src/components/App/App', () => {
         expect(instance.state.toDoData.length).toEqual(expected);
     });
 
-
     it('onSearchChange check', () => {
         //Given
         const instance = mount<App>(<App />).instance();
@@ -268,25 +283,69 @@ describe('src/components/App/App', () => {
                 important: false,
                 done: false,
                 id: 102
-            }];
-            //When
-            const expected = [
-                {
-                    label: 'Setup React project ToDo List',
-                    important: false,
-                    done: true,
-                    id: 100
-                },
-                {
-                    label: 'Rewrite ToDo list with typescript',
-                    important: false,
-                    done: true,
-                    id: 101
-                },
-            ];
-
+            },
+        ];
+        const expected = [
+            {
+                label: 'Setup React project ToDo List',
+                important: false,
+                done: true,
+                id: 100
+            },
+            {
+                label: 'Rewrite ToDo list with typescript',
+                important: false,
+                done: true,
+                id: 101
+            },
+        ];
+        //When
         const actual = instance.search(items, 'todo');
+
+        //Then
         expect(actual.length).toEqual(2);
         expect([...actual]).toEqual([...expected]);
+    });
+
+    it('should pass props to AppHeader', () => {
+        //When
+        const wrapper = mount<App>(<App />);
+
+        //Then
+        const header = wrapper.find('[mock-id="app-header"]');
+
+        expect(header.prop('toDo')).toEqual(3);
+        expect(header.prop('done')).toEqual(0);
+    });
+
+    it('should pass props to SearchPanel', () => {
+        //Given
+        const term = 'term';
+
+        //When
+        const wrapper = mount<App>(<App />);
+        wrapper.setState({ term });
+        const { onSearchChange } = wrapper.instance();
+
+        //Then
+        const search = wrapper.find('[mock-id="search-panel"]');
+
+        expect(search.prop('term')).toEqual(term);
+        expect(search.prop('onSearchChange')).toEqual(onSearchChange);
+    });
+
+    it('should pass props to ItemStatusFilter', () => {
+        //Given
+        const filter = 'todo';
+
+        //When
+        const wrapper = mount<App>(<App />);
+        wrapper.setState({ filter });
+        const { onFilterChange } = wrapper.instance();
+
+        //Then
+        const filterChange = wrapper.find('[mock-id="item-status-filter"]');
+        expect(filterChange.prop('filter')).toEqual(filter);
+        expect(filterChange.prop('onFilterChange')).toEqual(onFilterChange);
     })
 });

@@ -111,7 +111,7 @@ export class App extends Component<{}, IState> {
 
         return(
             <div>
-                <AppHeader toDo={toDoCount} done={doneCount}/>
+                <AppHeader toDo={toDoCount} done={doneCount} />
                 <SearchPanel
                     term={term}
                     onSearchChange={this.onSearchChange}
@@ -120,7 +120,7 @@ export class App extends Component<{}, IState> {
                     filter={filter}
                     onFilterChange={this.onFilterChange}
                 />
-                <ItemAddForm onAddItem={this.onAddItem}/>
+                <ItemAddForm onAddItem={this.onAddItem} />
                 <ToDoList
                     todos={visibleItems}
                     onDeleted={this.deleteItem}
