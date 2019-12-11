@@ -5,7 +5,8 @@ module.exports = {
     ],
     "setupFilesAfterEnv": ["<rootDir>/config/jest/setup.js"],
     "testMatch": [
-        "**/?(*.)(spec|test).{js,jsx,mjs,ts,tsx}"
+        "**/test/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[jt]s?(x)"
     ],
     "testEnvironment": "jsdom",
     "testURL": "http://localhost",

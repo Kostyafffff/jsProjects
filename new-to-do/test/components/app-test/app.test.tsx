@@ -19,6 +19,13 @@ jest.mock('components/item-status-filter/item-status-filter', () => ({
     ItemStatusFilter: (props: object): JSX.Element => (<div mock-id="item-status-filter" {...props} />),
 }));
 
+jest.mock('components/item-add-form/item-add-form', () => ({
+    ItemAddForm: (props: object): JSX.Element => (<div mock-id="item-add-form" {...props} />),
+}));
+
+jest.mock('components/todo-list/todo-list', () => ({
+    ToDoList: (props: object): JSX.Element => (<div mock-id="todo-list" {...props} />),
+}));
 const state = {
   toDoData: [
       sinon.stub(),
@@ -347,5 +354,35 @@ describe('src/components/App/App', () => {
         const filterChange = wrapper.find('[mock-id="item-status-filter"]');
         expect(filterChange.prop('filter')).toEqual(filter);
         expect(filterChange.prop('onFilterChange')).toEqual(onFilterChange);
+    });
+
+    it('should pass props to ItemAddForm', () => {
+        //Given
+        const wrapper = mount<App>(<App />);
+
+        //When
+        const { onAddItem } = wrapper.instance();
+
+        //Then
+        const addItem = wrapper.find('[mock-id="item-add-form"]');
+        expect(addItem.prop('onAddItem')).toEqual(onAddItem);
+    });
+
+    it('should pass props to ToDoList', () => {
+        //Given
+        const wrapper = mount<App>(<App />);
+      //  const visibleItems = 'asdasdasd';
+
+        //When
+        const { deleteItem } = wrapper.instance();
+        const { onToggleImportant } = wrapper.instance();
+        const { onToggleDone } = wrapper.instance();
+
+        //Then
+        const addItem = wrapper.find('[mock-id="todo-list"]');
+        expect(addItem.prop('onDeleted')).toEqual(deleteItem);
+        // expect(addItem.prop('todos')).toEqual(visibleItems);
+        expect(addItem.prop('onToggleImportant')).toEqual(onToggleImportant);
+        expect(addItem.prop('onToggleDone')).toEqual(onToggleDone);
     })
 });

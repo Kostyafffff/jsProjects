@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20cb7b6a-42c0-4728-a0a1-8f7c0c56294a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jest-cache/haste-map-aab304a2244054adbc96de0292ffaf6a-01b453e27df68d811ad16bfb5c582e07-d126cf97a655e3dad4bddafcefe64212" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/haste-map-aab304a2244054adbc96de0292ffaf6a-01b453e27df68d811ad16bfb5c582e07-d126cf97a655e3dad4bddafcefe64212" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jest-cache/perf-cache-aab304a2244054adbc96de0292ffaf6a-d41d8cd98f00b204e9800998ecf8427e" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/perf-cache-aab304a2244054adbc96de0292ffaf6a-d41d8cd98f00b204e9800998ecf8427e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/components/app-test/app.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/app-test/app.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +26,11 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file pinned="false" current-in-tab="true">
+            <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/src/components/app/App.tsx">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="524">
-                    <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
+                  <state relative-caret-position="299">
+                    <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
                     <folding>
                       <element signature="e#0#31#0" expanded="true" />
                     </folding>
@@ -36,9 +39,21 @@
               </entry>
             </file>
             <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/components/search-panel/search-panel.tsx">
+              <entry file="file://$PROJECT_DIR$/src/components/item-add-form/item-add-form.tsx">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="100">
+                    <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+                    <folding>
+                      <element signature="e#0#58#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/components/search-panel/search-panel.tsx">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="73">
                     <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
                     <folding>
                       <element signature="e#0#26#0" expanded="true" />
@@ -74,8 +89,8 @@
             <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/src/components/app/app-types.ts">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="250">
-                    <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+                  <state relative-caret-position="150">
+                    <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
                   </state>
                 </provider>
               </entry>
@@ -85,13 +100,16 @@
       </content>
     </window>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="new-to-do" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/components/app-header/app-header.test.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-783">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="-267">
+              <caret line="61" column="10" lean-forward="true" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -100,72 +118,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/components/todo-list/todo-list.test.tsx">
+        <entry file="file://$PROJECT_DIR$/test/components/app-test/app.test.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="-900">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/components/item-status-filter/item-status-filter.test.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/components/search-panel/search-panel.test.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/components/app-test/app.test.tsx">
+        <entry file="file://$PROJECT_DIR$/jest.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2215">
-              <caret line="336" column="7" selection-start-line="336" selection-start-column="7" selection-end-line="336" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-                <element signature="e#602#754#0" />
-                <element signature="e#1069#1283#0" />
-                <element signature="e#1490#1506#0" />
-                <element signature="e#1977#2383#0" />
-                <element signature="e#2566#2582#0" />
-                <element signature="e#2397#2413#0" />
-                <element signature="e#2797#2813#0" />
-                <element signature="e#3044#3288#0" />
-                <element signature="e#3314#3330#0" />
-                <element signature="e#5214#5416#0" />
-                <element signature="e#5240#6025#0" />
-                <element signature="e#6171#7372#0" />
-              </folding>
+            <state relative-caret-position="-632">
+              <caret line="5" column="58" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/components/todo-list-item/todo-list-item.test.tsx">
+        <entry file="file://$PROJECT_DIR$/yarn.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-565">
-              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="25">
+              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -188,6 +165,7 @@
       <find>createTodoItem</find>
       <find>items</find>
       <find>toggleProperty</find>
+      <find>red</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\user\WebstormProjects\jsProjects\new-to-do\test</dir>
@@ -201,10 +179,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/components/item-add-form/item-add-form.tsx" />
         <option value="$PROJECT_DIR$/src/components/todo-list/todo-list.tsx" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/config/jest/setup.js" />
-        <option value="$PROJECT_DIR$/jest.config.js" />
         <option value="$PROJECT_DIR$/test/components/todo-list-item/todo-list-item.test.tsx" />
         <option value="$PROJECT_DIR$/test/components/search-panel/search-panel.test.ts" />
         <option value="$PROJECT_DIR$/src/components/search-panel/search-panel.tsx" />
@@ -215,6 +191,8 @@
         <option value="$PROJECT_DIR$/src/components/app-header/app-header.tsx" />
         <option value="$PROJECT_DIR$/src/components/app/App.tsx" />
         <option value="$PROJECT_DIR$/test/components/app-test/app.test.tsx" />
+        <option value="$PROJECT_DIR$/jest.config.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -249,31 +227,6 @@
             <path>
               <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
               <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="app-header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -281,55 +234,6 @@
               <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="app-header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="app-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="item-add-form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="item-status-filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="search-panel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="todo-list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="todo-list-item" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -369,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.src/components/App/App.should pass props to ItemStatusFilter">
+  <component name="RunManager" selected="npm.test">
     <configuration default="true" type="JavaScriptTestRunnerJest">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -379,20 +283,7 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="src/components/App/App" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/test/components/app-test/app.test.tsx" />
-      <test-names>
-        <test-name value="src/components/App/App" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="src/components/App/App.search check" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="src/components/App/App.should pass props to ItemAddForm" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -402,21 +293,7 @@
       <test-file value="$PROJECT_DIR$/test/components/app-test/app.test.tsx" />
       <test-names>
         <test-name value="src/components/App/App" />
-        <test-name value="search check" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="src/components/App/App.should pass props to AppHeader" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/test/components/app-test/app.test.tsx" />
-      <test-names>
-        <test-name value="src/components/App/App" />
-        <test-name value="should pass props to AppHeader" />
+        <test-name value="should pass props to ItemAddForm" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -434,7 +311,7 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="src/components/App/App.should pass props to SearchPanel" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="src/components/App/App.should pass props to ToDoList" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -444,24 +321,48 @@
       <test-file value="$PROJECT_DIR$/test/components/app-test/app.test.tsx" />
       <test-names>
         <test-name value="src/components/App/App" />
-        <test-name value="should pass props to SearchPanel" />
+        <test-name value="should pass props to ToDoList" />
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="src/components/app-header/app-header.should TodoListItemProps mount component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/components/app-header/app-header.test.tsx" />
+      <test-names>
+        <test-name value="src/components/app-header/app-header" />
+        <test-name value="should TodoListItemProps mount component" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Jest.src/components/App/App" />
-      <item itemvalue="Jest.src/components/App/App.search check" />
-      <item itemvalue="Jest.src/components/App/App.should pass props to AppHeader" />
-      <item itemvalue="Jest.src/components/App/App.should pass props to SearchPanel" />
+      <item itemvalue="Jest.src/components/App/App.should pass props to ItemAddForm" />
       <item itemvalue="Jest.src/components/App/App.should pass props to ItemStatusFilter" />
+      <item itemvalue="Jest.src/components/App/App.should pass props to ToDoList" />
+      <item itemvalue="Jest.src/components/app-header/app-header.should TodoListItemProps mount component" />
+      <item itemvalue="npm.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
+        <item itemvalue="Jest.src/components/App/App.should pass props to ToDoList" />
+        <item itemvalue="Jest.src/components/app-header/app-header.should TodoListItemProps mount component" />
+        <item itemvalue="Jest.src/components/App/App.should pass props to ItemAddForm" />
         <item itemvalue="Jest.src/components/App/App.should pass props to ItemStatusFilter" />
-        <item itemvalue="Jest.src/components/App/App.should pass props to SearchPanel" />
-        <item itemvalue="Jest.src/components/App/App" />
-        <item itemvalue="Jest.src/components/App/App.should pass props to AppHeader" />
-        <item itemvalue="Jest.src/components/App/App.search check" />
       </list>
     </recent_temporary>
   </component>
@@ -481,39 +382,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="src_components_App_App_should_pass_props_to_ItemStatusFilter - 2019.12.11 at 10h 46m 04s.xml">
-      <configuration name="src/components/App/App.should pass props to ItemStatusFilter" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="src_components_App_App_should_pass_props_to_SearchPanel - 2019.12.11 at 10h 46m 22s.xml">
-      <configuration name="src/components/App/App.should pass props to SearchPanel" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="src_components_App_App_should_pass_props_to_ItemStatusFilter - 2019.12.11 at 10h 47m 16s.xml">
-      <configuration name="src/components/App/App.should pass props to ItemStatusFilter" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="src_components_App_App - 2019.12.11 at 10h 47m 59s.xml">
-      <configuration name="src/components/App/App" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="src_components_App_App_should_pass_props_to_ItemStatusFilter - 2019.12.11 at 10h 59m 09s.xml">
-      <configuration name="src/components/App/App.should pass props to ItemStatusFilter" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="src_components_App_App_should_pass_props_to_ItemStatusFilter - 2019.12.11 at 11h 01m 24s.xml">
-      <configuration name="src/components/App/App.should pass props to ItemStatusFilter" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="src_components_App_App_should_pass_props_to_SearchPanel - 2019.12.11 at 11h 01m 41s.xml">
-      <configuration name="src/components/App/App.should pass props to SearchPanel" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="src_components_App_App_should_pass_props_to_SearchPanel - 2019.12.11 at 11h 03m 59s.xml">
-      <configuration name="src/components/App/App.should pass props to SearchPanel" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="src_components_App_App_should_pass_props_to_ItemStatusFilter - 2019.12.11 at 11h 06m 43s.xml">
-      <configuration name="src/components/App/App.should pass props to ItemStatusFilter" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="src_components_App_App_should_pass_props_to_ItemStatusFilter - 2019.12.11 at 11h 07m 27s.xml">
       <configuration name="src/components/App/App.should pass props to ItemStatusFilter" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="src_components_App_App_should_pass_props_to_ItemAddForm - 2019.12.11 at 11h 15m 30s.xml">
+      <configuration name="src/components/App/App.should pass props to ItemAddForm" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="src_components_App_App_should_pass_props_to_ToDoList - 2019.12.11 at 11h 23m 48s.xml">
+      <configuration name="src/components/App/App.should pass props to ToDoList" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="src_components_App_App_should_pass_props_to_ToDoList - 2019.12.11 at 11h 32m 29s.xml">
+      <configuration name="src/components/App/App.should pass props to ToDoList" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="src_components_App_App_should_pass_props_to_ToDoList - 2019.12.11 at 11h 33m 05s.xml">
+      <configuration name="src/components/App/App.should pass props to ToDoList" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="src_components_App_App_should_pass_props_to_ToDoList - 2019.12.11 at 11h 45m 12s.xml">
+      <configuration name="src/components/App/App.should pass props to ToDoList" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="src_components_App_App_should_pass_props_to_ToDoList - 2019.12.11 at 16h 21m 51s.xml">
+      <configuration name="src/components/App/App.should pass props to ToDoList" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="src_components_App_App_should_pass_props_to_ToDoList - 2019.12.11 at 16h 22m 15s.xml">
+      <configuration name="src/components/App/App.should pass props to ToDoList" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="src_components_app-header_app-header_should_TodoListItemProps_mount_component - 2019.12.11 at 16h 36m 14s.xml">
+      <configuration name="src/components/app-header/app-header.should TodoListItemProps mount component" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="src_components_App_App_should_pass_props_to_ToDoList - 2019.12.11 at 16h 45m 17s.xml">
+      <configuration name="src/components/App/App.should pass props to ToDoList" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68373000" />
+    <option name="totallyTimeSpent" value="78595000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -526,21 +427,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913943" visible="true" weight="0.16393442" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7175043" visible="true" weight="0.14172396" />
       <window_info id="Structure" order="1" sideWeight="0.5008606" side_tool="true" weight="0.24960339" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.28249568" side_tool="true" weight="0.18773136" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32641292" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33564013" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6239908" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38869664" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298731" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3298731" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3575548" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24567474" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -569,6 +471,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/new_to_do$src_components_todo_list_item_todo_list_item_tsx.info" NAME="src/components/todo-list-item/todo-list-item.tsx Coverage Results" MODIFIED="1575551517458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -634,13 +562,6 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="55" selection-start-column="55" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -652,13 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -734,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jest.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/jest/cssTransform.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -757,16 +664,6 @@
           <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/item-add-form/item-add-form.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -788,15 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/components/item-status-filter/item-status-filter.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/components/todo-list-item/todo-list-item.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-565">
@@ -807,59 +695,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/components/todo-list/todo-list.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/components/app-header/app-header.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-783">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/components/search-panel/search-panel.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/app-header/app-header.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app/app-types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/search-panel/search-panel.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -876,8 +717,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/app/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
+        <state relative-caret-position="299">
+          <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/app-types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/components/search-panel/search-panel.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/components/todo-list/todo-list.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/components/item-status-filter/item-status-filter.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/item-add-form/item-add-form.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/search-panel/search-panel.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/components/app-header/app-header.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <caret line="61" column="10" lean-forward="true" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -886,23 +808,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/components/app-test/app.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2215">
-          <caret line="336" column="7" selection-start-line="336" selection-start-column="7" selection-end-line="336" selection-end-column="7" />
+        <state relative-caret-position="-900">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#602#754#0" />
-            <element signature="e#1069#1283#0" />
-            <element signature="e#1490#1506#0" />
-            <element signature="e#1977#2383#0" />
-            <element signature="e#2566#2582#0" />
-            <element signature="e#2397#2413#0" />
-            <element signature="e#2797#2813#0" />
-            <element signature="e#3044#3288#0" />
-            <element signature="e#3314#3330#0" />
-            <element signature="e#5214#5416#0" />
-            <element signature="e#5240#6025#0" />
-            <element signature="e#6171#7372#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jest.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-632">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="58" />
         </state>
       </provider>
     </entry>
