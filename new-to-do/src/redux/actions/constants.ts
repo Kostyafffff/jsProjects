@@ -1,0 +1,2 @@
+export const SET_SEARCH_VALUE = 'SET_SEARCH_VALUE';
+export const SET_ADD_FIELD_VALUE = 'SET_ADD_FIELD_VALUE';
