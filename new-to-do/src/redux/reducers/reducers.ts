@@ -8,10 +8,10 @@ export const reducer: Reducer<IStore, IActionBase> = (store = initialStore, acti
     switch (action.type) {
         case actions.SET_SEARCH_VALUE:
             return onSetSearchValue(store, action as IAction<string>);
-            break;
+
         case actions.SET_ADD_FIELD_VALUE:
             return setAddFieldValue(store, action as IAction<string>);
-            break;
+
         default:
             return store;
     }

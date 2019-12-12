@@ -20,7 +20,7 @@ export const initialStore: IStore = {
             done: false,
             id: uuid(),
         },        {
-            label: 'Add Redux to prj',
+            label: 'Add Redux to project',
             important: false,
             done: false,
             id: uuid(),
@@ -29,4 +29,3 @@ export const initialStore: IStore = {
 };
 
 export const store = createStore(reducer);
-
