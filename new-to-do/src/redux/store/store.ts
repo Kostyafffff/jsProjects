@@ -15,12 +15,12 @@ export const initialStore: IStore = {
             id: uuid(),
         },
         {
-            label: 'Setup React project ToDo List',
+            label: 'Rewrite project with TypeScript',
             important: false,
             done: false,
             id: uuid(),
         },        {
-            label: 'Setup React project ToDo List',
+            label: 'Add Redux to prj',
             important: false,
             done: false,
             id: uuid(),
