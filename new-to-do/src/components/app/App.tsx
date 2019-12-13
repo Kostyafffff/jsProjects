@@ -3,7 +3,7 @@ import { Component } from 'react';
 import { AppHeader } from '../app-header/app-header'
 import { ItemAddForm } from '../item-add-form/item-add-form';
 import { ItemStatusFilter } from '../item-status-filter/item-status-filter';
-import { SearchPanel } from '../search-panel';
+import { ConnectedSearchPanel } from '../search-panel';
 import { ToDoList } from '../todo-list/todo-list';
 import { IState, IToDoItem } from './app-types';
 export class App extends Component<{}, IState> {
@@ -111,7 +111,7 @@ export class App extends Component<{}, IState> {
         return(
             <div>
                 <AppHeader toDo={toDoCount} done={doneCount} />
-                <SearchPanel />
+                <ConnectedSearchPanel />
                 <ItemStatusFilter
                     filter={filter}
                     onFilterChange={this.onFilterChange}
