@@ -27,12 +27,12 @@ describe('src/components/item-add-form/item-add-form.tsx', function () {
         sinon_1.default.resetHistory();
     });
     it('should TodoListItemProps mount component', function () {
-        var wrapper = enzyme_1.mount(react_1.default.createElement(item_add_form_1.ItemAddForm, __assign({}, props)));
+        var wrapper = enzyme_1.mount(react_1.default.createElement(item_add_form_1.Component, __assign({}, props)));
         expect(wrapper.isEmptyRender()).toBeFalsy();
     });
     it('onSubmit test', function () {
         //Given
-        var wrapper = enzyme_1.mount(react_1.default.createElement(item_add_form_1.ItemAddForm, __assign({}, props)));
+        var wrapper = enzyme_1.mount(react_1.default.createElement(item_add_form_1.Component, __assign({}, props)));
         wrapper.setState({ label: 'label' });
         var onSubmit = wrapper.instance().onSubmit;
         var preventDefaultStub = sinon_1.default.stub();
@@ -46,7 +46,7 @@ describe('src/components/item-add-form/item-add-form.tsx', function () {
     });
     it('onLabelChange', function () {
         //Given
-        var wrapper = enzyme_1.mount(react_1.default.createElement(item_add_form_1.ItemAddForm, __assign({}, props)));
+        var wrapper = enzyme_1.mount(react_1.default.createElement(item_add_form_1.Component, __assign({}, props)));
         wrapper.setState({ label: '' });
         var onLabelChange = wrapper.instance().onLabelChange;
         var element = {

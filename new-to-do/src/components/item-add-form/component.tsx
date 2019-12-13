@@ -1,21 +1,23 @@
-import React, { ChangeEvent, PureComponent } from 'react';
+import React, { PureComponent } from 'react';
 import { IPropsItemAddForm, IStateItemAddForm } from './types-item-add-form';
 import './item-add-form.css'
 
-export class ItemAddForm extends PureComponent<IPropsItemAddForm, IStateItemAddForm>{
-    state : IStateItemAddForm = {
-        label: ''
-    };
+export class Component extends PureComponent<IPropsItemAddForm, IStateItemAddForm>{
 
-    onLabelChange = (elem: ChangeEvent<HTMLInputElement>): void => {
-        const { value: label } = elem.target;
-        this.setState({ label });
+    // onLabelChange = (elem: ChangeEvent<HTMLInputElement>): void => {
+    //     const { value: label } = elem.target;
+    //     this.setState({ label });
+    // };
+
+    onLabelChange = ({ target: { value } }: React.ChangeEvent<HTMLInputElement>): void => {
+        const { setAddFieldValue } = this.props;
+
+        setAddFieldValue(value);
     };
 
     onSubmit = (event: React.FormEvent<HTMLFormElement>): void => {
         event.preventDefault();
-        this.props.onAddItem(this.state.label);
-        this.setState({ label: '' });
+        this.props.setAddFieldValue('');
     };
 
     render(): JSX.Element {
@@ -30,7 +32,7 @@ export class ItemAddForm extends PureComponent<IPropsItemAddForm, IStateItemAddF
                         className="form-control"
                         onChange={this.onLabelChange}
                         placeholder="Needs to be Done"
-                        value={this.state.label}
+                        value={this.props.fieldValue}
                     />
                     <button className="add-item-element btn btn-success">
                         Add
@@ -39,5 +41,4 @@ export class ItemAddForm extends PureComponent<IPropsItemAddForm, IStateItemAddF
             </form>
         );
     }
-
 }

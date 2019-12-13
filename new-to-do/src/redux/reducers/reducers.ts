@@ -24,5 +24,5 @@ export const onSetSearchValue = (store: IStore, action: IAction<string>): IStore
 
 export const onSetAddFieldValue = (store: IStore, action: IAction<string>): IStore => ({
     ...store,
-    addField: action.payload
+    addField: action.payload,
 });

@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Component } from 'react';
 import { AppHeader } from '../app-header/app-header'
-import { ItemAddForm } from '../item-add-form/item-add-form';
 import { ItemStatusFilter } from '../item-status-filter/item-status-filter';
-import { ConnectedSearchPanel } from '../search-panel';
+import { SearchPanel } from '../search-panel';
 import { ToDoList } from '../todo-list/todo-list';
 import { IState, IToDoItem } from './app-types';
+import {ItemAddForm} from "../item-add-form";
 export class App extends Component<{}, IState> {
 
     maxId: number = 100;
@@ -111,12 +111,12 @@ export class App extends Component<{}, IState> {
         return(
             <div>
                 <AppHeader toDo={toDoCount} done={doneCount} />
-                <ConnectedSearchPanel />
+                <SearchPanel />
                 <ItemStatusFilter
                     filter={filter}
                     onFilterChange={this.onFilterChange}
                 />
-                <ItemAddForm onAddItem={this.onAddItem} />
+                <ItemAddForm />
                 <ToDoList
                     todos={visibleItems}
                     onDeleted={this.deleteItem}
@@ -127,3 +127,5 @@ export class App extends Component<{}, IState> {
         )
     }
 }
+
+//onAddItem={this.onAddItem}

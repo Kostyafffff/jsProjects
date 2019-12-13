@@ -135,7 +135,7 @@ var App = /** @class */ (function (_super) {
             React.createElement(app_header_1.AppHeader, { toDo: toDoCount, done: doneCount }),
             React.createElement(search_panel_1.SearchPanel, { term: term, onSearchChange: this.onSearchChange }),
             React.createElement(item_status_filter_1.ItemStatusFilter, { filter: filter, onFilterChange: this.onFilterChange }),
-            React.createElement(item_add_form_1.ItemAddForm, { onAddItem: this.onAddItem }),
+            React.createElement(item_add_form_1.Component, { onAddItem: this.onAddItem }),
             React.createElement(todo_list_1.ToDoList, { todos: visibleItems, onDeleted: this.deleteItem, onToggleImportant: this.onToggleImportant, onToggleDone: this.onToggleDone })));
     };
     return App;

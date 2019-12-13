@@ -4,6 +4,9 @@ import { App } from './components/app/App';
 import { store } from './redux/store/store';
 import { Provider } from 'react-redux'
 
+//@ts-ignore
+window.store = store;
+
 const rootElement =  document.getElementById('root');
 ReactDOM.render(
         <Provider store={store}>

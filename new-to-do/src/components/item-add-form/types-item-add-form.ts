@@ -3,5 +3,6 @@ export interface IStateItemAddForm {
 }
 
 export interface IPropsItemAddForm {
-    onAddItem(label: string): void;
+    fieldValue: string;
+    setAddFieldValue(label: string): void;
 }

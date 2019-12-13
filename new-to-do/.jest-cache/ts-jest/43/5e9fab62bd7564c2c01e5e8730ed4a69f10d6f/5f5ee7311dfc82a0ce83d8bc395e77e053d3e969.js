@@ -32,13 +32,13 @@ describe('src/components/item-add-form/item-add-form.tsx', function () {
     });
     it('should TodoListItemProps mount component', function () {
         //When
-        var wrapper = enzyme_1.mount(react_1.default.createElement(item_add_form_1.ItemAddForm, __assign({}, props)));
+        var wrapper = enzyme_1.mount(react_1.default.createElement(item_add_form_1.Component, __assign({}, props)));
         //Then
         expect(wrapper.isEmptyRender()).toBeFalsy();
     });
     it('onSubmit test', function () {
         //Given
-        var wrapper = enzyme_1.mount(react_1.default.createElement(item_add_form_1.ItemAddForm, __assign({}, props)));
+        var wrapper = enzyme_1.mount(react_1.default.createElement(item_add_form_1.Component, __assign({}, props)));
         wrapper.setState({ label: 'label' });
         var onSubmit = wrapper.instance().onSubmit;
         var preventDefaultStub = sinon_1.default.stub();
@@ -52,7 +52,7 @@ describe('src/components/item-add-form/item-add-form.tsx', function () {
     });
     it('onLabelChange check', function () {
         //Given
-        var wrapper = enzyme_1.mount(react_1.default.createElement(item_add_form_1.ItemAddForm, __assign({}, props)));
+        var wrapper = enzyme_1.mount(react_1.default.createElement(item_add_form_1.Component, __assign({}, props)));
         wrapper.setState({ label: '' });
         var onLabelChange = wrapper.instance().onLabelChange;
         var element = {
@@ -68,20 +68,20 @@ describe('src/components/item-add-form/item-add-form.tsx', function () {
         var expectedClass = _a.expectedClass, expectedLength = _a.expectedLength;
         var currentProps = __assign(__assign({}, props), { filter: 'active' });
         //When
-        var wrapper = enzyme_1.mount(react_1.default.createElement(item_add_form_1.ItemAddForm, __assign({}, currentProps)));
+        var wrapper = enzyme_1.mount(react_1.default.createElement(item_add_form_1.Component, __assign({}, currentProps)));
         //Then
         expect(wrapper.find(expectedClass)).toHaveLength(expectedLength);
     });
     it('check placeholder text in add form', function () {
         //When
-        var content = enzyme_1.shallow(react_1.default.createElement(item_add_form_1.ItemAddForm, __assign({}, props))).find('.item-add-form-wrapper > input');
+        var content = enzyme_1.shallow(react_1.default.createElement(item_add_form_1.Component, __assign({}, props))).find('.item-add-form-wrapper > input');
         //Then
         expect(content).toHaveLength(1);
         expect(content.props().placeholder).toEqual('Needs to be Done');
     });
     it('check add button text', function () {
         //Given
-        var content = enzyme_1.mount(react_1.default.createElement(item_add_form_1.ItemAddForm, __assign({}, props)));
+        var content = enzyme_1.mount(react_1.default.createElement(item_add_form_1.Component, __assign({}, props)));
         //When
         var button = content.find('.add-item-element');
         //Then
