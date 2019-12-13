@@ -2,6 +2,7 @@ import { FILTER, IStore } from './types';
 import uuid from 'uuid/v4';
 import { createStore } from "redux";
 import { reducer } from '../reducers/reducers';
+import { composeWithDevTools } from 'redux-devtools-extension';
 
 export const initialStore: IStore = {
     addField: '',
@@ -28,4 +29,5 @@ export const initialStore: IStore = {
     ],
 };
 
-export const store = createStore(reducer);
+
+export const store = createStore(reducer, composeWithDevTools());

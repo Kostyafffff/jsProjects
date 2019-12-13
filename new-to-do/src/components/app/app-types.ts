@@ -1,6 +1,5 @@
 export interface IState {
     toDoData: IToDoItem[]
-    term: string,
     filter: string
 }
 

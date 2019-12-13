@@ -27,6 +27,7 @@
     "enzyme-adapter-react-16": "^1.15.1",
     "jest": "^24.9.0",
     "react-scripts": "3.3.0",
+    "redux-devtools-extension": "^2.13.8",
     "sinon": "^7.5.0",
     "ts-jest": "^24.2.0",
     "typescript": "^3.7.3"

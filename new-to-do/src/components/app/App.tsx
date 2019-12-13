@@ -3,7 +3,7 @@ import { Component } from 'react';
 import { AppHeader } from '../app-header/app-header'
 import { ItemAddForm } from '../item-add-form/item-add-form';
 import { ItemStatusFilter } from '../item-status-filter/item-status-filter';
-import { SearchPanel } from '../search-panel/search-panel';
+import { SearchPanel } from '../search-panel';
 import { ToDoList } from '../todo-list/todo-list';
 import { IState, IToDoItem } from './app-types';
 export class App extends Component<{}, IState> {
@@ -23,7 +23,6 @@ export class App extends Component<{}, IState> {
             this.createTodoItem('Rewrite ToDo list with typescript'),
             this.createTodoItem('Create tests with Jest and Enzyme'),
         ],
-        term: '',
         filter: 'active',
     };
 
@@ -96,14 +95,14 @@ export class App extends Component<{}, IState> {
         })
     };
 
-    onSearchChange = (term: string): void => this.setState({ term });
+    onSearchChange = (): void => this.setState({  });
 
     onFilterChange = (filter: string): void => this.setState({ filter });
 
     render(): JSX.Element {
-        const { toDoData, filter, term } = this.state;
+        const { toDoData, filter } = this.state;
 
-        const visibleItems: IToDoItem[] = this.filter( this.search(toDoData, term), filter);
+        const visibleItems: IToDoItem[] = this.filter( this.search(toDoData, ''), filter);
 
         const doneCount = toDoData.filter(element => element.done).length;
 
@@ -112,10 +111,7 @@ export class App extends Component<{}, IState> {
         return(
             <div>
                 <AppHeader toDo={toDoCount} done={doneCount} />
-                <SearchPanel
-                    term={term}
-                    onSearchChange={this.onSearchChange}
-                />
+                <SearchPanel />
                 <ItemStatusFilter
                     filter={filter}
                     onFilterChange={this.onFilterChange}

@@ -1,20 +1,17 @@
 import React from 'react';
 import { Component } from 'react';
-import { IPropsSearchPanel } from './types-search-panel';
+import { IPropsSearchPanel } from './types';
 import './search-panel.css'
 export class SearchPanel extends Component<IPropsSearchPanel> {
+    onSearchChange = ({ target: { value } }: React.ChangeEvent<HTMLInputElement>): void => {
+        const { setSearchValue } = this.props;
 
-    state = {
-        term: ''
-    };
-
-    onSearchChange = (event: React.ChangeEvent<HTMLInputElement>): void => {
-        const term: string = event.target.value;
-        this.setState({ term } );
-        this.props.onSearchChange( term );
+        setSearchValue(value);
     };
 
     render(): JSX.Element {
+        const { fieldValue } = this.props;
+
         return (
             <div className='form-control-wrapper'>
                 <div className='flex-search-element'>
@@ -22,7 +19,7 @@ export class SearchPanel extends Component<IPropsSearchPanel> {
                         type='text'
                         className='form-control search input'
                         placeholder='search'
-                        value={this.state.term}
+                        value={fieldValue}
                         onChange={this.onSearchChange}
                     />
                 </div>

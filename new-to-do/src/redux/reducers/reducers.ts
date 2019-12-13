@@ -10,7 +10,7 @@ export const reducer: Reducer<IStore, IActionBase> = (store = initialStore, acti
             return onSetSearchValue(store, action as IAction<string>);
 
         case actions.SET_ADD_FIELD_VALUE:
-            return setAddFieldValue(store, action as IAction<string>);
+            return onSetAddFieldValue(store, action as IAction<string>);
 
         default:
             return store;
@@ -22,7 +22,7 @@ export const onSetSearchValue = (store: IStore, action: IAction<string>): IStore
     searchField: action.payload,
 });
 
-export const setAddFieldValue = (store: IStore, action: IAction<string>): IStore => ({
+export const onSetAddFieldValue = (store: IStore, action: IAction<string>): IStore => ({
     ...store,
     addField: action.payload
 });
