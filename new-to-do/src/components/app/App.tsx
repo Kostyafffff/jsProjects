@@ -6,6 +6,8 @@ import { SearchPanel } from '../search-panel';
 import { ToDoList } from '../todo-list/todo-list';
 import { IState, IToDoItem } from './app-types';
 import { ItemAddForm } from "../item-add-form";
+
+//need props first param
 export class App extends Component<{}, IState> {
 
     maxId: number = 100;

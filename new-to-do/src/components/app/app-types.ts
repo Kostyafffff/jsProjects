@@ -11,6 +11,6 @@ export interface IToDoItem {
     id: number
 }
 
-// export interface IPropsApp {
-//
-// }
+export interface IPropsApp {
+
+}
