@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20cb7b6a-42c0-4728-a0a1-8f7c0c56294a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/item-add-form/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/selectors/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app/component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/1e/cf8ba5c76adcf53da7c6bc3f8398041b1cba91/c5effea16cc2d8ade14c7723d63c60d7022c9eba.js" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/ts-jest/1e/cf8ba5c76adcf53da7c6bc3f8398041b1cba91/c5effea16cc2d8ade14c7723d63c60d7022c9eba.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/38/57f18e98b2399b57f236cfd4b383b416b8a961/0d97eac735bb911c4d64a4eeb7e9a6a705db6372.js" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/ts-jest/38/57f18e98b2399b57f236cfd4b383b416b8a961/0d97eac735bb911c4d64a4eeb7e9a6a705db6372.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/0adbd5c3b64ea8842f840158ee527f85d0f99af9.js" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/0adbd5c3b64ea8842f840158ee527f85d0f99af9.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/42907c8b2e0da129e9c5e8bd8c3d1050db1de18e.js" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/42907c8b2e0da129e9c5e8bd8c3d1050db1de18e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/5f5ee7311dfc82a0ce83d8bc395e77e053d3e969.js" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/5f5ee7311dfc82a0ce83d8bc395e77e053d3e969.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/88c1a8a3a5390686125169614605295f2ef16ec3.js" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/88c1a8a3a5390686125169614605295f2ef16ec3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/920eff24ff829aa65400591522d7dcc01d79552b.js" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/920eff24ff829aa65400591522d7dcc01d79552b.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/97bf902fefec7446b624b7304920e94709af3bb3.js" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/97bf902fefec7446b624b7304920e94709af3bb3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/99510cb9f7eca48b88e2e2285c555821c9166e2b.js" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/99510cb9f7eca48b88e2e2285c555821c9166e2b.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/bda2e97adc17a8d9438cc8c1e2ca89d42d912c10.js" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/bda2e97adc17a8d9438cc8c1e2ca89d42d912c10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/c22071eb3948e353f0d6a674a78aa72208bd8486.js" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/ts-jest/43/5e9fab62bd7564c2c01e5e8730ed4a69f10d6f/c22071eb3948e353f0d6a674a78aa72208bd8486.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/b7/9fcb3e1c65a57dc1462d7ac268ea23d3eaa877/5f5ee7311dfc82a0ce83d8bc395e77e053d3e969.js" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/ts-jest/b7/9fcb3e1c65a57dc1462d7ac268ea23d3eaa877/5f5ee7311dfc82a0ce83d8bc395e77e053d3e969.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/b7/9fcb3e1c65a57dc1462d7ac268ea23d3eaa877/bda2e97adc17a8d9438cc8c1e2ca89d42d912c10.js" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/ts-jest/b7/9fcb3e1c65a57dc1462d7ac268ea23d3eaa877/bda2e97adc17a8d9438cc8c1e2ca89d42d912c10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/f2/36fabdb2212601990d42f755eb4e9c3bf480e4/c5effea16cc2d8ade14c7723d63c60d7022c9eba.js" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/ts-jest/f2/36fabdb2212601990d42f755eb4e9c3bf480e4/c5effea16cc2d8ade14c7723d63c60d7022c9eba.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-add-form/item-add-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-add-form/component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app-types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app-types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item-add-form/component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-add-form/component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item-add-form/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-add-form/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/item-add-form/types-item-add-form.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-add-form/types-item-add-form.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/search-panel/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-panel/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/action-creators/action-creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action-creators/action-creators.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/actions/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/constants.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/reducers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/reducers.ts" afterDir="false" />
@@ -41,47 +28,33 @@
     <window id="1">
       <content type="file-editors">
         <state>
-          <splitter split-orientation="horizontal" split-proportion="0.4328125">
+          <splitter split-orientation="horizontal" split-proportion="0.56875">
             <split-first>
-              <splitter split-orientation="vertical" split-proportion="0.41293013">
-                <split-first>
-                  <leaf>
-                    <file pinned="false" current-in-tab="true">
-                      <entry file="file://$PROJECT_DIR$/src/components/search-panel/component.tsx">
-                        <provider selected="true" editor-type-id="text-editor">
-                          <state relative-caret-position="-300">
-                            <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-                            <folding>
-                              <element signature="e#0#26#0" expanded="true" />
-                            </folding>
-                          </state>
-                        </provider>
-                      </entry>
-                    </file>
-                  </leaf>
-                </split-first>
-                <split-second>
-                  <leaf>
-                    <file pinned="false" current-in-tab="true">
-                      <entry file="file://$PROJECT_DIR$/src/components/search-panel/types.ts">
-                        <provider selected="true" editor-type-id="text-editor">
-                          <state relative-caret-position="100">
-                            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-                          </state>
-                        </provider>
-                      </entry>
-                    </file>
-                  </leaf>
-                </split-second>
-              </splitter>
+              <leaf>
+                <file pinned="false" current-in-tab="true">
+                  <entry file="file://$PROJECT_DIR$/src/components/item-add-form/index.ts">
+                    <provider selected="true" editor-type-id="text-editor">
+                      <state relative-caret-position="150">
+                        <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+                        <folding>
+                          <element signature="e#0#49#0" expanded="true" />
+                        </folding>
+                      </state>
+                    </provider>
+                  </entry>
+                </file>
+              </leaf>
             </split-first>
             <split-second>
               <leaf>
                 <file pinned="false" current-in-tab="true">
-                  <entry file="file://$PROJECT_DIR$/src/redux/store/types.ts">
+                  <entry file="file://$PROJECT_DIR$/src/components/app/App.tsx">
                     <provider selected="true" editor-type-id="text-editor">
-                      <state relative-caret-position="25">
-                        <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+                      <state relative-caret-position="225">
+                        <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+                        <folding>
+                          <element signature="e#0#31#0" expanded="true" />
+                        </folding>
                       </state>
                     </provider>
                   </entry>
@@ -97,12 +70,12 @@
     <favorites_list name="new-to-do" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/app/App.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
+            <state>
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -111,67 +84,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/store/store.ts">
+        <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/types-todo-list-item.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="34" selection-start-column="17" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/reducers/reducers.ts">
+        <entry file="file://$PROJECT_DIR$/src/components/app/app-types.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="275">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/search-panel/index.ts">
+        <entry file="file://$PROJECT_DIR$/src/components/item-add-form/types-item-add-form.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/item-add-form/index.ts">
+        <entry file="file://$PROJECT_DIR$/src/components/app/component.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/selectors/selectors.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/@types/react-redux/index.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="285" column="3" lean-forward="true" selection-start-line="285" selection-start-column="3" selection-end-line="285" selection-end-column="3" />
+            <state relative-caret-position="25">
+              <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -179,31 +122,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/setupTests.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="300">
+              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/action-creators/action-creators.ts">
+        <entry file="file://$PROJECT_DIR$/src/components/app/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="150">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="39" column="51" lean-forward="true" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/todo-list/todo-list.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-36">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/search-panel/component.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-186">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -220,33 +190,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>setupTestFrameworkScriptFile</find>
-      <find>searchPanel</find>
-      <find>wrapper</find>
-      <find>createTodoItem</find>
-      <find>items</find>
-      <find>toggleProperty</find>
-      <find>red</find>
-      <find>redux</find>
-      <find>isolatedModules</find>
-      <find>todO</find>
-      <find>action.payload</find>
-      <find>ALL</find>
-      <find>mapStateToProps</find>
-      <find>ReactDom.</find>
-      <find>SearchPanel</find>
-      <find>onSearchChange</find>
-      <find>onSetSearchValue</find>
-      <find>searchField</find>
-      <find>setSearchValue</find>
-      <find>onAddItem</find>
-      <find>item-add-form</find>
-      <find>searchPa</find>
-      <find>ConnectedSearchPanel</find>
       <find>onLabelChange</find>
-      <find>searchValue</find>
       <find>getSearchValue</find>
       <find>addItem</find>
+      <find>searchValue</find>
+      <find>onAddItem</find>
+      <find>getAddItemValue</find>
+      <find>ItemAddForm</find>
+      <find>IProp</find>
+      <find>todoList</find>
+      <find>ToDoList</find>
+      <find>searchPane</find>
+      <find>fieldValue</find>
+      <find>store</find>
+      <find>setAddFieldValue</find>
+      <find>onSetAddFieldValue</find>
+      <find>ReactDom.</find>
+      <find>App</find>
+      <find>IToDoItem</find>
+      <find>IPropsApp</find>
+      <find>import { IToDoItem } from '../app/app-types';</find>
+      <find>impor</find>
+      <find>TodoList</find>
+      <find>TodoListPr</find>
+      <find>ITodoItem</find>
+      <find>{ IToDoItem }</find>
+      <find>TodoListProps</find>
+      <find>uuid</find>
+      <find>mapStateToProps</find>
+      <find>IToDO</find>
+      <find>IToDoItemProps</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\user\WebstormProjects\jsProjects\new-to-do\test</dir>
@@ -281,23 +254,27 @@
         <option value="$PROJECT_DIR$/src/redux/action-creators/types.ts" />
         <option value="$PROJECT_DIR$/src/components/search-panel/search-panel.tsx" />
         <option value="$PROJECT_DIR$/src/components/search-panel/types-search-panel.ts" />
-        <option value="$PROJECT_DIR$/src/components/app/app-types.ts" />
         <option value="$PROJECT_DIR$/src/components/search-panel/types.ts" />
         <option value="$PROJECT_DIR$/src/components/search-panel/actions.tsx" />
         <option value="$PROJECT_DIR$/src/components/item-status-filter/index.ts" />
         <option value="$PROJECT_DIR$/src/components/app-header/index.ts" />
         <option value="$PROJECT_DIR$/src/redux/store/store.ts" />
-        <option value="$PROJECT_DIR$/src/redux/reducers/reducers.ts" />
-        <option value="$PROJECT_DIR$/src/components/item-add-form/types-item-add-form.ts" />
-        <option value="$PROJECT_DIR$/src/redux/action-creators/action-creators.ts" />
         <option value="$PROJECT_DIR$/src/components/search-panel/component.tsx" />
-        <option value="$PROJECT_DIR$/src/components/item-add-form/component.tsx" />
-        <option value="$PROJECT_DIR$/src/redux/actions/constants.ts" />
-        <option value="$PROJECT_DIR$/src/index.tsx" />
-        <option value="$PROJECT_DIR$/src/components/app/App.tsx" />
         <option value="$PROJECT_DIR$/src/redux/selectors/selectors.ts" />
-        <option value="$PROJECT_DIR$/src/components/search-panel/index.ts" />
+        <option value="$PROJECT_DIR$/src/redux/actions/constants.ts" />
+        <option value="$PROJECT_DIR$/src/redux/action-creators/action-creators.ts" />
+        <option value="$PROJECT_DIR$/src/redux/reducers/reducers.ts" />
         <option value="$PROJECT_DIR$/src/components/item-add-form/index.ts" />
+        <option value="$PROJECT_DIR$/src/components/item-add-form/types-item-add-form.ts" />
+        <option value="$PROJECT_DIR$/src/components/app/component.ts" />
+        <option value="$PROJECT_DIR$/src/components/search-panel/index.ts" />
+        <option value="$PROJECT_DIR$/src/components/item-add-form/component.tsx" />
+        <option value="$PROJECT_DIR$/src/index.tsx" />
+        <option value="$PROJECT_DIR$/src/components/todo-list/types-todo-list.ts" />
+        <option value="$PROJECT_DIR$/src/components/app/index.ts" />
+        <option value="$PROJECT_DIR$/src/components/app/component.tsx" />
+        <option value="$PROJECT_DIR$/src/components/app/app-types.ts" />
+        <option value="$PROJECT_DIR$/src/components/app/App.tsx" />
       </list>
     </option>
   </component>
@@ -322,6 +299,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -352,7 +330,21 @@
               <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="app-header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="item-add-form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="item-status-filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
@@ -365,46 +357,20 @@
               <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
               <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="todo-list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
               <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="action-creators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="selectors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="todo-list-item" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,14 +385,14 @@
     <property name="ts.external.directory.path" value="C:\Users\user\WebstormProjects\jsProjects\new-to-do\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\WebstormProjects\jsProjects\new-to-do\config" />
+      <recent name="C:\Users\user\WebstormProjects\jsProjects\new-to-do" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\WebstormProjects\jsProjects\new-to-do\src\redux\store" />
       <recent name="C:\Users\user\WebstormProjects\jsProjects\new-to-do\src\redux\reducers" />
       <recent name="C:\Users\user\WebstormProjects\jsProjects\new-to-do\src\redux\action-creators" />
-      <recent name="C:\Users\user\WebstormProjects\jsProjects\new-to-do" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\WebstormProjects\jsProjects\new-to-do\config" />
       <recent name="C:\Users\user\WebstormProjects\jsProjects\new-to-do" />
     </key>
   </component>
@@ -585,7 +551,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131660000" />
+    <option name="totallyTimeSpent" value="151381000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -600,11 +566,11 @@
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7175043" visible="true" weight="0.18720254" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7175043" visible="true" weight="0.188789" />
       <window_info id="Structure" order="1" sideWeight="0.5008606" side_tool="true" weight="0.24960339" />
       <window_info id="Favorites" order="2" sideWeight="0.28249568" side_tool="true" weight="0.18773136" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.26643598" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.25028834" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.6239908" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38869664" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -613,7 +579,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298731" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3298731" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23875433" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27912343" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -721,36 +687,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/jest/cssTransform.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/components/item-add-form/item-add-form.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/components/todo-list-item/todo-list-item.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-565">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/components/search-panel/search-panel.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/components/todo-list/todo-list.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
@@ -829,27 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/todo-list/types-todo-list.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/types-todo-list-item.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app/app-types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/search-panel/actions.tsx" />
     <entry file="file://$PROJECT_DIR$/src/components/search-panel/actions.ts" />
     <entry file="file://$PROJECT_DIR$/src/components/item-status-filter/index.ts" />
@@ -861,26 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/redux/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="265" column="2" selection-start-line="265" selection-start-column="2" selection-end-line="265" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/search-panel/search-panel.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/item-status-filter/item-status-filter.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/app-header/types-app-header.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -888,57 +783,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/todo-list/todo-list.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app-header/app-header.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/action-creators/types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/reducers/types.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/item-add-form/item-add-form.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/search-panel/types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -956,52 +804,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/item-add-form/types-item-add-form.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/item-add-form/component.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/actions/constants.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="60" lean-forward="true" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/functions.ts">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/search-panel/component.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/action-creators/action-creators.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/setupTests.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -1013,63 +817,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/store/types.ts">
+    <entry file="file://$PROJECT_DIR$/node_modules/redux/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="200">
+          <caret line="265" column="2" selection-start-line="265" selection-start-column="2" selection-end-line="265" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/todo-list/types-todo-list.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@types/react-redux/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="285" column="3" lean-forward="true" selection-start-line="285" selection-start-column="3" selection-end-line="285" selection-end-column="3" />
+        <state relative-caret-position="308">
+          <caret line="199" column="4" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.tsx">
+    <entry file="file://$PROJECT_DIR$/src/redux/action-creators/types.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/item-add-form/index.ts">
+    <entry file="file://$PROJECT_DIR$/src/components/item-add-form/item-add-form.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/action-creators/action-creators.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/search-panel/index.ts">
+    <entry file="file://$PROJECT_DIR$/src/components/search-panel/types.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/search-panel/search-panel.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/store/store.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/store/types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/actions/constants.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="61" lean-forward="true" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/reducers/reducers.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="346">
+          <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/store/store.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1077,14 +905,148 @@
     <entry file="file://$PROJECT_DIR$/src/redux/selectors/selectors.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app-header/app-header.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app-header/app-header.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/item-add-form/component.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/search-panel/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="39" column="51" lean-forward="true" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/todo-list/todo-list.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/item-status-filter/item-status-filter.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/search-panel/component.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-186">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/item-add-form/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/todo-list-item/types-todo-list-item.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/item-add-form/types-item-add-form.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/component.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/app-types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/app/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
+        <state>
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

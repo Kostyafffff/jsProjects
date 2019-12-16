@@ -10,3 +10,8 @@ export const setAddFieldValue = (value: string): IAction<string> => ({
     type: actions.SET_ADD_FIELD_VALUE,
     payload: value,
 });
+
+export const addToDo = (value: string): IAction<string> =>({
+    type: actions.ADD_TODO_ITEM,
+    payload: value,
+});

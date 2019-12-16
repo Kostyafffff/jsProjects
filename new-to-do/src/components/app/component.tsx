@@ -4,9 +4,9 @@ import { AppHeader } from '../app-header/app-header'
 import { ItemStatusFilter } from '../item-status-filter/item-status-filter';
 import { SearchPanel } from '../search-panel';
 import { ToDoList } from '../todo-list/todo-list';
-import { IState, IToDoItem } from './app-types';
+import { IToDoItem, IState } from './app-types';
 import { ItemAddForm } from "../item-add-form";
-export class App extends Component<{}, IState> {
+export class App extends Component<IToDoItem, IState> {
 
     maxId: number = 100;
 
@@ -49,26 +49,25 @@ export class App extends Component<{}, IState> {
                 return items.filter((item: IToDoItem) => item.done);
 
             case 'all':
-
             default:
                 return items;
         }
     }
 
     search(items: IToDoItem[], term: string): IToDoItem[] {
-       return items.filter((item: IToDoItem) => {
-           if (term.length === 0) {
-               return items;
-           }
+        return items.filter((item: IToDoItem) => {
+                if (term.length === 0) {
+                    return items;
+                }
 
-           return item.label.toLowerCase().indexOf(term.toLowerCase()) > -1;
-          }
-       )
+                return item.label.toLowerCase().indexOf(term.toLowerCase()) > -1;
+            }
+        )
     }
 
     deleteItem = ( id : number ) : void => {
         this.setState(( { toDoData } ) => {
-            return { toDoData: toDoData.filter(( element:  IToDoItem ) => element.id !== id) };
+            return { toDoData: toDoData.filter(( element: IToDoItem ) => element.id !== id) };
         });
     };
 
@@ -127,3 +126,4 @@ export class App extends Component<{}, IState> {
         )
     }
 }
+//onAddItem={this.onAddItem}

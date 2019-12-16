@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import { IPropsItemAddForm, IStateItemAddForm } from './types-item-add-form';
 import './item-add-form.css'
 
-export class Component extends PureComponent<IPropsItemAddForm, IStateItemAddForm>{
+export class Component extends PureComponent<IPropsItemAddForm, IStateItemAddForm> {
 
     // onLabelChange = (elem: ChangeEvent<HTMLInputElement>): void => {
     //     const { value: label } = elem.target;
@@ -16,8 +16,11 @@ export class Component extends PureComponent<IPropsItemAddForm, IStateItemAddFor
     };
 
     onSubmit = (event: React.FormEvent<HTMLFormElement>): void => {
+        const { addToDo, setAddFieldValue } = this.props;
+
         event.preventDefault();
-        this.props.setAddFieldValue('');
+        setAddFieldValue('');
+        addToDo(event.currentTarget.value);
     };
 
     render(): JSX.Element {
