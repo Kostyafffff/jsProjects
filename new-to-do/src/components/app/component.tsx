@@ -1,9 +1,11 @@
 import * as React from 'react';
+// @ts-ignore
 import { Component } from 'react';
 import { AppHeader } from '../app-header/app-header'
-import { ItemStatusFilter } from '../item-status-filter/item-status-filter';
+import { ItemStatusFilter } from '../item-status-filter/component';
 import { SearchPanel } from '../search-panel';
-import { ToDoList } from '../todo-list/todo-list';
+// @ts-ignore
+import { Component } from '../todo-list/todo-list';
 import { IToDoItem, IState } from './app-types';
 import { ItemAddForm } from "../item-add-form";
 export class App extends Component<IToDoItem, IState> {
@@ -116,7 +118,7 @@ export class App extends Component<IToDoItem, IState> {
                     onFilterChange={this.onFilterChange}
                 />
                 <ItemAddForm />
-                <ToDoList
+                <Component
                     todos={visibleItems}
                     onDeleted={this.deleteItem}
                     onToggleImportant={this.onToggleImportant}

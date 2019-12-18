@@ -2,7 +2,7 @@ import { mount } from 'enzyme';
 import React from 'react';
 import sinon from 'sinon';
 import { TodoListProps } from '../../../src/components/todo-list/types-todo-list';
-import {ToDoList} from "../../../src/components/todo-list/todo-list";
+import {Component} from "../../../src/components/todo-list/todo-list";
 
 describe('src/components/todo-list/todo-list.tsx', () => {
 
@@ -20,13 +20,13 @@ describe('src/components/todo-list/todo-list.tsx', () => {
 
     it('should be defined', () => {
         //Then
-        expect(ToDoList).toBeDefined();
+        expect(Component).toBeDefined();
     });
 
     it('should TodoListItemProps mount component', () => {
 
         //When
-        const wrapper = mount(<ToDoList {...toDoListProps} />);
+        const wrapper = mount(<Component {...toDoListProps} />);
 
         //Then
         expect(wrapper.isEmptyRender()).toBeFalsy();
@@ -44,7 +44,7 @@ describe('src/components/todo-list/todo-list.tsx', () => {
         };
 
         //When
-        const wrapper = mount(<ToDoList {...currentProps} />);
+        const wrapper = mount(<Component {...currentProps} />);
 
         //Then
         expect(wrapper.find(expectedClass)).toHaveLength(1);

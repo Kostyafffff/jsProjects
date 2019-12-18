@@ -1,10 +1,12 @@
-import { IStore } from '../store/types';
+import {IStore, IStoreTodoListItem} from '../store/types';
 import { Reducer } from "redux";
 import { initialStore } from '../store/store';
 import * as actions from '../actions/constants';
-import {IAction, IActionBase} from "../action-creators/types";
+import { IAction, IActionBase } from "../action-creators/types";
 
 import uuid from 'uuid/v4';
+
+
 
 export const reducer: Reducer<IStore, IActionBase> = (store = initialStore, action) => {
     switch (action.type) {
@@ -16,6 +18,9 @@ export const reducer: Reducer<IStore, IActionBase> = (store = initialStore, acti
 
         case  actions.ADD_TODO_ITEM:
             return onAddItem(store, action as IAction<string>);
+
+        case actions.TOGGLE_IMPORTANT_ITEM:
+            return onToggleImportant(store, action as IAction<string>);
 
         default:
             return store;
@@ -41,3 +46,24 @@ export const onAddItem = (store: IStore, action: IAction<string>): IStore => ({
         id: uuid(),
     }]
 });
+
+const toggleProperty = (
+    arr: IStoreTodoListItem[],
+    id: string,
+    propName: string,
+): IStoreTodoListItem[] => arr.map(element => {
+    if (element.id === id) {
+        return {
+            ...element,
+            [propName]: !element[propName],
+        };
+    }
+
+    return { ...element };
+});
+
+export const onToggleImportant = (store: IStore, action: IAction<string>): IStore => <IStore>({
+    ...store,
+    todoList: toggleProperty(store.todoList, action.payload, 'important'),
+});
+

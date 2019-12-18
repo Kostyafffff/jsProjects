@@ -10,7 +10,3 @@ export interface IToDoItem {
     done: boolean,
     id: number
 }
-
-export interface IPropsApp {
-
-}

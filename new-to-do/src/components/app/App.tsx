@@ -1,14 +1,14 @@
 import * as React from 'react';
 import { Component } from 'react';
 import { AppHeader } from '../app-header/app-header'
-import { ItemStatusFilter } from '../item-status-filter/item-status-filter';
+import { ItemStatusFilter } from '../item-status-filter/component';
 import { SearchPanel } from '../search-panel';
-import { ToDoList } from '../todo-list/todo-list';
+import { Component } from '../todo-list/component';
 import { IState, IToDoItem } from './app-types';
 import { ItemAddForm } from "../item-add-form";
 
 //need props first param
-export class App extends Component<{}, IState> {
+export class App extends Component<{}, IState>{
 
     maxId: number = 100;
 
@@ -119,7 +119,7 @@ export class App extends Component<{}, IState> {
                     onFilterChange={this.onFilterChange}
                 />
                 <ItemAddForm />
-                <ToDoList
+                <Component
                     todos={visibleItems}
                     onDeleted={this.deleteItem}
                     onToggleImportant={this.onToggleImportant}

@@ -10,6 +10,7 @@ export interface IStoreTodoListItem {
     important: boolean;
     done: boolean;
     id: string;
+    [key: string]: boolean | string
 }
 
 export enum FILTER {

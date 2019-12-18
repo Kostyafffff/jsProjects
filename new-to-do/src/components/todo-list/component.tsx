@@ -1,9 +1,10 @@
 import * as React from 'react';
-import { TodoListItem } from '../todo-list-item/todo-list-item';
+
 import { TodoListProps } from './types-todo-list';
 import './todo-list.css';
+import { TodoListItem } from "../todo-list-item/component";
 
-export const ToDoList: React.FC<TodoListProps> = ({ todos, onDeleted, onToggleImportant, onToggleDone }): JSX.Element => {
+export const Component: React.FC<TodoListProps> = ({ todos, onDeleted, onToggleImportant, onToggleDone }): JSX.Element => {
     const elements = todos.map(item => {
         const { id, ...itemProps } = item;
 
@@ -24,4 +25,5 @@ export const ToDoList: React.FC<TodoListProps> = ({ todos, onDeleted, onToggleIm
             {elements}
         </ul>
     );
+    //make connect
 };
