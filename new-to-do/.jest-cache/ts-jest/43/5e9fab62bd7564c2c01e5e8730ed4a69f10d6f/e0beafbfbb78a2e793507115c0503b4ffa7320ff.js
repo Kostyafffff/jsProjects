@@ -100,7 +100,7 @@ describe('src/components/App/App', function () {
         instance.onAddItem(text);
         expect(instance.state.toDoData[0]).toEqual(expected);
     });
-    it('onToggleImportant check', function () {
+    it('toggleImportant check', function () {
         //Given
         var wrapper = enzyme_1.mount(React.createElement(App_1.App, null));
         var instance = wrapper.instance();
@@ -118,11 +118,11 @@ describe('src/components/App/App', function () {
         };
         wrapper.setState({ toDoData: toDoData });
         //When
-        instance.onToggleImportant(99);
+        instance.toggleImportant(99);
         //Then
         expect(instance.state.toDoData[0]).toEqual(expected);
     });
-    //same as onToggleImportant
+    //same as toggleImportant
     it('onToggleDone check', function () {
         //Given
         var instance = enzyme_1.mount(React.createElement(App_1.App, null)).instance();
@@ -347,12 +347,12 @@ describe('src/components/App/App', function () {
         // const visibleItems = 'asdqwe';
         //When
         var deleteItem = wrapper.instance().deleteItem;
-        var onToggleImportant = wrapper.instance().onToggleImportant;
+        var onToggleImportant = wrapper.instance().toggleImportant;
         var onToggleDone = wrapper.instance().onToggleDone;
         //Then
         var addItem = wrapper.find('[mock-id="item-add-form"]');
         expect(addItem.prop('onDeleted')).toEqual(deleteItem);
-        expect(addItem.prop('onToggleImportant')).toEqual(onToggleImportant);
+        expect(addItem.prop('toggleImportant')).toEqual(onToggleImportant);
         expect(addItem.prop('onToggleDone')).toEqual(onToggleDone);
     });
 });

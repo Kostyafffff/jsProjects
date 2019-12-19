@@ -60,7 +60,7 @@ describe('src/components/App/App', function () {
         expect(instance.maxId).toEqual(104);
     });
     //onAddItem
-    //onToggleImportant
+    //toggleImportant
     //filter
     //search
     //deleteItem

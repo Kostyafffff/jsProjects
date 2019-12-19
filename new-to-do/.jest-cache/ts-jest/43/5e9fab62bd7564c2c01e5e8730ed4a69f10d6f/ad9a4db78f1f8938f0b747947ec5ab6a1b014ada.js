@@ -14,7 +14,7 @@ var React = __importStar(require("react"));
 var classnames_1 = __importDefault(require("classnames"));
 require("./todo-list-item.css");
 exports.TodoListItem = function (_a) {
-    var label = _a.label, onDeleted = _a.onDeleted, onToggleImportant = _a.onToggleImportant, onToggleDone = _a.onToggleDone, important = _a.important, done = _a.done;
+    var label = _a.label, onDeleted = _a.onDeleted, onToggleImportant = _a.toggleImportant, onToggleDone = _a.onToggleDone, important = _a.important, done = _a.done;
     var className = classnames_1.default('todo-list-item', {
         done: done,
         important: important,

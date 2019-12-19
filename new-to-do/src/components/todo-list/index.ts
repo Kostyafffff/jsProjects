@@ -1,18 +1,15 @@
 import { IStore } from "../../redux/store/types";
 import { connect } from "react-redux";
-import { onToggleImportant } from "redux/action-creators/action-creators";
+import { toggleImportant } from "redux/action-creators/action-creators";
 import { getToDoList } from "../../redux/selectors/selectors";
-import { Component } from "./todo-list/component";
-
+import { TodoList as Component } from "./component";
 
 export const mapStateToProps = (store: IStore) => ({
     todoList: getToDoList(store),
 });
 
 export const mapDispatchToProps = {
-    onToggleImportant
+    onToggleImportant: toggleImportant
 };
 
 export const TodoList = connect(mapStateToProps, mapDispatchToProps)(Component);
-
-

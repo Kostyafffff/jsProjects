@@ -33,7 +33,7 @@ var React = __importStar(require("react"));
 var todo_list_item_1 = require("../todo-list-item/todo-list-item");
 require("./todo-list.css");
 exports.ToDoList = function (_a) {
-    var todos = _a.todos, onDeleted = _a.onDeleted, onToggleImportant = _a.onToggleImportant, onToggleDone = _a.onToggleDone;
+    var todos = _a.todos, onDeleted = _a.onDeleted, onToggleImportant = _a.toggleImportant, onToggleDone = _a.onToggleDone;
     var elements = todos.map(function (item) {
         var id = item.id, itemProps = __rest(item, ["id"]);
         return (React.createElement("li", { key: id, className: "list-group-item" },

@@ -4,13 +4,13 @@ import {TodoListItemProps} from './types-todo-list-item';
 import './todo-list-item.css';
 
 export const TodoListItem: React.FC<TodoListItemProps> = ({
-                                                              label,
-                                                              onDeleted,
-                                                              onToggleImportant,
-                                                              onToggleDone,
-                                                              important,
-                                                              done,
-                                                          }): JSX.Element => {
+    label,
+    onDeleted,
+    onToggleImportant,
+    onToggleDone,
+    important,
+    done,
+}): JSX.Element => {
     const className: string = classNames('todo-list-item', {
         done,
         important,

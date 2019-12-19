@@ -74,7 +74,7 @@ describe('src/components/App/App', function () {
         instance.onAddItem(text);
         expect(instance.state.toDoData[0]).toEqual(expected);
     });
-    it('onToggleImportant check', function () {
+    it('toggleImportant check', function () {
         //Given
         var wrapper = enzyme_1.mount(React.createElement(App_1.App, null));
         var instance = wrapper.instance();
@@ -92,7 +92,7 @@ describe('src/components/App/App', function () {
         };
         wrapper.setState({ toDoData: toDoData });
         //When
-        instance.onToggleImportant(99);
+        instance.toggleImportant(99);
         //Then
         expect(instance.state.toDoData[0]).toEqual(expected);
     });

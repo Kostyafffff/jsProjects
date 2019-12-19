@@ -74,7 +74,7 @@ describe('src/components/App/App', function () {
         expect(instance.state.toDoData[0]).toEqual(expected);
     });
     //onAddItem
-    //onToggleImportant
+    //toggleImportant
     //filter
     //search
     //deleteItem

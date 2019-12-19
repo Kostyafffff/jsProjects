@@ -8,5 +8,5 @@ export interface IToDoItem {
     label: string,
     important: boolean,
     done: boolean,
-    id: number
+    id: string;
 }

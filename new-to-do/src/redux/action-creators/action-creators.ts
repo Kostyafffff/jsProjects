@@ -21,7 +21,17 @@ export const setFilter = (value: string): IAction<string> => ({
     payload: value,
 });
 
-export const onToggleImportant = (value: string): IAction<string> => ({
+export const toggleImportant = (value: string): IAction<string> => ({
     type: actions.TOGGLE_IMPORTANT_ITEM,
+    payload: value,
+});
+
+export const deleteItem = (value: string): IAction<string> => ({
+    type: actions.DELETE_TODO_ITEM,
+    payload: value
+});
+
+export const toggleDone = (value: string): IAction<string> => ({
+    type: actions.TOGGLE_DONE_ITEM,
     payload: value,
 });

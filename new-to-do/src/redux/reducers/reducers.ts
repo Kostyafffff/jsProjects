@@ -7,7 +7,6 @@ import { IAction, IActionBase } from "../action-creators/types";
 import uuid from 'uuid/v4';
 
 
-
 export const reducer: Reducer<IStore, IActionBase> = (store = initialStore, action) => {
     switch (action.type) {
         case actions.SET_SEARCH_VALUE:
@@ -22,6 +21,8 @@ export const reducer: Reducer<IStore, IActionBase> = (store = initialStore, acti
         case actions.TOGGLE_IMPORTANT_ITEM:
             return onToggleImportant(store, action as IAction<string>);
 
+        case actions.DELETE_TODO_ITEM:
+            return onDeleteToDoItem(store, action as IAction<string>);
         default:
             return store;
     }
@@ -40,6 +41,16 @@ export const onSetAddFieldValue = (store: IStore, action: IAction<string>): ISto
 export const onAddItem = (store: IStore, action: IAction<string>): IStore => ({
     ...store,
     todoList : [...store.todoList, {
+        label: action.payload,
+        important: false,
+        done: false,
+        id: uuid(),
+    }]
+});
+
+export const onDeleteToDoItem = (store: IStore, action: IAction<string>): IStore => ({
+    ...store,
+    todoList: [...store.todoList, {
         label: action.payload,
         important: false,
         done: false,
@@ -66,4 +77,11 @@ export const onToggleImportant = (store: IStore, action: IAction<string>): IStor
     ...store,
     todoList: toggleProperty(store.todoList, action.payload, 'important'),
 });
+
+export const onToggleDone = (store: IStore, action: IAction<string>): IStore => <IStore>({
+    ...store,
+    todoList: toggleProperty(store.todoList, action.payload, 'done'),
+});
+
+
 

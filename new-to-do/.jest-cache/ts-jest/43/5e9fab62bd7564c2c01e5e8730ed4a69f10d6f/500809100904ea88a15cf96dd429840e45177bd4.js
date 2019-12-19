@@ -70,7 +70,7 @@ describe('src/components/App/App', function () {
         console.log(state);
     });
     //onAddItem
-    //onToggleImportant
+    //toggleImportant
     //filter
     //search
     //deleteItem

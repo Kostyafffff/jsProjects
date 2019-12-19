@@ -85,7 +85,7 @@ describe('src/components/App/App', () => {
         expect(instance.state.toDoData[0]).toEqual(expected);
     });
 
-    it('onToggleImportant check',() => {
+    it('toggleImportant check',() => {
         //Given
         const wrapper = mount<App>(<App />);
         const instance = wrapper.instance();
@@ -110,7 +110,7 @@ describe('src/components/App/App', () => {
         expect(instance.state.toDoData[0]).toEqual(expected);
     });
 
-    //same as onToggleImportant
+    //same as toggleImportant
     it('onToggleDone check',() => {
         //Given
         const instance = mount<App>(<App />).instance();
@@ -382,7 +382,7 @@ describe('src/components/App/App', () => {
         const addItem = wrapper.find('[mock-id="todo-list"]');
         expect(addItem.prop('onDeleted')).toEqual(deleteItem);
         // expect(addItem.prop('todos')).toEqual(visibleItems);
-        expect(addItem.prop('onToggleImportant')).toEqual(onToggleImportant);
+        expect(addItem.prop('toggleImportant')).toEqual(onToggleImportant);
         expect(addItem.prop('onToggleDone')).toEqual(onToggleDone);
     })
 });

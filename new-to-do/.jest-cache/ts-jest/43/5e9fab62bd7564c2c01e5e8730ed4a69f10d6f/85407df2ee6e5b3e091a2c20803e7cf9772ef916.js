@@ -74,7 +74,7 @@ describe('src/components/App/App', function () {
         instance.onAddItem(text);
         expect(instance.state.toDoData[0]).toEqual(expected);
     });
-    it('onToggleImportant check', function () {
+    it('toggleImportant check', function () {
         //Given
         var instance = enzyme_1.mount(React.createElement(App_1.App, null)).instance();
         var expected = {
@@ -85,7 +85,7 @@ describe('src/components/App/App', function () {
         };
         //When
         instance.onAddItem(expected.label);
-        instance.onToggleImportant(103);
+        instance.toggleImportant(103);
         //Then
         expect(instance.state.toDoData[0].important).toBeTruthy();
     });
