@@ -36,9 +36,9 @@ export class App extends React.Component<IToDoItem, IState> {
     //     });
     // };
 
-    onToggleImportant = (id: string): void => this.setState( ({ toDoData }) => ({
-        toDoData: this.toggleProperty(toDoData, id, 'important'),
-    }));
+    // onToggleImportant = (id: string): void => this.setState( ({ toDoData }) => ({
+    //     toDoData: this.toggleProperty(toDoData, id, 'important'),
+    // }));
 
     filter(items : IToDoItem[], filter: string) : IToDoItem[] {
         switch (filter) {
@@ -94,7 +94,7 @@ export class App extends React.Component<IToDoItem, IState> {
     //     })
     // };
 
-    onSearchChange = (): void => this.setState({  });
+    onSearchChange = (): void => this.setState({});
 
     onFilterChange = (filter: string): void => this.setState({ filter });
 
@@ -116,9 +116,7 @@ export class App extends React.Component<IToDoItem, IState> {
                     onFilterChange={this.onFilterChange}
                 />
                 <ItemAddForm />
-                <TodoList
-
-                />
+                <TodoList />
             </div>
         )
     }
