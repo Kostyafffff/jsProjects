@@ -6,7 +6,6 @@ import { IAction, IActionBase } from "../action-creators/types";
 
 import uuid from 'uuid/v4';
 
-
 export const reducer: Reducer<IStore, IActionBase> = (store = initialStore, action) => {
     switch (action.type) {
         case actions.SET_SEARCH_VALUE:
@@ -82,6 +81,3 @@ export const onToggleDone = (store: IStore, action: IAction<string>): IStore => 
     ...store,
     todoList: toggleProperty(store.todoList, action.payload, 'done'),
 });
-
-
-

@@ -6,7 +6,7 @@ import { IToDoItem, IState } from './app-types';
 import { ItemAddForm } from "../item-add-form";
 import {TodoList} from "../todo-list";
 
-export class App extends React.Component<IToDoItem, IState> {
+export class App extends React.Component<{}, IState> {
 
   //  maxId: number = 100;
 
