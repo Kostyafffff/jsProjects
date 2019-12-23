@@ -2,10 +2,43 @@ import * as React from 'react';
 
 import { TodoListProps } from './types-todo-list';
 import './todo-list.css';
-import { TodoListItem } from "../todo-list-item/component";
+import { TodoListItem } from '../todo-list-item/component';
+import { IToDoItem } from '../app/app-types';
 
-export const TodoList: React.FC<TodoListProps> = ({ todoList, onDeleted, onToggleImportant, onToggleDone }): JSX.Element => {
-    const elements = todoList.map(item => {
+const filter = (items : IToDoItem[], filter: string) : IToDoItem[] => {
+    switch (filter) {
+        case 'active':
+            return items.filter((item: IToDoItem) => !item.done);
+
+        case 'done':
+            return items.filter((item: IToDoItem) => item.done);
+
+        case 'all':
+        default:
+            return items;
+    }
+};
+
+const search = (items: IToDoItem[], term: string): IToDoItem[] => {
+    return items.filter((item: IToDoItem) => {
+            if (term.length === 0) {
+                return items;
+            }
+
+            return item.label.toLowerCase().indexOf(term.toLowerCase()) > -1;
+        }
+    )
+};
+
+export const TodoList: React.FC<TodoListProps> = ({
+    todoList,
+    onDeleted,
+    onToggleImportant,
+    onToggleDone,
+    filterValue,
+    searchValue,
+}): JSX.Element => {
+    const elements = filter(search(todoList, searchValue), filterValue).map(item => {
         const { id, ...itemProps } = item;
 
         return (

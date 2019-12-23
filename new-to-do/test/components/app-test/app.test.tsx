@@ -381,7 +381,7 @@ describe('src/components/App/App', () => {
         //Then
         const addItem = wrapper.find('[mock-id="todo-list"]');
         expect(addItem.prop('onDeleted')).toEqual(deleteItem);
-        // expect(addItem.prop('todos')).toEqual(visibleItems);
+
         expect(addItem.prop('toggleImportant')).toEqual(onToggleImportant);
         expect(addItem.prop('onToggleDone')).toEqual(onToggleDone);
     })

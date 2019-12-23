@@ -1,12 +1,12 @@
 import React from 'react';
 import { AppHeader } from '../app-header/app-header'
-import { ItemStatusFilter } from '../item-status-filter/component';
+import { ItemStatusFilter } from '../item-status-filter';
 import { SearchPanel } from '../search-panel';
-import { IToDoItem, IState } from './app-types';
-import { ItemAddForm } from "../item-add-form";
-import {TodoList} from "../todo-list";
+import { IPropsApp } from './app-types';
+import { ItemAddForm } from '../item-add-form';
+import { TodoList } from '../todo-list';
 
-export class App extends React.Component<{}, IState> {
+export class App extends React.Component<IPropsApp> {
 
   //  maxId: number = 100;
 
@@ -40,36 +40,36 @@ export class App extends React.Component<{}, IState> {
     //     toDoData: this.toggleProperty(toDoData, id, 'important'),
     // }));
 
-    filter(items : IToDoItem[], filter: string) : IToDoItem[] {
-        switch (filter) {
-            case 'active':
-                return items.filter((item: IToDoItem) => !item.done);
+    // filter(items : IToDoItem[], filter: string) : IToDoItem[] {
+    //     switch (filter) {
+    //         case 'active':
+    //             return items.filter((item: IToDoItem) => !item.done);
+    //
+    //         case 'done':
+    //             return items.filter((item: IToDoItem) => item.done);
+    //
+    //         case 'all':
+    //         default:
+    //             return items;
+    //     }
+    // }
+    //
+    // search(items: IToDoItem[], term: string): IToDoItem[] {
+    //     return items.filter((item: IToDoItem) => {
+    //             if (term.length === 0) {
+    //                 return items;
+    //             }
+    //
+    //             return item.label.toLowerCase().indexOf(term.toLowerCase()) > -1;
+    //         }
+    //     )
+    // }
 
-            case 'done':
-                return items.filter((item: IToDoItem) => item.done);
-
-            case 'all':
-            default:
-                return items;
-        }
-    }
-
-    search(items: IToDoItem[], term: string): IToDoItem[] {
-        return items.filter((item: IToDoItem) => {
-                if (term.length === 0) {
-                    return items;
-                }
-
-                return item.label.toLowerCase().indexOf(term.toLowerCase()) > -1;
-            }
-        )
-    }
-
-    deleteItem = ( id : string ) : void => {
-        this.setState(( { toDoData } ) => {
-            return { toDoData: toDoData.filter(( element: IToDoItem ) => element.id !== id) };
-        });
-    };
+    // deleteItem = ( id : string ) : void => {
+    //     this.setState(( { toDoData } ) => {
+    //         return { toDoData: toDoData.filter(( element: IToDoItem ) => element.id !== id) };
+    //     });
+    // };
 
     // toggleProperty = (
     //     arr: IToDoItem[],
@@ -94,14 +94,8 @@ export class App extends React.Component<{}, IState> {
     //     })
     // };
 
-    onSearchChange = (): void => this.setState({});
-
-    onFilterChange = (filter: string): void => this.setState({ filter });
-
     render(): JSX.Element {
-        const { toDoData, filter } = this.state;
-
-        // const visibleItems: IToDoItem[] = this.filter( this.search(toDoData, ''), filter);
+        const { toDoData } = this.props;
 
         const doneCount = toDoData.filter(element => element.done).length;
 
@@ -111,10 +105,7 @@ export class App extends React.Component<{}, IState> {
             <div>
                 <AppHeader toDo={toDoCount} done={doneCount} />
                 <SearchPanel />
-                <ItemStatusFilter
-                    filter={filter}
-                    onFilterChange={this.onFilterChange}
-                />
+                <ItemStatusFilter />
                 <ItemAddForm />
                 <TodoList />
             </div>

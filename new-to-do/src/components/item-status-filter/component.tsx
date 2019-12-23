@@ -16,33 +16,31 @@ export class ItemStatusFilter extends Component<IPropsItemStatusFilter> {
     };
 
     render(): JSX.Element {
-
         const { filter } = this.props;
 
         const buttons = this.buttons.map(({ name, label }) => {
             const isActive = filter === name;
-
             const clazz = isActive ? 'btn-info' : 'btn-outline-secondary';
 
             return (
                 <button
                     type="button"
-            className={`btn ${clazz}`}
-            key={name}
-            accessKey={name}
-            onClick={this.onButtonClick}
+                    className={`btn ${clazz}`}
+                    key={name}
+                    accessKey={name}
+                    onClick={this.onButtonClick}
                 >
-                { label }
+                    { label }
                 </button>
-        )
+            )
         });
 
         return (
             <div className="btn-group">
-            <div className="btn-group-wrapper">
-                { buttons }
+                <div className="btn-group-wrapper">
+                    { buttons }
                 </div>
-                </div>
+            </div>
         );
     }
 }

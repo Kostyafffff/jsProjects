@@ -1,6 +1,5 @@
-export interface IState {
-    toDoData: IToDoItem[]
-    filter: string
+export interface IPropsApp {
+    toDoData: IToDoItem[];
 }
 
 export interface IToDoItem {
