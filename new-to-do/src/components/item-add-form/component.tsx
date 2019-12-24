@@ -2,13 +2,7 @@ import React, { PureComponent } from 'react';
 import { IPropsItemAddForm } from './types-item-add-form';
 import './item-add-form.css'
 
-export class Component extends PureComponent<IPropsItemAddForm> {
-
-    // onLabelChange = (elem: ChangeEvent<HTMLInputElement>): void => {
-    //     const { value: label } = elem.target;
-    //     this.setState({ label });
-    // };
-
+export class ItemAddForm extends PureComponent<IPropsItemAddForm> {
     onLabelChange = ({ target: { value } }: React.ChangeEvent<HTMLInputElement>): void => {
         const { setAddFieldValue } = this.props;
 

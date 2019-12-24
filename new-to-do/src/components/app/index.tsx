@@ -5,7 +5,7 @@ import { SearchPanel } from '../search-panel';
 import { ItemAddForm } from '../item-add-form';
 import { TodoList } from '../todo-list';
 
-export class App extends React.Component {
+    export class App extends React.Component {
 
     render(): JSX.Element {
         return(

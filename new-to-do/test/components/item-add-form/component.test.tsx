@@ -1,6 +1,6 @@
 import {mount, shallow} from 'enzyme';
 import React, { ChangeEvent } from 'react';
-import { ItemAddForm } from 'components/item-add-form/item-add-form';
+import { ItemAddForm } from 'components/item-add-form/component';
 import { IPropsItemAddForm } from 'components/item-add-form/types-item-add-form';
 import sinon from 'sinon';
 describe('src/components/item-add-form/item-add-form.tsx', () => {

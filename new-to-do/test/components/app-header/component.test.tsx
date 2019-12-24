@@ -1,14 +1,15 @@
+import * as React from 'react';
 import { mount } from 'enzyme';
 import sinon from 'sinon';
-import { AppHeader } from 'components/app-header/app-header';
-import * as React from 'react';
+
+import { AppHeader } from 'components/app-header/component';
 import { IProps } from 'components/app-header/types-app-header';
 
 describe('src/components/app-header/app-header', () => {
 
     const props: IProps = {
-        toDo: '',
-        done: ''
+        toDo: 'toDo',
+        done: 'done'
     };
 
     beforeEach(() => {
@@ -70,29 +71,4 @@ describe('src/components/app-header/app-header', () => {
         const point: string = '';
         point.length;
     });
-
-
-    // it.each`
-    //     toDoActual    | doneActual | toDoExpected  | doneExpected
-    //     ${1}          | ${2}       |   ${1}        |   ${2}
-    //     ${'1'}        | ${'2'}     |   ${'1'}      |   ${'2'}
-    //     ${-1}         | ${-2}      |   ${-1}       |   ${-2}
-    //     ${1123}       | ${0}       |   ${1123}     |   ${0}
-    //     ${0}          | ${0}       |   ${0}        |   ${0}
-    //     ${0}          | ${1123}    |   ${0}        |   ${1123}
-    // `('Should change props of AppHeader', ({ toDoActual, doneActual, toDoExpected, doneExpected }) => {
-    //
-    //      //Given
-    //     const currentProps: IProps = {
-    //        toDo: toDoActual,
-    //        done: doneActual
-    //    };
-    //
-    //     //When
-    //     const wrapper = mount(<AppHeader {...currentProps} />);
-    //
-    //     //Then
-    //     expect(wrapper.prop('toDo')).toEqual(toDoExpected);
-    //     expect(wrapper.prop('done')).toEqual(doneExpected);
-    // })
 });
