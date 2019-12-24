@@ -5,7 +5,7 @@ import { setFilter } from 'redux/action-creators/action-creators';
 import { getFilterValue } from 'redux/selectors/selectors';
 
 export const mapStateToProps = (store: IStore) =>({
-    filter: getFilterValue(store)
+    filter: getFilterValue(store),
 });
 
 export const mapDispatchToProps = {

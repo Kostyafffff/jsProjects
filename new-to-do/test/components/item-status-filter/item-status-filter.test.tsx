@@ -1,5 +1,4 @@
 import sinon from 'sinon';
-import { ItemStatusFilter } from 'components/item-status-filter/item-status-filter';
 import  { mount } from 'enzyme';
 import * as React from 'react';
 
