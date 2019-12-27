@@ -24,7 +24,7 @@ describe('components/item-add-form', () => {
         expect(getAddItemValueStub.calledOnceWithExactly(store)).toBeTruthy();
     });
 
-    it('mapDispatchToProps', () => {
+    it('mapDispatchToProps test', () => {
         //Given
         const expectedMapDispatchToProps = {
             setAddFieldValue: setAddFieldValue,

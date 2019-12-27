@@ -30,5 +30,5 @@ describe('src/components/AppHeader', () => {
         expect(actual).toEqual(expected);
         expect(getDoneCountStub.calledOnceWithExactly(store)).toBeTruthy();
         expect(getToDoCountStub.calledOnceWithExactly(store)).toBeTruthy();
-    })
+    });
 });
