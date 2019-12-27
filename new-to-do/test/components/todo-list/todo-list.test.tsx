@@ -2,7 +2,7 @@ import { mount } from 'enzyme';
 import React from 'react';
 import sinon from 'sinon';
 import { TodoListProps } from '../../../src/components/todo-list/types-todo-list';
-import {Component} from "../../../src/components/todo-list/todo-list";
+import {Component} from '../../../src/components/todo-list/todo-list';
 
 describe('src/components/todo-list/todo-list.tsx', () => {
 

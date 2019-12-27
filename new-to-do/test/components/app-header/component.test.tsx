@@ -7,10 +7,10 @@ import { IProps } from 'components/app-header/types-app-header';
 
 describe('src/components/app-header/app-header', () => {
 
-    const props: IProps = {
-        toDo: 'toDo',
-        done: 'done'
-    };
+    // const props: IProps = {
+    //     toDo: 'toDo',
+    //     done: 'done'
+    // };
 
     beforeEach(() => {
         sinon.resetHistory();
