@@ -2,18 +2,22 @@ import React from 'react';
 import sinon from 'sinon';
 import {mount, shallow} from 'enzyme';
 import {TodoListItemProps} from 'components/todo-list-item/types-todo-list-item';
-import {TodoListItem} from 'components/todo-list-item/todo-list-item';
+import {TodoListItem} from 'components/todo-list-item/component';
 
 describe('src/components/todo-list-item/todo-list-item.tsx', () => {
+
+    const onDeletedStub = sinon.stub();
+    const onToggleDoneStub = sinon.stub();
+    const onToggleImportantStub = sinon.stub();
 
     //Given
     const props: TodoListItemProps = {
         done: true,
         important: false,
         label: 'All',
-        onDeleted: sinon.stub(),
-        onToggleDone: sinon.stub(),
-        onToggleImportant: sinon.stub(),
+        onDeleted: onDeletedStub,
+        onToggleDone: onToggleDoneStub,
+        onToggleImportant: onToggleImportantStub,
     };
 
     beforeEach(() => {

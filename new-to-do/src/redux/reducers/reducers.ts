@@ -28,6 +28,7 @@ export const reducer: Reducer<IStore, IActionBase> = (store = initialStore, acti
 
         case actions.SET_FILTER_VALUE:
             return setFilter(store, action as IAction<FILTER>);
+
         default:
             return store;
     }

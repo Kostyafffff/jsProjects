@@ -11,7 +11,7 @@ describe('src/components/app-header', () => {
         sinon.resetHistory();
     });
 
-    it('mapStateToProps', () => {
+    it('mapStateToProps test', () => {
         //Given
         const store = {} as IStore;
         const expected = {filter: FILTER.DONE};
@@ -24,7 +24,7 @@ describe('src/components/app-header', () => {
         expect(getFilterValueStub.calledOnceWithExactly(store)).toBeTruthy();
     });
 
-    it('mapDispatchToProps', () => {
+    it('mapDispatchToProps test', () => {
         //Given
         const expectedMapDispatchToProps = {
             onFilterChange: setFilter

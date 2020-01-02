@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { shallow } from 'enzyme';
-import { App } from 'components/app';
+import { App } from 'components/app/component';
 import { AppHeader } from 'components/app-header'
 import { ItemStatusFilter } from 'components/item-status-filter';
 import { SearchPanel } from 'components/search-panel';

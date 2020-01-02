@@ -1,8 +1,9 @@
 import sinon from 'sinon';
 import  { mount } from 'enzyme';
 import * as React from 'react';
+import { ItemStatusFilter } from "../../../src/components/item-status-filter/component";
 
-describe('src/componentns/item-status-filter/item-status-filter', () => {
+describe('src/components/item-status-filter/item-status-filter', () => {
     const props = {
         filter: '',
         onFilterChange: sinon.stub()

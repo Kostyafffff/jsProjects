@@ -3,17 +3,21 @@ import React, { ChangeEvent } from 'react';
 import { ItemAddForm } from 'components/item-add-form/component';
 import { IPropsItemAddForm } from 'components/item-add-form/types-item-add-form';
 import sinon from 'sinon';
+
 describe('src/components/item-add-form/item-add-form.tsx', () => {
-    const onAddItemStub = sinon.stub();
+    const setAddFieldValueStub = sinon.stub();
+    const addToDoStub = sinon.stub();
     const props: IPropsItemAddForm = {
-         onAddItem: onAddItemStub,
+        fieldValue: 'field value',
+        setAddFieldValue: setAddFieldValueStub,
+        addToDo: addToDoStub,
     };
 
     beforeEach(() => {
         sinon.resetHistory();
     });
 
-    it('should TodoListItemProps mount component', () => {
+    it('should ItemAddForm mount component', () => {
         //When
         const wrapper = mount(<ItemAddForm {...props} />);
 
@@ -24,7 +28,6 @@ describe('src/components/item-add-form/item-add-form.tsx', () => {
     it('onSubmit test', () => {
         //Given
         const wrapper = mount<ItemAddForm>(<ItemAddForm {...props}/>);
-        wrapper.setState({ label: 'label' });
         const { onSubmit } = wrapper.instance();
         const preventDefaultStub = sinon.stub();
         const event = {
@@ -37,14 +40,13 @@ describe('src/components/item-add-form/item-add-form.tsx', () => {
 
         //Then
         expect(preventDefaultStub.calledOnceWithExactly()).toBeTruthy();
-        expect(onAddItemStub.calledOnceWithExactly('label')).toBeTruthy();
-        expect(wrapper.state('label')).toEqual('');
+        expect(addToDoStub.calledOnceWithExactly('field value')).toBeTruthy();
+        expect(setAddFieldValueStub.calledOnceWithExactly('')).toBeTruthy();
     });
 
     it('onLabelChange check', () => {
         //Given
         const wrapper = mount<ItemAddForm>(<ItemAddForm {...props}/>);
-        wrapper.setState({ label: '' });
         const { onLabelChange } = wrapper.instance();
         const element = {
           target: { value: 'myValue' }
@@ -54,7 +56,7 @@ describe('src/components/item-add-form/item-add-form.tsx', () => {
         onLabelChange(element as unknown as ChangeEvent<HTMLInputElement>);
 
         //Then
-        expect(wrapper.state().label).toEqual('myValue');
+        expect(setAddFieldValueStub.calledOnceWithExactly('myValue')).toBeTruthy();
     });
 
     // селекторы
@@ -96,5 +98,4 @@ describe('src/components/item-add-form/item-add-form.tsx', () => {
         //Then
         expect(button.text()).toEqual('Add');
     });
-
 });

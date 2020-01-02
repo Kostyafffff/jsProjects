@@ -1,14 +1,16 @@
 import {mount, shallow} from 'enzyme';
-import { SearchPanel } from 'components/search-panel/search-panel';
 import sinon from 'sinon';
-import { IPropsSearchPanel } from '../../../src/components/search-panel/types-search-panel';
 import * as React from 'react';
+import {IPropsSearchPanel} from '../../../src/components/search-panel/types';
+import {SearchPanel} from "../../../src/components/search-panel/component";
 
 describe('src/components/item-add-form/item-add-form.tsx', () => {
 
+    const setSearchValueStub = sinon.stub();
+
     const props: IPropsSearchPanel = {
-        term: '',
-        onSearchChange: sinon.stub()
+        fieldValue: 'hello',
+        setSearchValue: setSearchValueStub
     };
 
     beforeEach(() => {
@@ -20,6 +22,7 @@ describe('src/components/item-add-form/item-add-form.tsx', () => {
         //Given
         const wrapper = mount(<SearchPanel {...props} />);
 
+        //Then
         expect(wrapper.isEmptyRender()).toBeFalsy();
     });
 
@@ -31,8 +34,6 @@ describe('src/components/item-add-form/item-add-form.tsx', () => {
 
         //When
         wrapper.setState( { term } );
-
-        props.onSearchChange( term );
 
         //Then
         expect(wrapper.state('term')).toEqual(term);
