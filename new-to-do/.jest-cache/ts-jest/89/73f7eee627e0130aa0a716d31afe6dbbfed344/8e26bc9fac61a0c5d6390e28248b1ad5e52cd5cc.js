@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var types_1 = require("./types");
 var v4_1 = __importDefault(require("uuid/v4"));
 var redux_1 = require("redux");
-var reducers_1 = require("../reducers/reducers");
+var reducers_1 = require("../reducer/reducers");
 var redux_devtools_extension_1 = require("redux-devtools-extension");
 exports.initialStore = {
     addField: '',

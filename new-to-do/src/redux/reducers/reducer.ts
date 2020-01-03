@@ -1,5 +1,5 @@
 import { FILTER, IStore, IStoreTodoListItem } from '../store/types';
-import { Reducer } from "redux";
+import { Reducer } from 'redux';
 import { initialStore } from '../store/store';
 import * as actions from '../actions/constants';
 import { IAction, IActionBase } from '../action-creators/types';

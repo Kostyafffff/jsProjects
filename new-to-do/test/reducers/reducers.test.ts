@@ -1,16 +1,14 @@
-import { FILTER } from '../../src/redux/store/types';
-import sinon from 'sinon';
-import { reducer } from "../../src/redux/reducers/reducers";
-import { SET_FILTER_VALUE } from "../../src/redux/actions/constants";
+import { FILTER } from 'redux/store/types';
+// import sinon from 'sinon';
+import { reducer } from 'redux/reducers/reducer';
 
 describe('redux/reducers', () => {
 
-    beforeEach(() => {
-        sinon.resetHistory();
-    });
+    // beforeEach(() => {
+    //     sinon.resetHistory();
+    // });
 
     it('setFilter test', () => {
-
         //Given
         const storeMock = {
             searchField: 'for test',
@@ -25,15 +23,16 @@ describe('redux/reducers', () => {
         };
 
         const action = {
-                type: SET_FILTER_VALUE,
-                payload: FILTER.DONE
+                type: 'SET_SEARCH_VALUE',
+                payload: 'value'
             };
+
         const actual = reducer(storeMock, action);
 
         //When
         const expected = {
             ...storeMock,
-            filterBy: FILTER.DONE
+            searchField: 'value'
         };
 
         //Then

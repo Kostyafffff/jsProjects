@@ -1,7 +1,7 @@
 import { FILTER, IStore } from './types';
 import uuid from 'uuid/v4';
 import { createStore } from "redux";
-import { reducer } from '../reducers/reducers';
+import { reducer } from '../reducers/reducer';
 import { composeWithDevTools } from 'redux-devtools-extension';
 
 export const initialStore: IStore = {
