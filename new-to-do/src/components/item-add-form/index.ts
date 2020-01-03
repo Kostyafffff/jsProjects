@@ -1,8 +1,8 @@
 import { connect } from 'react-redux';
-import { IStore } from 'redux/store/types';
-import { addToDo, setAddFieldValue } from 'redux/action-creators/action-creators';
+import { IStore } from 'redux-utils/store/types';
+import { addToDo, setAddFieldValue } from 'redux-utils/action-creators/action-creators';
 import { ItemAddForm as Component } from './component';
-import { getAddItemValue } from 'redux/selectors/selectors';
+import { getAddItemValue } from 'redux-utils/selectors/selectors';
 
 export const mapStateToProps = (store: IStore) =>({
     fieldValue: getAddItemValue(store)

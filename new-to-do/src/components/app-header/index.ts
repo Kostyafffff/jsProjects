@@ -1,5 +1,5 @@
-import { IStore } from "../../redux/store/types";
-import {getDoneCount, getToDoCount} from "../../redux/selectors/selectors";
+import { IStore } from "../../redux-utils/store/types";
+import {getDoneCount, getToDoCount} from "../../redux-utils/selectors/selectors";
 import { connect } from "react-redux";
 import { AppHeader as Component } from "./component";
 

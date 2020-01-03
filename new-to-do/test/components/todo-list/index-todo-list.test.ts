@@ -1,8 +1,8 @@
-import { FILTER, IStore } from '../../../src/redux/store/types';
+import { FILTER, IStore } from '../../../src/redux-utils/store/types';
 import sinon from 'sinon';
-import * as getToDoList from '../../../src/redux/selectors/selectors';
-import * as getSearchValue from '../../../src/redux/selectors/selectors';
-import * as getFilterValue from '../../../src/redux/selectors/selectors';
+import * as getToDoList from '../../../src/redux-utils/selectors/selectors';
+import * as getSearchValue from '../../../src/redux-utils/selectors/selectors';
+import * as getFilterValue from '../../../src/redux-utils/selectors/selectors';
 import { mapStateToProps } from '../../../src/components/todo-list';
 
 const getToDoListStub = sinon.stub(getToDoList, 'getToDoList').returns([

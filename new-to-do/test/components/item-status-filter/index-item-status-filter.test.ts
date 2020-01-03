@@ -1,8 +1,8 @@
 import sinon from 'sinon';
-import * as getFilterValue from 'redux/selectors/selectors';
-import { FILTER, IStore } from '../../../src/redux/store/types';
+import * as getFilterValue from 'redux-utils/selectors/selectors';
+import { FILTER, IStore } from '../../../src/redux-utils/store/types';
 import { mapDispatchToProps, mapStateToProps } from '../../../src/components/item-status-filter';
-import { setFilter } from "../../../src/redux/action-creators/action-creators";
+import { setFilter } from "../../../src/redux-utils/action-creators/action-creators";
 
 const getFilterValueStub = sinon.stub(getFilterValue, 'getFilterValue').returns(FILTER.DONE);
 

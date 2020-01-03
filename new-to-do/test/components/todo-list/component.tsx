@@ -3,7 +3,7 @@ import React from 'react';
 import sinon from 'sinon';
 import {TodoListProps} from '../../../src/components/todo-list/types-todo-list';
 import { TodoList } from '../../../src/components/todo-list/component';
-import {FILTER} from "../../../src/redux/store/types";
+import {FILTER} from "../../../src/redux-utils/store/types";
 
 describe('src/components/todo-list/todo-list.tsx', () => {
     const onDeletedStub = sinon.stub();

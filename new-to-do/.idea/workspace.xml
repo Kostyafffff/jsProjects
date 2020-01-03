@@ -4,9 +4,43 @@
     <list default="true" id="20cb7b6a-42c0-4728-a0a1-8f7c0c56294a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jest-cache/haste-map-aab304a2244054adbc96de0292ffaf6a-01b453e27df68d811ad16bfb5c582e07-d126cf97a655e3dad4bddafcefe64212" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/haste-map-aab304a2244054adbc96de0292ffaf6a-01b453e27df68d811ad16bfb5c582e07-d126cf97a655e3dad4bddafcefe64212" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/ts-jest/89/73f7eee627e0130aa0a716d31afe6dbbfed344/8e26bc9fac61a0c5d6390e28248b1ad5e52cd5cc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/ts-jest/89/73f7eee627e0130aa0a716d31afe6dbbfed344/8e26bc9fac61a0c5d6390e28248b1ad5e52cd5cc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/reducers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/13/index_1383dc7c6d6b6cfc8ea26301de07b897.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/13/index_1383dc7c6d6b6cfc8ea26301de07b897.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/20/indexitemstatusfiltertest_2055c57417909462c3457d93d7cc75d1.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/20/indexitemstatusfiltertest_2055c57417909462c3457d93d7cc75d1.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/64/indextest_64663c73697017b4a682b34e104d5de2.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/64/indextest_64663c73697017b4a682b34e104d5de2.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/8c/indexitemstatusfiltertest_8ccc7d1752ba8b4e9bdcf5a449e87b49.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/8c/indexitemstatusfiltertest_8ccc7d1752ba8b4e9bdcf5a449e87b49.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/b9/indextest_b9601af8c466808e04a537e54b046f52.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/b9/indextest_b9601af8c466808e04a537e54b046f52.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/b9/indextest_b9db7e18592bd593e20e5443f47abd84.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/b9/indextest_b9db7e18592bd593e20e5443f47abd84.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/bd/indexitemstatusfiltertest_bd574f90605a0f3b1bd3b48d4e1900e2.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/bd/indexitemstatusfiltertest_bd574f90605a0f3b1bd3b48d4e1900e2.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/d6/index_d666e12749e09e961593ae2c66c91878.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/d6/index_d666e12749e09e961593ae2c66c91878.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/db/index_dbb0c6e1f35c749786faebe9c4890cc4.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/db/index_dbb0c6e1f35c749786faebe9c4890cc4.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/e3/indexitemstatusfiltertest_e3459c1a3a041e593652c7dac6061e42.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/e3/indexitemstatusfiltertest_e3459c1a3a041e593652c7dac6061e42.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/e7/indexsearchpaneltest_e78403d4e9ce398321a4392da0794f2c.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/e7/indexsearchpaneltest_e78403d4e9ce398321a4392da0794f2c.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/eb/index_ebd9b85c44418a0f8ced5d594575e893.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/eb/index_ebd9b85c44418a0f8ced5d594575e893.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/f6/indexsearchpaneltest_f69d785f7715db076b6910ad2a657382.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/f6/indexsearchpaneltest_f69d785f7715db076b6910ad2a657382.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/f6/indextest_f61cc7ca33de8ffebe944cd096bd4d0b.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/f6/indextest_f61cc7ca33de8ffebe944cd096bd4d0b.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/f7/indexitemstatusfiltertest_f7c647aacf327d7852a3d847f1977abd.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/f7/indexitemstatusfiltertest_f7c647aacf327d7852a3d847f1977abd.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jest-cache/perf-cache-aab304a2244054adbc96de0292ffaf6a-d41d8cd98f00b204e9800998ecf8427e" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/perf-cache-aab304a2244054adbc96de0292ffaf6a-d41d8cd98f00b204e9800998ecf8427e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app-header/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app-header/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item-add-form/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-add-form/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item-status-filter/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-status-filter/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search-panel/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-panel/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list/types-todo-list.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/types-todo-list.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action-creators/action-creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-utils/action-creators/action-creators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action-creators/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-utils/action-creators/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-utils/actions/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-utils/reducers/reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-utils/reducers/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/selectors/selectors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-utils/selectors/selectors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-utils/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-utils/store/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/components/app-header/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/app-header/index.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/components/item-add-form/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/item-add-form/index.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/components/item-status-filter/index-item-status-filter.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/item-status-filter/index-item-status-filter.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/components/search-panel/index-search-panel.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/search-panel/index-search-panel.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/components/todo-list/component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/todo-list/component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/components/todo-list/index-todo-list.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/todo-list/index-todo-list.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/reducers/reducers.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/reducers/reducers.test.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,24 +62,12 @@
     <window id="2">
       <content type="file-editors">
         <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/redux/action-creators/action-creators.ts">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="35">
-                    <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-                    <folding>
-                      <element signature="e#0#34#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
+          <leaf>
             <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/redux/reducers/reducer.ts">
+              <entry file="file://$PROJECT_DIR$/src/redux-utils/reducers/reducer.ts">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="275">
-                    <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+                  <state relative-caret-position="1960">
+                    <caret line="56" column="16" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="16" />
                     <folding>
                       <element signature="e#0#68#0" expanded="true" />
                     </folding>
@@ -54,10 +76,10 @@
               </entry>
             </file>
             <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/redux/actions/constants.ts">
+              <entry file="file://$PROJECT_DIR$/src/redux-utils/actions/constants.ts">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state>
-                    <caret column="21" selection-start-column="21" selection-end-column="21" />
+                  <state relative-caret-position="280">
+                    <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
                   </state>
                 </provider>
               </entry>
@@ -75,62 +97,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/reducers/reducers.test.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/item-add-form/component.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="48" />
+            <state relative-caret-position="202">
+              <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
               <folding>
-                <element signature="e#0#45#0" expanded="true" />
+                <element signature="e#0#49#0" expanded="true" />
+                <element signature="e#263#965#0" />
+                <element signature="e#645#735#0" />
+                <element signature="e#830#900#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/store/store.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/item-add-form/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/action-creators/types.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -146,9 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Provider st</find>
-      <find>../item-status-filter/</find>
-      <find>setAddFieldValue</find>
       <find>addToDo</find>
       <find>onFilterChange</find>
       <find>togglePropert</find>
@@ -165,7 +136,6 @@
       <find>visibleItems</find>
       <find>search</find>
       <find>this.stat</find>
-      <find>SET_FILTER_VALUE</find>
       <find>getDoneCount</find>
       <find>IStoreTodoListItem</find>
       <find>getSearchValue</find>
@@ -176,10 +146,19 @@
       <find>onSetSearchValue</find>
       <find>../reducers/reducers</find>
       <find>sinon</find>
+      <find>from 'redux/</find>
+      <find>SET_FILTER_VALUE</find>
+      <find>onAddItem</find>
+      <find>uuid</find>
     </findStrings>
+    <replaceStrings>
+      <replace>from 'redux-utils/</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>C:\Users\user\WebstormProjects\jsProjects\new-to-do\</dir>
       <dir>C:\Users\user\WebstormProjects\jsProjects\new-to-do\test</dir>
+      <dir>C:\Users\user\WebstormProjects\jsProjects\new-to-do\src</dir>
+      <dir>C:\Users\user\WebstormProjects\jsProjects\new-to-do</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -188,24 +167,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/todo-list-item/index.ts" />
-        <option value="$PROJECT_DIR$/src/components/todo-list/todo-list.tsx" />
         <option value="$PROJECT_DIR$/src/components/app/App.tsx" />
         <option value="$PROJECT_DIR$/src/components/item-status-filter/component.tsx" />
         <option value="$PROJECT_DIR$/src/components/item-add-form/types-item-add-form.ts" />
-        <option value="$PROJECT_DIR$/src/components/todo-list/types-todo-list.ts" />
         <option value="$PROJECT_DIR$/src/components/todo-list/component.tsx" />
         <option value="$PROJECT_DIR$/src/components/todo-list-item/component.tsx" />
         <option value="$PROJECT_DIR$/src/components/app/index.ts" />
         <option value="$PROJECT_DIR$/src/components/item-status-filter/index.ts" />
-        <option value="$PROJECT_DIR$/src/components/search-panel/index.ts" />
         <option value="$PROJECT_DIR$/src/components/app-header/component.ts" />
         <option value="$PROJECT_DIR$/src/components/app-header/component.tsx" />
         <option value="$PROJECT_DIR$/src/redux/actions/constants.ts" />
         <option value="$PROJECT_DIR$/src/components/app-header/index.ts" />
         <option value="$PROJECT_DIR$/src/components/app/component.tsx" />
         <option value="$PROJECT_DIR$/src/components/item-add-form/component.tsx" />
-        <option value="$PROJECT_DIR$/src/components/item-add-form/index.ts" />
         <option value="$PROJECT_DIR$/test/components/item-add-form/index.test.ts" />
         <option value="$PROJECT_DIR$/test/components/app-test/app.test.tsx" />
         <option value="$PROJECT_DIR$/src/components/app/index.tsx" />
@@ -235,9 +209,14 @@
         <option value="$PROJECT_DIR$/test/components/search-panel/component.tsx" />
         <option value="$PROJECT_DIR$/.jest-cache/ts-jest/89/73f7eee627e0130aa0a716d31afe6dbbfed344/8e26bc9fac61a0c5d6390e28248b1ad5e52cd5cc.js" />
         <option value="$PROJECT_DIR$/src/redux/store/store.ts" />
-        <option value="$PROJECT_DIR$/src/index.tsx" />
         <option value="$PROJECT_DIR$/src/redux/action-creators/action-creators.ts" />
         <option value="$PROJECT_DIR$/src/redux/reducers/reducer.ts" />
+        <option value="$PROJECT_DIR$/src/components/todo-list/types-todo-list.ts" />
+        <option value="$PROJECT_DIR$/src/components/item-add-form/index.ts" />
+        <option value="$PROJECT_DIR$/src/components/search-panel/index.ts" />
+        <option value="$PROJECT_DIR$/src/redux-utils/store/store.ts" />
+        <option value="$PROJECT_DIR$/src/index.tsx" />
+        <option value="$PROJECT_DIR$/src/redux-utils/reducers/reducer.ts" />
         <option value="$PROJECT_DIR$/test/reducers/reducers.test.ts" />
       </list>
     </option>
@@ -252,10 +231,10 @@
     <scope name="proj" pattern="file[new-to-do]:src//*||file[new-to-do]:test//*" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-1894" />
+    <option name="y" value="26" />
+    <option name="width" value="1582" />
+    <option name="height" value="702" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -263,7 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,40 +269,31 @@
               <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
               <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="item-add-form" type="462c0819:PsiDirectoryNode" />
+              <item name="redux-utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
               <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
+              <item name="redux-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
               <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="action-creators" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
               <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,7 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.redux/reducers.setFilter test">
+  <component name="RunManager" selected="Jest.redux/reducers.onAddItem test">
     <configuration default="true" type="JavaScriptTestRunnerJest">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -374,16 +343,6 @@
       <working-dir value="" />
       <envs />
       <scope-kind value="ALL" />
-      <method v="2" />
-    </configuration>
-    <configuration name="index.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/test/components/app-header/index.test.ts" />
       <method v="2" />
     </configuration>
     <configuration name="redux/reducers" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -396,6 +355,48 @@
       <test-file value="$PROJECT_DIR$/test/reducers/reducers.test.ts" />
       <test-names>
         <test-name value="redux/reducers" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="redux/reducers.onAddItem test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/reducers/reducers.test.ts" />
+      <test-names>
+        <test-name value="redux/reducers" />
+        <test-name value="onAddItem test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="redux/reducers.onSetAddFieldValue test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/reducers/reducers.test.ts" />
+      <test-names>
+        <test-name value="redux/reducers" />
+        <test-name value="onSetAddFieldValue test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="redux/reducers.onSetSearchValue test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/reducers/reducers.test.ts" />
+      <test-names>
+        <test-name value="redux/reducers" />
+        <test-name value="onSetSearchValue test" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -413,43 +414,20 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="src/components/todo-list-item/todo-list-item.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/test/components/todo-list-item/component.test.tsx" />
-      <test-names>
-        <test-name value="src/components/todo-list-item/todo-list-item.tsx" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Jest.index.test.ts" />
-      <item itemvalue="Jest.src/components/todo-list-item/todo-list-item.tsx" />
       <item itemvalue="Jest.redux/reducers.setFilter test" />
       <item itemvalue="Jest.redux/reducers" />
-      <item itemvalue="npm.start" />
+      <item itemvalue="Jest.redux/reducers.onSetAddFieldValue test" />
+      <item itemvalue="Jest.redux/reducers.onSetSearchValue test" />
+      <item itemvalue="Jest.redux/reducers.onAddItem test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.redux/reducers.setFilter test" />
+        <item itemvalue="Jest.redux/reducers.onAddItem test" />
         <item itemvalue="Jest.redux/reducers" />
-        <item itemvalue="npm.start" />
-        <item itemvalue="Jest.src/components/todo-list-item/todo-list-item.tsx" />
-        <item itemvalue="Jest.index.test.ts" />
+        <item itemvalue="Jest.redux/reducers.onSetSearchValue test" />
+        <item itemvalue="Jest.redux/reducers.onSetAddFieldValue test" />
+        <item itemvalue="Jest.redux/reducers.setFilter test" />
       </list>
     </recent_temporary>
   </component>
@@ -475,7 +453,8 @@
       <workItem from="1577087534640" duration="9266000" />
       <workItem from="1577172043342" duration="15175000" />
       <workItem from="1577364242951" duration="38121000" />
-      <workItem from="1577956911583" duration="28460000" />
+      <workItem from="1577956911583" duration="28509000" />
+      <workItem from="1578040198532" duration="10125000" />
     </task>
     <task id="LOCAL-00001" summary="day commit">
       <created>1576841145946</created>
@@ -484,43 +463,50 @@
       <option name="project" value="LOCAL" />
       <updated>1576841145946</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="day commit 1">
+      <created>1578039970958</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578039970958</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="redux_reducers_setFilter_test - 2020.01.02 at 19h 02m 37s.xml">
-      <configuration name="redux/reducers.setFilter test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="redux_reducers_onAddItem_test - 2020.01.03 at 14h 00m 17s.xml">
+      <configuration name="redux/reducers.onAddItem test" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="redux_reducers_setFilter_test - 2020.01.02 at 19h 11m 03s.xml">
-      <configuration name="redux/reducers.setFilter test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="redux_reducers_onAddItem_test - 2020.01.03 at 14h 01m 10s.xml">
+      <configuration name="redux/reducers.onAddItem test" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="redux_reducers - 2020.01.02 at 19h 12m 13s.xml">
+    <history-entry file="redux_reducers_onAddItem_test - 2020.01.03 at 14h 06m 34s.xml">
+      <configuration name="redux/reducers.onAddItem test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="redux_reducers_onAddItem_test - 2020.01.03 at 14h 07m 06s.xml">
+      <configuration name="redux/reducers.onAddItem test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="redux_reducers_onAddItem_test - 2020.01.03 at 14h 07m 28s.xml">
+      <configuration name="redux/reducers.onAddItem test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="redux_reducers_onAddItem_test - 2020.01.03 at 14h 09m 40s.xml">
+      <configuration name="redux/reducers.onAddItem test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="redux_reducers_onAddItem_test - 2020.01.03 at 14h 14m 48s.xml">
+      <configuration name="redux/reducers.onAddItem test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="redux_reducers_onAddItem_test - 2020.01.03 at 14h 18m 12s.xml">
+      <configuration name="redux/reducers.onAddItem test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="redux_reducers - 2020.01.03 at 14h 18m 38s.xml">
       <configuration name="redux/reducers" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="redux_reducers_setFilter_test - 2020.01.02 at 19h 12m 43s.xml">
-      <configuration name="redux/reducers.setFilter test" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="redux_reducers_setFilter_test - 2020.01.03 at 10h 01m 50s.xml">
-      <configuration name="redux/reducers.setFilter test" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="redux_reducers_setFilter_test - 2020.01.03 at 10h 04m 33s.xml">
-      <configuration name="redux/reducers.setFilter test" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="redux_reducers - 2020.01.03 at 10h 09m 52s.xml">
-      <configuration name="redux/reducers" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="redux_reducers - 2020.01.03 at 10h 16m 35s.xml">
-      <configuration name="redux/reducers" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="redux_reducers_setFilter_test - 2020.01.03 at 10h 22m 13s.xml">
-      <configuration name="redux/reducers.setFilter test" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="redux_reducers_setFilter_test - 2020.01.03 at 10h 24m 51s.xml">
-      <configuration name="redux/reducers.setFilter test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="redux_reducers_onAddItem_test - 2020.01.03 at 14h 19m 47s.xml">
+      <configuration name="redux/reducers.onAddItem test" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="341350000" />
+    <option name="totallyTimeSpent" value="351524000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -535,13 +521,13 @@
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7175043" visible="true" weight="0.15856236" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7175043" visible="true" weight="0.14746301" />
       <window_info id="Structure" order="1" sideWeight="0.5008606" side_tool="true" weight="0.24960339" />
       <window_info id="Favorites" order="2" sideWeight="0.28249568" side_tool="true" weight="0.18773136" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.24913494" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28639618" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28639618" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3341289" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41885442" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.19570406" />
@@ -621,7 +607,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="day commit" />
+    <MESSAGE value="day commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="day commit 1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/new_to_do$src_components_todo_list_item_todo_list_item_tsx.info" NAME="src/components/todo-list-item/todo-list-item.tsx Coverage Results" MODIFIED="1575551517458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -640,6 +627,16 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>expected</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>storeMock</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>wrapper</expression-string>
         <language-id>TypeScript JSX</language-id>
@@ -666,22 +663,12 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>expected</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>actual</expression-string>
         <language-id>TypeScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
         <expression-string>getToDoneItemValueStub</expression-string>
-        <language-id>TypeScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getToDoItemValueStub</expression-string>
         <language-id>TypeScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -769,7 +756,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/selectors/selectors.ts">
+    <entry file="file://$PROJECT_DIR$/src/redux-utils/selectors/selectors.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
           <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
@@ -988,13 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/actions/constants.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/components/app-header/component.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1016,14 +996,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/reducers/types.ts">
+    <entry file="file://$PROJECT_DIR$/src/redux-utils/reducers/types.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/store/types.ts">
+    <entry file="file://$PROJECT_DIR$/src/redux-utils/store/types.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
@@ -1033,6 +1013,23 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux-utils/action-creators/action-creators.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux-utils/action-creators/types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/item-add-form/index.ts">
@@ -1045,9 +1042,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux-utils/store/store.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="65" lean-forward="true" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/item-add-form/component.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="-280">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="48" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
@@ -1055,44 +1072,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.tsx">
+    <entry file="file://$PROJECT_DIR$/src/redux-utils/actions/constants.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/action-creators/types.ts">
+    <entry file="file://$PROJECT_DIR$/src/redux-utils/reducers/reducer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/action-creators/action-creators.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/store/store.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/reducers/reducer.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="1960">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="16" />
           <folding>
             <element signature="e#0#68#0" expanded="true" />
           </folding>
@@ -1101,8 +1091,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/reducers/reducers.test.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="202">
+          <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#263#965#0" />
+            <element signature="e#645#735#0" />
+            <element signature="e#830#900#0" />
+          </folding>
         </state>
       </provider>
     </entry>

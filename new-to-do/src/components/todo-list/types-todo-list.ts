@@ -1,5 +1,5 @@
 import { IToDoItem } from '../app/app-types';
-import { FILTER } from 'redux/store/types';
+import { FILTER } from 'redux-utils/store/types';
 
 export interface TodoListProps {
     todoList: IToDoItem[];

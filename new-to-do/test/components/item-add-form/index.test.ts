@@ -1,8 +1,8 @@
 import sinon from 'sinon';
 import { mapStateToProps, mapDispatchToProps } from 'components/item-add-form';
-import * as getAddItemValue from 'redux/selectors/selectors';
-import { IStore } from 'redux/store/types';
-import { addToDo, setAddFieldValue } from 'redux/action-creators/action-creators';
+import * as getAddItemValue from 'redux-utils/selectors/selectors';
+import { IStore } from 'redux-utils/store/types';
+import { addToDo, setAddFieldValue } from 'redux-utils/action-creators/action-creators';
 
 const getAddItemValueStub = sinon.stub(getAddItemValue, 'getAddItemValue').returns('field value');
 

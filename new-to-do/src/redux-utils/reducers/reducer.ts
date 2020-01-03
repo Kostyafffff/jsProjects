@@ -1,12 +1,11 @@
 import { FILTER, IStore, IStoreTodoListItem } from '../store/types';
-import { Reducer } from 'redux';
 import { initialStore } from '../store/store';
 import * as actions from '../actions/constants';
 import { IAction, IActionBase } from '../action-creators/types';
 
 import uuid from 'uuid/v4';
 
-export const reducer: Reducer<IStore, IActionBase> = (store = initialStore, action) => {
+export const reducer = (store = initialStore, action: IActionBase) => {
     switch (action.type) {
         case actions.SET_SEARCH_VALUE:
             return onSetSearchValue(store, action as IAction<string>);

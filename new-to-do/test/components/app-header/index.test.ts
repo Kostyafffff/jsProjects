@@ -1,8 +1,8 @@
 import sinon from 'sinon';
 import { mapStateToProps } from '../../../src/components/app-header';
-import { IStore } from '../../../src/redux/store/types';
+import { IStore } from '../../../src/redux-utils/store/types';
 
-import * as selectors from '../../../src/redux/selectors/selectors';
+import * as selectors from '../../../src/redux-utils/selectors/selectors';
 
 const getToDoCountStub = sinon.stub(selectors, 'getToDoCount').returns(10);
 

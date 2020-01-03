@@ -1,8 +1,8 @@
-import { IStore } from "../../../src/redux/store/types";
+import { IStore } from "../../../src/redux-utils/store/types";
 import sinon from "sinon";
-import * as getSearchValue from 'redux/selectors/selectors';
+import * as getSearchValue from 'redux-utils/selectors/selectors';
 import {mapDispatchToProps, mapStateToProps} from "../../../src/components/search-panel";
-import {setSearchValue} from "../../../src/redux/action-creators/action-creators";
+import {setSearchValue} from "../../../src/redux-utils/action-creators/action-creators";
 const getSearchValueStub = sinon.stub(getSearchValue, 'getSearchValue').returns('honey i will find you');
 
 describe('src/components/search-panel', () => {
