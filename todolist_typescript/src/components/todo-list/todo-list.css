@@ -1,0 +1,11 @@
+.list-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-group > li {
+    margin-top: 10px;
+    width: 34rem;
+    height: 4rem;
+}

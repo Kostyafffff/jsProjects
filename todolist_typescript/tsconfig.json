@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "rootDirs": [
+      "src",
+      ".storybook/stories"
+    ],
+    "outDir": "compiled",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "dist",
+    "experimentalDecorators": false,
+    "allowJs": false,
+    "checkJs": false,
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es2017",
+      "scripthost"
+    ],
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

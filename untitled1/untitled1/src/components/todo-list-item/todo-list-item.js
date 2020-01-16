@@ -3,10 +3,10 @@ import "./todo-list-item.css";
 
 
 export default class ToDoListItem extends Component {
-    // state = {
-    //     done: false,
-    //     important: false
-    // };
+    state = {
+        done: false,
+        important: false
+    };
 
     render() {
         const {
