@@ -2,51 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20cb7b6a-42c0-4728-a0a1-8f7c0c56294a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BecomeGuruTDD/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BecomeGuruTDD/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BecomeGuruTDD/config/jest/setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BecomeGuruTDD/config/polyfills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BecomeGuruTDD/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BecomeGuruTDD/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BecomeGuruTDD/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BecomeGuruTDD/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BecomeGuruTDD/tests/index.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BecomeGuruTDD/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BecomeGuruTDD/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BecomeGuruTDD/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TypeScriptHomePrj/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TypeScriptHomePrj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TypeScriptHomePrj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TypeScriptHomePrj/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../TypeScriptHomePrj/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TypeScriptHomePrj/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../TypeScriptHomePrj/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/haste-map-aab304a2244054adbc96de0292ffaf6a-01b453e27df68d811ad16bfb5c582e07-d126cf97a655e3dad4bddafcefe64212" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/haste-map-aab304a2244054adbc96de0292ffaf6a-01b453e27df68d811ad16bfb5c582e07-d126cf97a655e3dad4bddafcefe64212" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/13/index_1383dc7c6d6b6cfc8ea26301de07b897.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/13/index_1383dc7c6d6b6cfc8ea26301de07b897.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/20/indexitemstatusfiltertest_2055c57417909462c3457d93d7cc75d1.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/20/indexitemstatusfiltertest_2055c57417909462c3457d93d7cc75d1.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/64/indextest_64663c73697017b4a682b34e104d5de2.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/64/indextest_64663c73697017b4a682b34e104d5de2.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/8c/indexitemstatusfiltertest_8ccc7d1752ba8b4e9bdcf5a449e87b49.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/8c/indexitemstatusfiltertest_8ccc7d1752ba8b4e9bdcf5a449e87b49.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/b9/indextest_b9601af8c466808e04a537e54b046f52.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/b9/indextest_b9601af8c466808e04a537e54b046f52.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/b9/indextest_b9db7e18592bd593e20e5443f47abd84.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/b9/indextest_b9db7e18592bd593e20e5443f47abd84.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/bd/indexitemstatusfiltertest_bd574f90605a0f3b1bd3b48d4e1900e2.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/bd/indexitemstatusfiltertest_bd574f90605a0f3b1bd3b48d4e1900e2.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/d6/index_d666e12749e09e961593ae2c66c91878.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/d6/index_d666e12749e09e961593ae2c66c91878.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/db/index_dbb0c6e1f35c749786faebe9c4890cc4.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/db/index_dbb0c6e1f35c749786faebe9c4890cc4.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/e3/indexitemstatusfiltertest_e3459c1a3a041e593652c7dac6061e42.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/e3/indexitemstatusfiltertest_e3459c1a3a041e593652c7dac6061e42.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/e7/indexsearchpaneltest_e78403d4e9ce398321a4392da0794f2c.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/e7/indexsearchpaneltest_e78403d4e9ce398321a4392da0794f2c.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/eb/index_ebd9b85c44418a0f8ced5d594575e893.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/eb/index_ebd9b85c44418a0f8ced5d594575e893.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/f6/indexsearchpaneltest_f69d785f7715db076b6910ad2a657382.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/f6/indexsearchpaneltest_f69d785f7715db076b6910ad2a657382.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/f6/indextest_f61cc7ca33de8ffebe944cd096bd4d0b.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/f6/indextest_f61cc7ca33de8ffebe944cd096bd4d0b.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/f7/indexitemstatusfiltertest_f7c647aacf327d7852a3d847f1977abd.map" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/jest-transform-cache-aab304a2244054adbc96de0292ffaf6a-d0e7c439bf6eb5a4bf3a6371fdd259d1/f7/indexitemstatusfiltertest_f7c647aacf327d7852a3d847f1977abd.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jest-cache/perf-cache-aab304a2244054adbc96de0292ffaf6a-d41d8cd98f00b204e9800998ecf8427e" beforeDir="false" afterPath="$PROJECT_DIR$/.jest-cache/perf-cache-aab304a2244054adbc96de0292ffaf6a-d41d8cd98f00b204e9800998ecf8427e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app-header/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app-header/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-add-form/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-add-form/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-status-filter/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-status-filter/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search-panel/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-panel/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list/types-todo-list.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/types-todo-list.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/action-creators/action-creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-utils/action-creators/action-creators.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/action-creators/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-utils/action-creators/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-utils/actions/constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-utils/reducers/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-utils/reducers/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/selectors/selectors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-utils/selectors/selectors.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-utils/store/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux-utils/store/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/components/app-header/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/app-header/index.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/components/item-add-form/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/item-add-form/index.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/components/item-status-filter/index-item-status-filter.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/item-status-filter/index-item-status-filter.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/components/search-panel/index-search-panel.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/search-panel/index-search-panel.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/components/todo-list/component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/todo-list/component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/components/todo-list/index-todo-list.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/todo-list/index-todo-list.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/reducers/reducers.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/reducers/reducers.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <ignored path="C:\Users\user\WebstormProjects\jsProjects\new-to-do\.idea\shelf/" />
+    <ignored path="E:\JsProjects\new-to-do\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,54 +39,37 @@
       <option value="directory" />
     </option>
   </component>
-  <component name="DockManager">
-    <window id="2">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/redux-utils/reducers/reducer.ts">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="1960">
-                    <caret line="56" column="16" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="16" />
-                    <folding>
-                      <element signature="e#0#68#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/redux-utils/actions/constants.ts">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="280">
-                    <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="new-to-do" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/reducers/reducers.test.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
+            <state relative-caret-position="2627">
+              <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
-                <element signature="e#263#965#0" />
-                <element signature="e#645#735#0" />
-                <element signature="e#830#900#0" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/jest/setup.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/polyfills.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1201" />
           </provider>
         </entry>
       </file>
@@ -231,10 +195,10 @@
     <scope name="proj" pattern="file[new-to-do]:src//*||file[new-to-do]:test//*" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1894" />
-    <option name="y" value="26" />
-    <option name="width" value="1582" />
-    <option name="height" value="702" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -242,6 +206,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,49 +222,18 @@
             <path>
               <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
               <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux-utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-to-do" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/WebStromWorkingProjects/monorepository" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -308,18 +242,18 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
-    <property name="ts.external.directory.path" value="C:\Users\user\WebstormProjects\jsProjects\new-to-do\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="E:\JsProjects\new-to-do\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\WebstormProjects\jsProjects\new-to-do\config" />
-      <recent name="C:\Users\user\WebstormProjects\jsProjects\new-to-do" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\WebstormProjects\jsProjects\new-to-do\src\components\todo-list" />
       <recent name="C:\Users\user\WebstormProjects\jsProjects\new-to-do\src\redux\store" />
       <recent name="C:\Users\user\WebstormProjects\jsProjects\new-to-do\src\redux\reducers" />
       <recent name="C:\Users\user\WebstormProjects\jsProjects\new-to-do\src\redux\action-creators" />
+      <recent name="C:\Users\user\WebstormProjects\jsProjects\new-to-do" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\WebstormProjects\jsProjects\new-to-do\config" />
       <recent name="C:\Users\user\WebstormProjects\jsProjects\new-to-do" />
     </key>
   </component>
@@ -335,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.redux/reducers.onAddItem test">
+  <component name="RunManager" selected="npm.test">
     <configuration default="true" type="JavaScriptTestRunnerJest">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -400,34 +334,31 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="redux/reducers.setFilter test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
       <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
+      <package-manager value="npm" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/test/reducers/reducers.test.ts" />
-      <test-names>
-        <test-name value="redux/reducers" />
-        <test-name value="setFilter test" />
-      </test-names>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.redux/reducers.setFilter test" />
       <item itemvalue="Jest.redux/reducers" />
       <item itemvalue="Jest.redux/reducers.onSetAddFieldValue test" />
       <item itemvalue="Jest.redux/reducers.onSetSearchValue test" />
       <item itemvalue="Jest.redux/reducers.onAddItem test" />
+      <item itemvalue="npm.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
         <item itemvalue="Jest.redux/reducers.onAddItem test" />
         <item itemvalue="Jest.redux/reducers" />
         <item itemvalue="Jest.redux/reducers.onSetSearchValue test" />
         <item itemvalue="Jest.redux/reducers.onSetAddFieldValue test" />
-        <item itemvalue="Jest.redux/reducers.setFilter test" />
       </list>
     </recent_temporary>
   </component>
@@ -455,6 +386,7 @@
       <workItem from="1577364242951" duration="38121000" />
       <workItem from="1577956911583" duration="28509000" />
       <workItem from="1578040198532" duration="10125000" />
+      <workItem from="1579207693735" duration="705000" />
     </task>
     <task id="LOCAL-00001" summary="day commit">
       <created>1576841145946</created>
@@ -506,7 +438,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="351524000" />
+    <option name="totallyTimeSpent" value="352229000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,15 +450,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7175043" visible="true" weight="0.14746301" />
+      <window_info id="npm" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7175043" visible="true" weight="0.32427055" />
       <window_info id="Structure" order="1" sideWeight="0.5008606" side_tool="true" weight="0.24960339" />
       <window_info id="Favorites" order="2" sideWeight="0.28249568" side_tool="true" weight="0.18773136" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.24913494" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3341289" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26027396" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41885442" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -534,7 +466,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.42004773" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.25894988" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.20525059" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23439878" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -675,20 +607,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/item-status-filter/types-status-filter.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/item-status-filter/item-status-filter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/item-add-form/item-add-form.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -1010,11 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-700" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux-utils/action-creators/action-creators.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
@@ -1072,16 +985,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux-utils/actions/constants.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux-utils/reducers/reducer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1960">
+        <state relative-caret-position="377">
           <caret line="56" column="16" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="16" />
           <folding>
             <element signature="e#0#68#0" expanded="true" />
@@ -1089,17 +995,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux-utils/actions/constants.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/reducers/reducers.test.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
+        <state relative-caret-position="2627">
+          <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
-            <element signature="e#263#965#0" />
-            <element signature="e#645#735#0" />
-            <element signature="e#830#900#0" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/jest/setup.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/polyfills.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1201" />
       </provider>
     </entry>
   </component>
