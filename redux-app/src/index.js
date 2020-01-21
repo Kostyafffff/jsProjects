@@ -1,16 +1,40 @@
+import { createStore } from 'redux';
+
+const inc = () => ({type: 'INC' });
+const dec = () => ({type: 'DEC' });
+const rand = (payload) => ({type: 'RANDOM', payload });
+
 const reducer = (state = 0, action) =>{
     switch (action.type) {
         case 'INC' :
-            return state + 1;
+            return ++state;
+        case 'DEC' :
+            return --state;
+        case 'RANDOM':
+            return state + action.payload;
 
             default: return state;
     }
 };
 
-let state = reducer(undefined, {});
+const store = createStore(reducer);
 
-state = reducer(state, { type: 'INC' });
-console.log(state);
+document.getElementById('dec').addEventListener('click', () => {
+    store.dispatch(dec());
+});
 
-state = reducer(state, { type: 'INC' });
-console.log(state);
+document.getElementById('inc').addEventListener('click', () => {
+    store.dispatch(inc());
+});
+
+document.getElementById('random').addEventListener('click', () => {
+    const payload = Math.floor(Math.random() * 10);
+    store.dispatch(rand(payload));
+});
+
+const update = () => {
+    document.getElementById('counter').innerHTML = store.getState();
+};
+
+store.subscribe(update);
+
