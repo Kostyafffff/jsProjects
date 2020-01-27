@@ -1,36 +1,23 @@
-import { createStore } from 'redux';
+import { createStore, bindActionCreators } from 'redux';
+import reducer from './reducer';
+import { inc, dec, rand } from "./actions";
+const { dispatch } = store;
 
-const inc = () => ({type: 'INC' });
-const dec = () => ({type: 'DEC' });
-const rand = (payload) => ({type: 'RANDOM', payload });
-
-const reducer = (state = 0, action) =>{
-    switch (action.type) {
-        case 'INC' :
-            return ++state;
-        case 'DEC' :
-            return --state;
-        case 'RANDOM':
-            return state + action.payload;
-
-            default: return state;
-    }
+const bindActionCreator = (creator, dispatch) => (...args) => {
+    dispatch(creator(...args));
 };
+
+const incDispatch = () => bindActionCreator(inc, dispatch);
+const decDispatch = () => bindActionCreator(dec, dispatch);
+const rndDispatch = payload => bindActionCreator(rnd, dispatch);
 
 const store = createStore(reducer);
 
-document.getElementById('dec').addEventListener('click', () => {
-    store.dispatch(dec());
-});
+document.getElementById('dec').addEventListener('click', decDispatch);
 
-document.getElementById('inc').addEventListener('click', () => {
-    store.dispatch(inc());
-});
+document.getElementById('inc').addEventListener('click', incDispatch);
 
-document.getElementById('random').addEventListener('click', () => {
-    const payload = Math.floor(Math.random() * 10);
-    store.dispatch(rand(payload));
-});
+document.getElementById('rnd').addEventListener('click', rndDispatch);
 
 const update = () => {
     document.getElementById('counter').innerHTML = store.getState();

@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="392b92f8-f005-486a-817a-b17a32d8d6f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/redux-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/redux-app/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux-app/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,20 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WorkWithFunctions/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/redux-app/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="327">
+              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -70,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1310" />
     <option name="height" value="1040" />
@@ -92,12 +80,6 @@
               <item name="JsProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="JsProjects" type="462c0819:PsiDirectoryNode" />
               <item name="redux-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JsProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JsProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="redux-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JsProjects" type="b2602c69:ProjectViewProjectNode" />
@@ -179,18 +161,19 @@
       <workItem from="1579388857805" duration="2592000" />
       <workItem from="1579468468894" duration="1466000" />
       <workItem from="1579546133743" duration="2887000" />
-      <workItem from="1579641451919" duration="277000" />
+      <workItem from="1579641451919" duration="1704000" />
+      <workItem from="1579818130665" duration="145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15424000" />
+    <option name="totallyTimeSpent" value="16996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19429708" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19429708" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -202,7 +185,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.08371385" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2739726" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2739726" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -250,13 +233,6 @@
     <entry file="file://$PROJECT_DIR$/redux-app/src/setupTests.js" />
     <entry file="file://$PROJECT_DIR$/redux-app/src/App.test.js" />
     <entry file="file://$PROJECT_DIR$/redux-app/src/App.js" />
-    <entry file="file://$PROJECT_DIR$/WorkWithFunctions/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/redux-app/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -270,10 +246,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WorkWithFunctions/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/redux-app/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="327">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
         </state>
       </provider>
     </entry>
