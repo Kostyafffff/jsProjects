@@ -6,6 +6,8 @@ const reducer = (state = 0, action) =>{
             return --state;
         case 'RANDOM':
             return state + action.payload;
+        case 'CLEAR':
+            return state = 0;
 
         default: return state;
     }
