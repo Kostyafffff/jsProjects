@@ -12,7 +12,9 @@ const {
     inc,
     dec,
     rnd,
-    clr
+    clr,
+    one,
+    plus
     } = bindActionCreators(actions, dispatch);
 
 const update = () => {
@@ -24,7 +26,9 @@ const update = () => {
             rnd={() => {
                 const value = Math.floor(Math.random() *  10);
                 rnd(value);
-            }}/>,
+            }}
+            one={one}
+        />,
         document.getElementById('root'));
 };
 update();

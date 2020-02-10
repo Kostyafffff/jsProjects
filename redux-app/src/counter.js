@@ -1,5 +1,5 @@
 import React from 'react';
-const Counter = ( { counter, inc, dec, rnd, clr } ) =>{
+const Counter = ( { counter, inc, dec, rnd, clr, one, plus } ) =>{
     return (
         <div className="jumbotron">
             <h2>{counter}</h2>
@@ -15,6 +15,12 @@ const Counter = ( { counter, inc, dec, rnd, clr } ) =>{
             <button
                 onClick={clr}
                 className="btn btn-primary btn-large">CLR</button>
+            <button
+                onClick={one}
+                className="btn btn-primary btn-large">1</button>
+            <button
+                onClick={plus}
+                className="btn btn-primary btn-large">+</button>
         </div>
     );
 };

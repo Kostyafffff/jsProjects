@@ -8,6 +8,8 @@ const reducer = (state = 0, action) =>{
             return state + action.payload;
         case 'CLEAR':
             return state = 0;
+        case 'ONE':
+            return state = 1;
 
         default: return state;
     }
