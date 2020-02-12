@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { inc, dec, rnd } from '../actions';
 const Counter = ( { counter, inc, dec, rnd, clr, one, plus } ) =>{
     return (
         <div className="jumbotron">
@@ -30,4 +31,13 @@ const mapStateToProps = (state) => ({
     counter: state
 });
 
-export default connect(mapStateToProps )(Counter);
+const mapDispatchToProps = (dispatch) => ({
+    inc: () => dispatch(inc()),
+    dec: () => dispatch(dec()),
+    rnd: () => {
+        const value = Math.floor(Math.random() * 10);
+        dispatch(rnd(value));
+    },
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Counter);
