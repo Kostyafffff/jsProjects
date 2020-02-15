@@ -1,0 +1,11 @@
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 5px;
+}
+
+.container{
+    display: inline-flex;
+    flex-direction: column;
+}
