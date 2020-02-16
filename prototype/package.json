@@ -1,7 +1,9 @@
 {
-  "name": "$name$",
-  "version": "$version$",
-  "dependencies": {
-    $END$
+  "name": "prototype",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "webpack": "^4.41.6"
   }
 }

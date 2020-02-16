@@ -14,5 +14,4 @@ const reducer = (state = 15, action) =>{
         default: return state;
     }
 };
-
 export default reducer;
