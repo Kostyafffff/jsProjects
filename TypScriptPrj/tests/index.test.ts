@@ -5,5 +5,5 @@ describe('should  sum', () => {
             const a = mult(1, 2);
 
             expect(mult( 1 , 2)).toEqual(2);
-      })
+      });
 });
