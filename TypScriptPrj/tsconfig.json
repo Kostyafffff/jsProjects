@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
     "module": "umd",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
     "target": "es5",
     "sourceMap": true,
     "noImplicitAny": true,

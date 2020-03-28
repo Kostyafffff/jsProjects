@@ -1,25 +1,11 @@
-export const mult = (a: number, b: number) : number => {
-    return a * b;
-};
-mult(1, 2);
 
-// function f() {
-//             let c = 0;
-//             return function () {
-//                 c++;
-//                 console.log(c);
-//     };
-// };
+export const countArrayMax = (array: number[]): number =>{
+    const count = array.reduce((acc: any, n) => (acc[n] = (acc[n] || 0) + 1, acc), {});
+    const keys: string[] = Object.keys(count);
+    const arr: number[] = Object.values(count);
+    let res = arr.map((it, index) => it % 2 !== 0 ? index : 0);
 
-const f = (): Function => {
-    let c: number = 0;
-    return () => {
-        c++;
-        console.log(c);
-    }
-};
+    console.log(res);
 
-let d = f();
-d();
-d();
-d();
+    return 1;
+    };

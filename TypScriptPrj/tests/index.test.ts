@@ -1,9 +1,8 @@
-import { mult } from "../src";
-describe('should  sum', () => {
-      it('should return sum',  () => {
-          //Given
-            const a = mult(1, 2);
 
-            expect(mult( 1 , 2)).toEqual(2);
+import { countArrayMax } from "../src";
+
+describe('should  sum', () => {
+      it("capitalize function test", ()=>{
+            console.log(countArrayMax([20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5]));
       });
 });
