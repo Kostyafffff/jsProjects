@@ -1,7 +1,9 @@
-export default class BookStoreService {
+import React from "react";
+import BookList from "../book-list";
 
-    getBooks() {
-        return [
+export const HomePage = () => {
+    return (
+        < BookList books={[
             {
                 id: 1,
                 title: 'Грокаем Алгоритмы',
@@ -12,6 +14,8 @@ export default class BookStoreService {
                 title: 'Расска',
                 author: 'Адитья Бхаргава'
             },
-        ];
-    }
+        ]} />
+    )
 }
+
+export default HomePage;
