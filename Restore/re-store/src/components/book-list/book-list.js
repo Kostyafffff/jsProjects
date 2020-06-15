@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import BookListItem from "../book-list-item";
 import './BookListCss.css';
+import { connect } from 'react-redux';
 
 class BookList extends Component  {
 
@@ -12,7 +13,7 @@ class BookList extends Component  {
                {
                    books.map((book => {
                        return (
-                           <li>
+                           <li key={book.id}>
                                <BookListItem books={ book } />
                            </li>
                        )
@@ -23,4 +24,8 @@ class BookList extends Component  {
     }
 }
 
-export default BookList;
+const mapStateToProps = ( { books }) => {
+    return { books };
+}
+
+export default connect()(BookList);
