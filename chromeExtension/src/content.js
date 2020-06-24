@@ -1,10 +1,13 @@
-const { getLink } = require('./getLink');
-
 console.log('Extension is working')
 
-//const button = document.createElement('button');
+const arrayOfLinks = () => {
+    let resultArray = [];
+
+    document.querySelectorAll('.item > a')
+        .forEach(it => resultArray.push(it.href));
+
+    return resultArray;
+}
+let a = arrayOfLinks();
 
 
-
-let a = getLink();
-a;
