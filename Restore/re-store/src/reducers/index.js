@@ -1,5 +1,16 @@
 const initialState = {
-    books: []
+    books: [
+            {
+                id: 1,
+                title: 'Грокаем Алгоритмы',
+                author: 'Адитья Бхаргава'
+            },
+            {
+                id: 2,
+                title: 'Расска',
+                author: 'Адитья Бхаргава'
+            },
+           ]
 };
 
 const reducer = (state = initialState, action) => {
