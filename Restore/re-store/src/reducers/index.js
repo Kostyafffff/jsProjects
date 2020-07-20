@@ -1,16 +1,16 @@
 const initialState = {
-    books: [
-            {
-                id: 1,
-                title: 'Грокаем Алгоритмы',
-                author: 'Адитья Бхаргава'
-            },
-            {
-                id: 2,
-                title: 'Расска',
-                author: 'Адитья Бхаргава'
-            },
-           ]
+    books:[
+        {
+            id: 1,
+            title: 'Грокаем Алгоритмы',
+            author: 'Адитья Бхаргава'
+        },
+        {
+            id: 2,
+            title: 'Расска',
+            author: 'Адитья Бхаргава'
+        },
+    ]
 };
 
 const reducer = (state = initialState, action) => {

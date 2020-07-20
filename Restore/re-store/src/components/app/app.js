@@ -1,10 +1,11 @@
 import React from "react";
 import withBookStoreService from "../hoc";
-import { Route, Switch } from 'react-router-dom';
-import HomePage from "../pages/home-page";
-import CartPage from "../pages/cart-page";
+
+import { Switch, Route } from "react-router-dom";
+import { HomePage, CartPage } from "../pages";
 
 const App = ( { bookStoreService } ) => {
+
     return (
         <Switch>
             <Route
