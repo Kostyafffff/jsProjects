@@ -1,0 +1,18 @@
+.main-button-wrapper {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+}
+.main-button {
+    background-color: aqua;
+    display: flex;
+    flex-flow: row;
+    font-size: 20px;
+    width: 100%;
+}
+
+.friends {
+    background-color: aquamarine;
+    font-size: 20px;
+    display: flex;
+}

@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="392b92f8-f005-486a-817a-b17a32d8d6f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/JsProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JsProjects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BecomeGuruTDD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BecomeGuruTDD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BecomeGuruTDD/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BecomeGuruTDD/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BecomeGuruTDD/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/BecomeGuruTDD/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BecomeGuruTDD/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/BecomeGuruTDD/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BecomeGuruTDD/sum.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BecomeGuruTDD/sum.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/assets/images/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/assets/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsSandbox/src/main.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/JsSandbox/src/main.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/book-list-item/book-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/Restore/re-store/src/components/book-list-item/book-list-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/Restore/re-store/src/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +34,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JsSandbox" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ReactPrjFromSCRATCH" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -101,6 +99,7 @@
       <workItem from="1592245891515" duration="239000" />
       <workItem from="1592246295256" duration="58000" />
       <workItem from="1592246666892" duration="24000" />
+      <workItem from="1597167347142" duration="63000" />
     </task>
     <servers />
   </component>
@@ -116,63 +115,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1592246689798">
+    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1597167409276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="173" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587668501941" />
-    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592246689798" />
-    <state width="1509" height="154" key="GridCell.Tab.0.bottom" timestamp="1587578571593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1509" height="154" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587578571593" />
-    <state width="1509" height="154" key="GridCell.Tab.0.center" timestamp="1587578571593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1509" height="154" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587578571593" />
-    <state width="1509" height="154" key="GridCell.Tab.0.left" timestamp="1587578571593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1509" height="154" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587578571593" />
-    <state width="1509" height="154" key="GridCell.Tab.0.right" timestamp="1587578571593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1509" height="154" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587578571593" />
-    <state width="1509" height="154" key="GridCell.Tab.1.bottom" timestamp="1587578571594">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1509" height="154" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587578571594" />
-    <state width="1509" height="154" key="GridCell.Tab.1.center" timestamp="1587578571593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1509" height="154" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587578571593" />
-    <state width="1509" height="154" key="GridCell.Tab.1.left" timestamp="1587578571593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1509" height="154" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587578571593" />
-    <state width="1509" height="154" key="GridCell.Tab.1.right" timestamp="1587578571593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1509" height="154" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587578571593" />
-    <state width="1509" height="154" key="GridCell.Tab.2.bottom" timestamp="1587578571594">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1509" height="154" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587578571594" />
-    <state width="1509" height="154" key="GridCell.Tab.2.center" timestamp="1587578571594">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1509" height="154" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1587578571594" />
-    <state width="1509" height="154" key="GridCell.Tab.2.left" timestamp="1587578571594">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1509" height="154" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1587578571594" />
-    <state width="1509" height="154" key="GridCell.Tab.2.right" timestamp="1587578571594">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1509" height="154" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1587578571594" />
-    <state x="160" y="0" key="SettingsEditor" timestamp="1587666876825">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="160" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587666876825" />
+    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597167409276" />
   </component>
   <component name="masterDetails">
     <states>
