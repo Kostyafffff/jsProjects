@@ -10,4 +10,16 @@ const fillTemplate = (template, values) => {
     }).join(' ');
 }
 
-module.exports = { fillTemplate }
+const Counnter = () => {
+
+    let counter = 0;
+    const upp = () => {
+        return counter++;
+    }
+
+    const down = () => {
+        return counter--;
+    }
+}
+
+module.exports = { fillTemplate, Counnter }

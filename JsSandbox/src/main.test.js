@@ -1,4 +1,4 @@
-const { fillTemplate } = require('./main')
+const { fillTemplate, Counnter } = require('./main')
 
 describe('numPrettier(num, splitter)', () => {
     it('should return sum', () => {
@@ -41,5 +41,12 @@ describe('numPrettier(num, splitter)', () => {
              utilObj[key].call(targetObj,param);
            }
         }
+    })
+
+    it('should return call Counterr', () => {
+        //Given
+        const a = Counnter;
+
+        console.log(a);
     })
 })
