@@ -13,7 +13,6 @@ module.exports = {
     mode: 'development',
     entry: {
         main: ['@babel/polyfill', './index.tsx'],
-        analytics: './analytics.ts'
     },
     devtool: isDev ? 'source-map' : '',
     output: {
@@ -94,6 +93,19 @@ module.exports = {
             },
             {
                 test: /\.jsx$/,
+                exclude: /node_modules/,
+                loader: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: [
+                            '@babel/preset-env',
+                            '@babel/preset-react',
+                        ],
+                    },
+                },
+            },
+            {
+                test: /\.tsx$/,
                 exclude: /node_modules/,
                 loader: {
                     loader: 'babel-loader',

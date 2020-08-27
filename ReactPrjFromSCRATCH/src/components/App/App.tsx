@@ -11,14 +11,15 @@ export class App extends React.Component<Readonly<{}>, IAppState> {
 
 
     render(): JSX.Element {
-
         return(
+            <>
             <div>
                 <Component />
                 {this.state.name}
                 {this.state.id}
             </div>
+            <span>iiiiiiii</span>
+           </>
         )
-
     }
 }
