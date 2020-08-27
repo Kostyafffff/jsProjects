@@ -1,6 +1,6 @@
 import React from "react";
 import {IAppState } from "./types";
-import {Component } from "../../simpleComponent/componentTSX";
+import { Component } from "../../simpleComponent/componentTSX";
 
 export class App extends React.Component<Readonly<{}>, IAppState> {
 
@@ -8,6 +8,7 @@ export class App extends React.Component<Readonly<{}>, IAppState> {
         id: '1111',
         name: 'Kostya'
     }
+
 
     render(): JSX.Element {
 
