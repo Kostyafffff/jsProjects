@@ -6,8 +6,6 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const isDev = process.env.NODE_ENV === 'development';
 const isProd = !isDev;
 
-console.log(`${isDev} = isDev`);
-
 module.exports = {
     context: path.resolve(__dirname, 'src'),
     mode: 'development',
@@ -35,6 +33,19 @@ module.exports = {
             filename: '[name].[contenthash].css',
         }),
     ],
+    resolve: {
+        alias: {
+            config$: './configs/app-config.js',
+            react: './vendor/react-master',
+        },
+        extensions: ['', 'js', 'jsx', 'ts', 'tsx'],
+        modules: [
+            'node_modules',
+            'bower_components',
+            'shared',
+            '/shared/vendor/modules',
+        ],
+    },
     module: {
         rules: [
             {
@@ -117,6 +128,10 @@ module.exports = {
                     },
                 },
             },
+            {exclude: ['node_modules'], loader: 'babel', test: /\.jsx?$/},
+            {loader: 'style-loader!css-loader', test: /\.css$/},
+            {loader: 'url-loader', test: /\.gif$/},
+            {loader: 'file-loader', test: /\.(ttf|eot|svg)$/}
         ],
     },
     watch: true,
