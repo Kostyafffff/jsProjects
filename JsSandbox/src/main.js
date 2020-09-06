@@ -10,16 +10,14 @@ const fillTemplate = (template, values) => {
     }).join(' ');
 }
 
-const Counnter = () => {
-
+//Сделайте функцию, которая считает и выводит количество своих вызовов.
+const callingCounter = () => {
     let counter = 0;
-    const upp = () => {
-        return counter++;
-    }
 
-    const down = () => {
-        return counter--;
+    return () => {
+        return counter++;
     }
 }
 
-module.exports = { fillTemplate, Counnter }
+
+module.exports = { fillTemplate }
