@@ -1,4 +1,5 @@
-const { fillTemplate, Counnter } = require('./main')
+
+const { fillTemplate } = require('./main')
 
 describe('numPrettier(num, splitter)', () => {
     it('should return sum', () => {
@@ -43,10 +44,7 @@ describe('numPrettier(num, splitter)', () => {
         }
     })
 
-    it('should return call Counterr', () => {
-        //Given
-        const a = Counnter;
-
-        console.log(a);
+    it('Сделайте функцию, которая считает и выводит количество своих вызовов.', () => {
+        //When
     })
 })
