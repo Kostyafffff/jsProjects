@@ -1,6 +1,7 @@
 import React from "react";
 import {IAppState } from "./types";
 import { Component } from "../../simpleComponent/componentTSX";
+import {Header} from "../Header/Header";
 
 export class App extends React.Component<Readonly<{}>, IAppState> {
 
@@ -12,14 +13,7 @@ export class App extends React.Component<Readonly<{}>, IAppState> {
 
     render(): JSX.Element {
         return(
-            <>
-            <div>
-                <Component />
-                {this.state.name}
-                {this.state.id}
-            </div>
-            <span>iiiiiiii</span>
-           </>
+            < Header />
         )
     }
 }
