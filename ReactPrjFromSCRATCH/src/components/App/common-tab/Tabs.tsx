@@ -1,10 +1,10 @@
 import React from "react";
 import { ITabsProps } from "./types";
 
-export const Tab = ({ tabName } : ITabsProps) => {
+export const Tab = ( { tabs }: ITabsProps ): JSX.Element => {
    return(
         <div>
-            { tabName }
+            { tabs }
         </div>
    )
 }
