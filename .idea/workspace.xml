@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="392b92f8-f005-486a-817a-b17a32d8d6f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/layout/assets/images/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/assets/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JsSandbox/src/main.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/JsSandbox/src/main.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/book-list-item/book-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/Restore/re-store/src/components/book-list-item/book-list-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/Restore/re-store/src/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headworks-f1/app/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headworks-f1/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/headworks-f1/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headworks-f1/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/headworks-f1/app/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +31,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ReactPrjFromSCRATCH" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -100,6 +97,7 @@
       <workItem from="1592246295256" duration="58000" />
       <workItem from="1592246666892" duration="24000" />
       <workItem from="1597167347142" duration="63000" />
+      <workItem from="1601071702130" duration="111000" />
     </task>
     <servers />
   </component>

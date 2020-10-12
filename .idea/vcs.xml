@@ -3,6 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Task1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/headworks-f1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/react-test-task" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tabOnNativeJs" vcs="Git" />
   </component>
 </project>

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5457f21c-b01c-4064-9139-02e30bbbbc8f" name="Default Changelist" comment="" />
+    <list default="true" id="5457f21c-b01c-4064-9139-02e30bbbbc8f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -234,6 +238,7 @@
       <workItem from="1592169626532" duration="508000" />
       <workItem from="1592170354509" duration="19000" />
       <workItem from="1597699528270" duration="103000" />
+      <workItem from="1601671719402" duration="121000" />
     </task>
     <servers />
   </component>
@@ -312,30 +317,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="some changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="803" y="403" key="#TSLint" timestamp="1592169813773">
+    <state width="1893" height="160" key="GridCell.Tab.0.bottom" timestamp="1601671839551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="803" y="403" key="#TSLint/0.0.1920.1040@0.0.1920.1040" timestamp="1592169813773" />
-    <state width="1893" height="257" key="GridCell.Tab.0.bottom" timestamp="1597699632016">
+    <state width="1893" height="160" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601671839551" />
+    <state width="1893" height="160" key="GridCell.Tab.0.center" timestamp="1601671839551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597699632016" />
-    <state width="1893" height="257" key="GridCell.Tab.0.center" timestamp="1597699632016">
+    <state width="1893" height="160" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601671839551" />
+    <state width="1893" height="160" key="GridCell.Tab.0.left" timestamp="1601671839551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="257" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597699632016" />
-    <state width="1893" height="257" key="GridCell.Tab.0.left" timestamp="1597699632016">
+    <state width="1893" height="160" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601671839551" />
+    <state width="1893" height="160" key="GridCell.Tab.0.right" timestamp="1601671839551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="257" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597699632016" />
-    <state width="1893" height="257" key="GridCell.Tab.0.right" timestamp="1597699632016">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1893" height="257" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597699632016" />
-    <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1592169795258">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1592169795258" />
+    <state width="1893" height="160" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601671839551" />
     <state x="532" y="237" width="840" height="1034" key="run.anything.popup" timestamp="1597699610888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
