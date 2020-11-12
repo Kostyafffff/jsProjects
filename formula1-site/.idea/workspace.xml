@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5797f8b4-5613-47a0-838d-b4f38dd68bf0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ReactPrjFromSCRATCH/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactPrjFromSCRATCH/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webpackPractice/src/sandbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BecomeGuruTDD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BecomeGuruTDD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../headworks-f1" beforeDir="false" afterPath="$PROJECT_DIR$/../headworks-f1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-test-task" beforeDir="false" afterPath="$PROJECT_DIR$/../react-test-task" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +38,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600286681323</updated>
       <workItem from="1600286682650" duration="36000" />
+      <workItem from="1603480750962" duration="24000" />
     </task>
     <servers />
   </component>

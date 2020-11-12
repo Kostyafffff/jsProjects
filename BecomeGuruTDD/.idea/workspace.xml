@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1192a8c8-fc1a-4792-bff1-5bff46d6e5cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/JsProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/JsProjects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sum.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sum.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../headworks-f1" beforeDir="false" afterPath="$PROJECT_DIR$/../headworks-f1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-test-task" beforeDir="false" afterPath="$PROJECT_DIR$/../react-test-task" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -49,7 +45,7 @@
       <recent name="E:\JsProjects\BecomeGuruTDD\test" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test">
+  <component name="RunManager" selected="Jest.adds 1 + 2 to equal 3">
     <configuration name="Unnamed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -60,6 +56,19 @@
       <test-file value="$PROJECT_DIR$/tests/index.test.ts" />
       <test-names>
         <test-name value="" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="adds 1 + 2 to equal 3" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/sum.test.ts" />
+      <test-names>
+        <test-name value="adds 1 + 2 to equal 3" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -89,9 +98,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="jest.config.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/jest.config.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -104,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.adds 1 + 2 to equal 3" />
         <item itemvalue="npm.test" />
         <item itemvalue="Jest.Unnamed" />
         <item itemvalue="Jest.sum function test (1)" />
         <item itemvalue="Jest.sum function test" />
-        <item itemvalue="Node.js.jest.config.js" />
       </list>
     </recent_temporary>
   </component>
@@ -126,68 +132,45 @@
       <workItem from="1579207158530" duration="2896000" />
       <workItem from="1579303862550" duration="135000" />
       <workItem from="1592246355023" duration="310000" />
+      <workItem from="1602532864408" duration="126000" />
+      <workItem from="1602569757544" duration="8000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="sum_function_test - 2020.01.16 at 00h 01m 27s.xml">
-      <configuration name="sum function test" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="sum_function_test - 2020.01.16 at 00h 03m 47s.xml">
-      <configuration name="sum function test" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="sum_function_test - 2020.01.16 at 00h 10m 20s.xml">
-      <configuration name="sum function test" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="sum_function_test - 2020.01.16 at 00h 10m 59s.xml">
-      <configuration name="sum function test" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="sum_function_test - 2020.01.16 at 22h 40m 09s.xml">
-      <configuration name="sum function test" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="sum_function_test_(1) - 2020.01.16 at 22h 43m 01s.xml">
-      <configuration name="sum function test (1)" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="sum_function_test_(1) - 2020.01.16 at 22h 44m 33s.xml">
-      <configuration name="sum function test (1)" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="sum_function_test_(1) - 2020.01.16 at 22h 50m 26s.xml">
-      <configuration name="sum function test (1)" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="sum_function_test_(1) - 2020.01.16 at 22h 51m 35s.xml">
-      <configuration name="sum function test (1)" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="Unnamed - 2020.01.16 at 23h 01m 22s.xml">
-      <configuration name="Unnamed" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1592246663885">
+    <state x="462" y="0" key="CommitChangelistDialog2" timestamp="1602532880563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592246663885" />
-    <state width="1893" height="350" key="GridCell.Tab.0.bottom" timestamp="1592246665160">
+    <state x="462" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602532880563" />
+    <state width="1893" height="336" key="GridCell.Tab.0.bottom" timestamp="1602532989959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592246665160" />
-    <state width="1893" height="350" key="GridCell.Tab.0.center" timestamp="1592246665160">
+    <state width="1893" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602532989959" />
+    <state width="1893" height="336" key="GridCell.Tab.0.center" timestamp="1602532989959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="350" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592246665160" />
-    <state width="1893" height="350" key="GridCell.Tab.0.left" timestamp="1592246665160">
+    <state width="1893" height="336" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602532989959" />
+    <state width="1893" height="336" key="GridCell.Tab.0.left" timestamp="1602532989959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="350" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592246665160" />
-    <state width="1893" height="350" key="GridCell.Tab.0.right" timestamp="1592246665160">
+    <state width="1893" height="336" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602532989959" />
+    <state width="1893" height="336" key="GridCell.Tab.0.right" timestamp="1602532989959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="350" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592246665160" />
-    <state x="789" y="46" key="RollbackChangesDialog" timestamp="1592246557038">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="789" y="46" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592246557038" />
+    <state width="1893" height="336" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602532989959" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/sum.test.ts</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
