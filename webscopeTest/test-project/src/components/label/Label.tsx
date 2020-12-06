@@ -8,7 +8,7 @@ export const Label: React.FC<ILabelProps> = ({
    value,
    placeholder,
    onChange
-}) => (
+}): JSX.Element => (
  <label className={className}>
     {text}
     <input

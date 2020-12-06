@@ -6,7 +6,7 @@ import { Link } from '../link/Link';
 import { CheckBox } from '../checkbox/CheckBox';
 import { Label } from '../label/Label';
 
-export const Form: React.FC = () => {
+export const Form: React.FC = (): JSX.Element => {
     const [userEmail, setUserName] = useState('');
     const [userPassword, setUserPasswordName] = useState('');
 
