@@ -1,13 +1,8 @@
-export const hasSpam = (text: string, spamWords: string[]): boolean =>  {
+export const hasSpam = (text: string, spamWords: string[]): boolean =>
+    text
+        .split(/\b/)
+        .some(it => spamWords.includes(it.toLowerCase()));
 
-   const lowerCasedSpam = spamWords.map(word => word.toLowerCase());
-
-   return text
-            .replace(/[,.!:;]/g, '')
-            .split(' ')
-            .map(item => item.toLowerCase())
-            .some(it => lowerCasedSpam.includes(it));
-}
 // Данная функция должна находить запрещенные слова в тексте, и удалять его при помощи текста переданного в агрументе replaceWith
 // Если слово было написано с большими буквами то большие буквы должны и остаться в конечном тексте, если слово не является спамом
 
@@ -37,7 +32,7 @@ export const replaceSpam = (text: string, spam: string[], word: string): string 
 
 export const isSpamWord = (word: string, spam: string[]): boolean => spam.includes(
     word.toLowerCase()
-        .replace(/[,.!:;]/g, '')
+        .replace(/[,.!:;?]/g, '')
 );
 
 export const wordConverter = (word: string, wordToReplace: string): string => {
@@ -52,4 +47,22 @@ export const isEndWithChar = (word: string): boolean => {
    const charArray = ['.', ',', ':', '-', ';', '?', '!', '(', ')'];
 
    return charArray.some(it => it === word.charAt(word.length-1));
+}
+
+export const replaceSpam2 = (text: string, spamWords: string[], replaceWith: string): string => {
+   const words = text.split(/\b/);
+
+   let replacedText = words.map(it => replacedWords(it, spamWords, replaceWith));
+
+   return replacedText.join('');
+}
+
+export  const replacedWords = (word: string, spam: string[], replace: string): string => {
+   spam.forEach(elem => {
+      if (word.toLowerCase() === elem) {
+         word = replace;
+      }
+   })
+
+   return word;
 }
