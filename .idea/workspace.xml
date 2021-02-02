@@ -2,9 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="392b92f8-f005-486a-817a-b17a32d8d6f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JsSandbox/.idea/externalDependencies.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsSandbox/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsSandbox/src/counter/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsSandbox/src/counter/counter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsSandbox/src/counter/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsSandbox/src/lexicalEnvironment/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsSandbox/src/lexicalEnvironment/lexicalEnvironment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsSandbox/src/simpleCarriering/simpleCarry.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsSandbox/src/simpleCarriering/simplleCarry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsSandbox/src/this/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsSandbox/src/this/this.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/headworks-f1/app/scss/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headworks-f1/app/scss/underHeaderBlock.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyPrj/.idea/pyPrj.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webscopeTest/.idea/HomeWorks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webscopeTest/test-project/src/hwBlock2Task2/task2.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webscopeTest/test-project/src/hwBlock2Task2/task2.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webscopeTest/test-project/src/hwBlock2task1/test7.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webscopeTest/test-project/src/hwBlock2task1/test7.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsSandbox/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/JsSandbox/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsSandbox/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/JsSandbox/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsSandbox/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JsSandbox/src/puzzle/puzzle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsSandbox/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/JsSandbox/src/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsSandbox/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JsSandbox/src/puzzle/puzzleFunc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/headworks-f1/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/headworks-f1/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/headworks-f1/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/headworks-f1/app/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-test-task/app/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-test-task/app/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webui/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webui/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +56,12 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Realization_Algorythms" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="ts.external.directory.path" value="C:\Users\kosty\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\201.6668.106\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="E:\JsProjects\webscopeTest\test-project\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -98,6 +123,7 @@
       <workItem from="1592246666892" duration="24000" />
       <workItem from="1597167347142" duration="63000" />
       <workItem from="1601071702130" duration="111000" />
+      <workItem from="1612300521973" duration="176000" />
     </task>
     <servers />
   </component>
@@ -113,10 +139,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1597167409276">
+    <state x="634" y="154" key="FileChooserDialogImpl" timestamp="1612300698079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597167409276" />
+    <state x="634" y="154" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612300698079" />
   </component>
   <component name="masterDetails">
     <states>

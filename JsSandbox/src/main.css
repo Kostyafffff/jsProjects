@@ -1,51 +1,25 @@
-.table-wrapper {
-    position: relative;
-}
+button {
+  cursor: pointer !important; }
 
-.top-buttons, .left-buttons {
-    position: absolute;
+.timers-control button {
+  margin: 5px; }
+
+.timer {
+  display: flex;
+  align-items: stretch;
+  margin: 5px;
+  justify-content: center; }
+  .timer .time {
     display: flex;
-    margin: 1px;
-}
-
-.top-buttons button,
-.left-buttons button {
-    width: 30px;
-    height: 30px;
-}
-
-.top-buttons {
-    left: 30px;
-}
-
-.left-buttons {
-    top: 30px;
-    flex-direction: column;
-}
-
-.table {
-    display: flex;
-    flex-direction: column;
-    padding: 32px;
-}
-
-.row {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-bottom: 1px;
-}
-
-.row:last-child {
-    margin-bottom: 0;
-}
-
-.cell {
-    width: 30px;
-    height: 30px;
-    border: 1px solid black;
-    margin-right: 1px;
-}
-
-.cell:last-child {
-    margin-right: 0;
-}
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    border: 1px solid #768697;
+    border-right: none;
+    border-radius: .25rem 0 0 .25rem;
+    font-family: monospace;
+    font-size: 20px; }
+  .timer .controls .btn:focus {
+    box-shadow: none !important; }
+  .timer .controls .btn:first-child {
+    border-radius: 0 !important; }

@@ -11,17 +11,15 @@ topBtn.addEventListener('click', () => {
 })
 
 const addColumn = () => {
-    const row = document.querySelectorAll('.row');
+    const rows = document.querySelectorAll('.row');
 
-   return  row.forEach(it => {
+   return rows.forEach(it => {
         const div = document.createElement('div');
 
         div.setAttribute('class', 'cell');
         it.append(div)}
     );
 }
-
-
 
 const addRow = () => {
     const rows = document.querySelectorAll('.row');
