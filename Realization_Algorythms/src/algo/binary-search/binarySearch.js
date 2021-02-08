@@ -9,15 +9,15 @@ export const binarySearch = (array, item) => {
         let guess = sortedArray[mid];
 
         if(guess === item) {
-            operations += 1;
+            operations++;
             return mid;
         }
         if (guess > item) {
-            operations += 1;
-            high = mid - 1;
+            operations++;
+            high = mid--;
         }
         else {
-            operations += 1;
+            operations++;
             low = mid + 1;
         }
     }
