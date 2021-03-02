@@ -1,0 +1,1 @@
+export { WithBookStoreService } from './WithBookStoreService';

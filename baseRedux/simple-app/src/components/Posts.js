@@ -3,8 +3,7 @@ import Post from "./Post";
 import {connect} from "react-redux";
 
 const Posts = ({ myPosts }) => {
-
-    if(!myPosts.length) {
+    if(myPosts.length === 0) {
         return <button className="btn btn-primary">No posts</button>
     }
     return myPosts.map(post => <Post post={post} key={post.id}/>)
