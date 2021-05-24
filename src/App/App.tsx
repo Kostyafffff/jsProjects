@@ -1,6 +1,7 @@
 import React, {ChangeEvent, useCallback, useState} from "react";
 import { Car } from "../Car/Car";
 import { ICar } from "./types";
+import {StyledCar} from "./styles";
 
 export const App: React.FC = () => {
     const initialState: ICar[] = [
@@ -23,6 +24,13 @@ export const App: React.FC = () => {
         setCars([...newCars])
     }, [cars, setCars]);
 
+    const onDelete = useCallback((index: number) => {
+        const newCars = [...cars];
+        newCars.splice(index, 1);
+
+        setCars(newCars);
+    }, [cars, setCars]);
+
     const toggleCarsHandler = (): void => {
         hideCars(!isHiddenCars);
     };
@@ -35,12 +43,13 @@ export const App: React.FC = () => {
 
           <button onClick={toggleCarsHandler}>Toggle Cars</button>
           {isHiddenCars && cars.map((car, index) =>
-              <Car
+              <StyledCar
                   year={car.year}
                   carName={car.name}
                   onChangeName={(event:ChangeEvent<HTMLInputElement>) => {
                       onChangeName(event.currentTarget.value, index)
                   }}
+                  onDelete={onDelete.bind(this, index)}
                   key={`${index}${car.name}}`}
               />
           )}
