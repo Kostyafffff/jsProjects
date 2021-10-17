@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1192a8c8-fc1a-4792-bff1-5bff46d6e5cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Realization_Algorythms/src/algo/simpleTask/simpleTask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Realization_Algorythms/src/test/simpleTask/simpleTask.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../headworks-f1" beforeDir="false" afterPath="$PROJECT_DIR$/../headworks-f1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react-test-task" beforeDir="false" afterPath="$PROJECT_DIR$/../react-test-task" afterDir="false" />
     </list>
@@ -134,6 +136,7 @@
       <workItem from="1592246355023" duration="310000" />
       <workItem from="1602532864408" duration="126000" />
       <workItem from="1602569757544" duration="8000" />
+      <workItem from="1620332036204" duration="265000" />
     </task>
     <servers />
   </component>

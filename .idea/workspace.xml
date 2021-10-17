@@ -2,53 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="392b92f8-f005-486a-817a-b17a32d8d6f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JsSandbox/src/dateDiff/dateDiffFunction.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/headworks-f1/app/scss/header.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/headworks-f1/app/scss/underHeaderBlock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/.idea/ReStore.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/actions/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/app/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/app/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/book-list-item/BookListItem.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/book-list-item/book-list-item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/book-list-item/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/book-list/BookListCss.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/book-list/book-list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/book-list/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/bookstore-service-context/bookstore-service-context.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/bookstore-service-context/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/bookstore-service/bookstore-service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/bookstore-service/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/error-boundary/error-boundary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/error-boundary/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/error-indicator/error-indicator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/error-indicator/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/hoc/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/hoc/with-bookstore-service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/pages/cart-page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/pages/home-page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/spinner/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/components/spinner/spinner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/reducers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/services/bookstore-service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restore/re-store/src/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseRedux/simple-app/src/components/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/baseRedux/simple-app/src/components/Posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseRedux/simple-app/src/redux/postsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/baseRedux/simple-app/src/redux/postsReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/headworks-f1/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/headworks-f1/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/headworks-f1/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/headworks-f1/app/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-test-task/app/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-test-task/app/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist_typescript/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_typescript/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist_typescript/src/components/app-header/app-header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_typescript/src/components/app-header/app-header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +102,7 @@
       <workItem from="1601071702130" duration="111000" />
       <workItem from="1612300521973" duration="176000" />
       <workItem from="1614622492270" duration="178000" />
+      <workItem from="1617907432795" duration="34000" />
     </task>
     <servers />
   </component>

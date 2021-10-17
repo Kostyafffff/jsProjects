@@ -2,30 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f02a06c9-3664-472f-a6d3-53d56c320ac0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JsSandbox/.idea/externalDependencies.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JsSandbox/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JsSandbox/src/counter/counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JsSandbox/src/counter/counter.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JsSandbox/src/counter/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JsSandbox/src/lexicalEnvironment/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JsSandbox/src/lexicalEnvironment/lexicalEnvironment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JsSandbox/src/simpleCarriering/simpleCarry.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JsSandbox/src/simpleCarriering/simplleCarry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JsSandbox/src/this/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JsSandbox/src/this/this.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pyPrj/.idea/pyPrj.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webscopeTest/.idea/HomeWorks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webscopeTest/test-project/src/hwBlock2Task2/task2.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webscopeTest/test-project/src/hwBlock2Task2/task2.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webscopeTest/test-project/src/hwBlock2task1/test7.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webscopeTest/test-project/src/hwBlock2task1/test7.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JsSandbox/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../JsSandbox/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JsSandbox/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../JsSandbox/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JsSandbox/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JsSandbox/src/puzzle/puzzle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JsSandbox/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../JsSandbox/src/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JsSandbox/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JsSandbox/src/puzzle/puzzleFunc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Realization_Algorythms/src/algo/simpleTask/simpleTask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Realization_Algorythms/src/test/simpleTask/simpleTask.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BecomeGuruTDD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BecomeGuruTDD/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../headworks-f1" beforeDir="false" afterPath="$PROJECT_DIR$/../headworks-f1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react-test-task" beforeDir="false" afterPath="$PROJECT_DIR$/../react-test-task" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todolist_typescript/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../todolist_typescript/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +52,7 @@
       <workItem from="1601274876158" duration="9000" />
       <workItem from="1601880071735" duration="28000" />
       <workItem from="1612300498166" duration="22000" />
+      <workItem from="1632340310276" duration="93000" />
     </task>
     <servers />
   </component>

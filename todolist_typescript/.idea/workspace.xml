@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5457f21c-b01c-4064-9139-02e30bbbbc8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JsSandbox/src/dateDiff/dateDiffFunction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baseRedux/simple-app/src/components/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../baseRedux/simple-app/src/components/Posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baseRedux/simple-app/src/redux/postsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../baseRedux/simple-app/src/redux/postsReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Realization_Algorythms/src/algo/simpleTask/simpleTask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Realization_Algorythms/src/test/simpleTask/simpleTask.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BecomeGuruTDD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BecomeGuruTDD/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../headworks-f1" beforeDir="false" afterPath="$PROJECT_DIR$/../headworks-f1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react-test-task" beforeDir="false" afterPath="$PROJECT_DIR$/../react-test-task" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app-header/app-header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app-header/app-header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,43 +23,6 @@
         <option value="TypeScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>WebpackDevServer</find>
-      <find>getStyleLoaders</find>
-      <find>loader</find>
-      <find>extra</find>
-      <find>react</find>
-      <find>autoprefixer</find>
-      <find>sass</find>
-      <find>plugins</find>
-      <find>sourceLoader</find>
-      <find>devServer</find>
-      <find>contentBase</find>
-      <find>config</find>
-      <find>TodoListItem</find>
-      <find>TodoListItemProps</find>
-      <find>label</find>
-      <find>toggleProperty</find>
-      <find>onDeleted</find>
-      <find>sinon</find>
-      <find>jest</find>
-      <find>stub</find>
-      <find>onAddItem</find>
-      <find>onLabelChange</find>
-      <find>./src</find>
-      <find>main.js</find>
-      <find>development</find>
-      <find>__dirname,</find>
-      <find>webpack</find>
-      <find>__di</find>
-      <find>start.js</find>
-      <find>getHoo</find>
-    </findStrings>
-    <dirStrings>
-      <dir>C:\Users\user\WebstormProjects\jsProjects\todolist_typescript</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -246,6 +208,7 @@
       <workItem from="1597699528270" duration="103000" />
       <workItem from="1601671719402" duration="121000" />
       <workItem from="1614620862902" duration="222000" />
+      <workItem from="1620332077827" duration="226000" />
     </task>
     <servers />
   </component>
@@ -324,22 +287,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="some changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1887" height="214" key="GridCell.Tab.0.bottom" timestamp="1614621086204">
+    <state width="1887" height="213" key="GridCell.Tab.0.bottom" timestamp="1620332305174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1887" height="214" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614621086204" />
-    <state width="1887" height="214" key="GridCell.Tab.0.center" timestamp="1614621086203">
+    <state width="1887" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620332305174" />
+    <state width="1887" height="213" key="GridCell.Tab.0.center" timestamp="1620332305174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1887" height="214" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614621086203" />
-    <state width="1887" height="214" key="GridCell.Tab.0.left" timestamp="1614621086203">
+    <state width="1887" height="213" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620332305174" />
+    <state width="1887" height="213" key="GridCell.Tab.0.left" timestamp="1620332305174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1887" height="214" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614621086203" />
-    <state width="1887" height="214" key="GridCell.Tab.0.right" timestamp="1614621086203">
+    <state width="1887" height="213" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620332305174" />
+    <state width="1887" height="213" key="GridCell.Tab.0.right" timestamp="1620332305174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1887" height="214" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614621086203" />
+    <state width="1887" height="213" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620332305174" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
