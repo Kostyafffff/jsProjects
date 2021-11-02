@@ -7,6 +7,7 @@ import Auth from './containers/Auth/Auth'
 import QuizCreator from './containers/QuizCreator/QuizCreator'
 import {connect} from "react-redux";
 import Logout from "./components/Logout/Logout";
+import auth from "./store/actions/auth";
 
 class App extends Component {
   render() {
@@ -49,7 +50,7 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch){
     return {
-        authLogin: () => dispatch(authLogin)
+        authLogin: () => dispatch(auth)
     }
 }
 
