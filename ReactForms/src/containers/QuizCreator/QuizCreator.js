@@ -5,7 +5,7 @@ import Input from "../../components/UI/Input/Input";
 import { createControl, validate, validateForm } from '../../form/formFramework';
 import Auxillary from "../../hoc/Auxillary/Auxillary";
 import Select from "../../components/UI/Select/Select";
-
+import axios from "axios";
 
 function createOptionControl(number) {
   return createControl(
@@ -48,11 +48,49 @@ export default class QuizCreator extends Component {
   };
 
   addQuestionHandler = (event) => {
-      event.preventDefault();
+
+      const quiz = this.state.quiz.concat();
+      const index = quiz.length + 1;
+
+      const { optionOne, optionFour, optionThree, optionTwo } = this.state.formControls;
+
+      const questionItem = {
+          question: this.state.formControls.question.value,
+          id: index,
+          rightAnswerId: this.state.rightAnswerId,
+          answers: [
+              { text: optionOne.value, id: optionOne.id },
+              { text: optionTwo.value, id: optionTwo.id },
+              { text: optionThree.value, id: optionThree.id },
+              { text: optionFour.value, id: optionFour.id },
+          ]
+      };
+
+      quiz.push(questionItem);
+      this.setState({
+          quiz,
+          isFormValid: false,
+          formControls: createFormControls(),
+          rightAnswerId: 1
+      })
   }
 
-  createQuizHandler = () => {
+  createQuizHandler = async (event) => {
+      try {
+          const response =  await axios.post(
+              '/quiz.json',
+              this.state.quiz
+          )
+          this.setState({
+              quiz: [],
+              isFormValid: false,
+              formControls: createFormControls(),
+              rightAnswerId: 1
+          })
 
+      } catch (error) {
+          console.log(error)
+      }
   }
 
   changeHandler = (value, controlName) => {
@@ -120,15 +158,14 @@ export default class QuizCreator extends Component {
           <Button
               disabled={!this.state.isFormValid}
               type={'primary'}
-              onClick={this.addQuestion}>
+              onClick={this.addQuestionHandler}>
             {'Add question'}
           </Button>
           <Button
-              disabled={!this.state.isFormValid}
+              disabled={this.state.quiz.length === 0}
               type={'success'}
               onClick={this.createQuizHandler}>
-              disabled={!this.state.quiz.length > 0}
-            {'Finish quiz'}
+            {'Create quiz'}
           </Button>
         </form>
       </div>
