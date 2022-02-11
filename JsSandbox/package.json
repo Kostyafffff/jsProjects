@@ -16,7 +16,7 @@
     "jest": "^26.0.1"
   },
   "dependencies": {
-    "node-sass": "^5.0.0"
+    "node-sass": "^7.0.0"
   },
   "description": ""
 }
